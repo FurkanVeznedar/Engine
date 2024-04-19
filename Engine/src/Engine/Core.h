@@ -1,0 +1,24 @@
+#ifndef _CORE_H_
+#define _CORE_H_
+
+#ifdef EN_PLATFORM_WINDOWS
+    #ifdef EN_BUILD_DLL
+        #define ENGINE_API __declspec(dllexport)
+    #else
+        #define ENGINE_API __declspec(dllimport)
+    #endif
+
+#else
+    #error Engine only supports windows!
+#endif
+
+#ifdef EN_ENABLE_ASSERTS
+    #define EN_ASSERT(x, ...) { if(!(x)) { EN_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+    #define EN_ENGINE_ASSERT(x, ...) { if(!(x)) { EN_ENGINE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+#else
+    #define EN_ASSERT(x, ...)
+    #define EN_ENGINE_ASSERT(x, ...)
+#endif
+
+#define BIT(x) (1 << x)
+#endif // _CORE_H_

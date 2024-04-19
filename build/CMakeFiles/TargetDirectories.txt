@@ -1,0 +1,6 @@
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/App.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD/CMakeFiles/glad.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD/CMakeFiles/ALL_BUILD.dir

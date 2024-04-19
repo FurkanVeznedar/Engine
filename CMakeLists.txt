@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.6.0)
+project(App)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+add_subdirectory(Engine)
+
+include_directories(
+    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty/spdlog/include
+    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty/GLAD/include
+    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty)
+
+add_executable(${PROJECT_NAME}
+    ./src/App.cpp)
+
+target_compile_definitions(${PROJECT_NAME}
+    PRIVATE
+    EN_PLATFORM_WINDOWS)
+
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE
+    Engine_lib)
+
+target_include_directories(${PROJECT_NAME}
+    PRIVATE
+    ${CMAKE_SOURCE_DIR}/Engine/src)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy -t $<TARGET_FILE_DIR:${PROJECT_NAME}> 
+        $<TARGET_RUNTIME_DLLS:${PROJECT_NAME}>
+    COMMAND_EXPAND_LISTS)
+
