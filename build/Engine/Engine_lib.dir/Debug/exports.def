@@ -31,10 +31,34 @@ EXPORTS
 	??_R0?AV?$Y_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@@8 	 DATA
 	??_R0?AV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
 	??_R0?AV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@8 	 DATA
 	??_R0?AV?$_Func_base@XAEAVEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@std@@@8 	 DATA
 	??_R0?AV?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@std@@@8 	 DATA
 	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@@8 	 DATA
 	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@@8 	 DATA
 	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
 	??_R0?AV?$_Ref_count_obj2@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@@8 	 DATA
 	??_R0?AV?$_Ref_count_obj2@Vlogger@spdlog@@@std@@@8 	 DATA
@@ -117,6 +141,7 @@ EXPORTS
 	??_R0?AVKeyEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyPressedEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyReleasedEvent@Engine@@@8 	 DATA
+	??_R0?AVKeyTypedEvent@Engine@@@8 	 DATA
 	??_R0?AVLayer@Engine@@@8 	 DATA
 	??_R0?AVMouseButtonEvent@Engine@@@8 	 DATA
 	??_R0?AVMouseButtonPressedEvent@Engine@@@8 	 DATA
@@ -282,8 +307,24 @@ EXPORTS
 	??$?0AEAV?$basic_string_view@D@v9@fmt@@AEAY02$$CBD@?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@V?$basic_string_view@D@23@$$BY02D@v9@fmt@@QEAA@AEAV?$basic_string_view@D@12@AEAY02$$CBD@Z
 	??$?0AEAVEvent@Engine@@$0A@@?$tuple@AEAVEvent@Engine@@@std@@QEAA@AEAVEvent@Engine@@@Z
 	??$?0AEAVEvent@Engine@@@?$_Tuple_val@AEAVEvent@Engine@@@std@@QEAA@AEAVEvent@Engine@@@Z
+	??$?0AEAVKeyPressedEvent@Engine@@$0A@@?$tuple@AEAVKeyPressedEvent@Engine@@@std@@QEAA@AEAVKeyPressedEvent@Engine@@@Z
+	??$?0AEAVKeyPressedEvent@Engine@@@?$_Tuple_val@AEAVKeyPressedEvent@Engine@@@std@@QEAA@AEAVKeyPressedEvent@Engine@@@Z
+	??$?0AEAVKeyReleasedEvent@Engine@@$0A@@?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@QEAA@AEAVKeyReleasedEvent@Engine@@@Z
+	??$?0AEAVKeyReleasedEvent@Engine@@@?$_Tuple_val@AEAVKeyReleasedEvent@Engine@@@std@@QEAA@AEAVKeyReleasedEvent@Engine@@@Z
+	??$?0AEAVKeyTypedEvent@Engine@@$0A@@?$tuple@AEAVKeyTypedEvent@Engine@@@std@@QEAA@AEAVKeyTypedEvent@Engine@@@Z
+	??$?0AEAVKeyTypedEvent@Engine@@@?$_Tuple_val@AEAVKeyTypedEvent@Engine@@@std@@QEAA@AEAVKeyTypedEvent@Engine@@@Z
+	??$?0AEAVMouseButtonPressedEvent@Engine@@$0A@@?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@AEAVMouseButtonPressedEvent@Engine@@@Z
+	??$?0AEAVMouseButtonPressedEvent@Engine@@@?$_Tuple_val@AEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@AEAVMouseButtonPressedEvent@Engine@@@Z
+	??$?0AEAVMouseButtonReleasedEvent@Engine@@$0A@@?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@AEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$?0AEAVMouseButtonReleasedEvent@Engine@@@?$_Tuple_val@AEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@AEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$?0AEAVMouseMovedEvent@Engine@@$0A@@?$tuple@AEAVMouseMovedEvent@Engine@@@std@@QEAA@AEAVMouseMovedEvent@Engine@@@Z
+	??$?0AEAVMouseMovedEvent@Engine@@@?$_Tuple_val@AEAVMouseMovedEvent@Engine@@@std@@QEAA@AEAVMouseMovedEvent@Engine@@@Z
+	??$?0AEAVMouseScrolledEvent@Engine@@$0A@@?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@QEAA@AEAVMouseScrolledEvent@Engine@@@Z
+	??$?0AEAVMouseScrolledEvent@Engine@@@?$_Tuple_val@AEAVMouseScrolledEvent@Engine@@@std@@QEAA@AEAVMouseScrolledEvent@Engine@@@Z
 	??$?0AEAVWindowCloseEvent@Engine@@$0A@@?$tuple@AEAVWindowCloseEvent@Engine@@@std@@QEAA@AEAVWindowCloseEvent@Engine@@@Z
 	??$?0AEAVWindowCloseEvent@Engine@@@?$_Tuple_val@AEAVWindowCloseEvent@Engine@@@std@@QEAA@AEAVWindowCloseEvent@Engine@@@Z
+	??$?0AEAVWindowResizeEvent@Engine@@$0A@@?$tuple@AEAVWindowResizeEvent@Engine@@@std@@QEAA@AEAVWindowResizeEvent@Engine@@@Z
+	??$?0AEAVWindowResizeEvent@Engine@@@?$_Tuple_val@AEAVWindowResizeEvent@Engine@@@std@@QEAA@AEAVWindowResizeEvent@Engine@@@Z
 	??$?0AEAVlogger@spdlog@@@?$_Ref_count_obj2@Vlogger@spdlog@@@std@@QEAA@AEAVlogger@spdlog@@@Z
 	??$?0AEAW4color_mode@spdlog@@@?$_Ref_count_obj2@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@QEAA@AEAW4color_mode@spdlog@@@Z
 	??$?0AEAY06$$CBDAEAH@?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@$$BY06DH@v9@fmt@@QEAA@AEAY06$$CBDAEAH@Z
@@ -297,6 +338,14 @@ EXPORTS
 	??$?0AEBUpiecewise_construct_t@std@@V?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@V?$tuple@$$V@1@@?$_List_node_emplace_op2@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@@std@@@std@@QEAA@AEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@@1@AEBUpiecewise_construct_t@1@$$QEAV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QEAV?$tuple@$$V@1@@Z
 	??$?0AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$?0AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@QEAA@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$?0AEBV?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@AEBV?$allocator@D@1@@Z
 	??$?0AEBV?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@$$V@?$_Compressed_pair@V?$allocator@U?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@@std@@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@AEBV?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@1@@Z
 	??$?0AEBV?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@$$V@?$_Compressed_pair@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@AEBV?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@1@@Z
@@ -322,10 +371,20 @@ EXPORTS
 	??$?0N@?$basic_fp@_K@detail@v9@fmt@@QEAA@N@Z
 	??$?0P8Application@Engine@@EAAXAEAVEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8Application@Engine@@EAAXAEAVEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8Application@Engine@@EAAXAEAVEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
 	??$?0P8Application@Engine@@EAA_NAEAVWindowCloseEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
+	??$?0P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
 	??$?0PEAU?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@_N$0A@@?$pair@PEAU?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@_N@std@@QEAA@$$QEAPEAU?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@1@$$QEA_N@Z
 	??$?0PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@_N$0A@@?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@_N@std@@QEAA@$$QEAPEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@1@$$QEA_N@Z
 	??$?0PEAVApplication@Engine@@@?$_Tuple_val@PEAVApplication@Engine@@@std@@QEAA@$$QEAPEAVApplication@Engine@@@Z
 	??$?0PEAVApplication@Engine@@AEBU?$_Ph@$00@std@@$0A@@?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@QEAA@$$QEAPEAVApplication@Engine@@AEBU?$_Ph@$00@1@@Z
+	??$?0PEAVImGuiLayer@Engine@@@?$_Tuple_val@PEAVImGuiLayer@Engine@@@std@@QEAA@$$QEAPEAVImGuiLayer@Engine@@@Z
+	??$?0PEAVImGuiLayer@Engine@@AEBU?$_Ph@$00@std@@$0A@@?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@QEAA@$$QEAPEAVImGuiLayer@Engine@@AEBU?$_Ph@$00@1@@Z
 	??$?0PEAVLayer@Engine@@@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@PEAVLayer@Engine@@@1@@Z
 	??$?0PEBDPEBDH@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEAA@AEBV?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@PEBDPEBDH@12@@Z
 	??$?0PEBV?$shared_ptr@Vsink@sinks@spdlog@@@std@@$0A@@?$vector@V?$shared_ptr@Vsink@sinks@spdlog@@@std@@V?$allocator@V?$shared_ptr@Vsink@sinks@spdlog@@@std@@@2@@std@@QEAA@PEBV?$shared_ptr@Vsink@sinks@spdlog@@@1@0AEBV?$allocator@V?$shared_ptr@Vsink@sinks@spdlog@@@std@@@1@@Z
@@ -530,11 +589,20 @@ EXPORTS
 	??$?0UFMT_COMPILE_STRING@?1???R<lambda_ea8c7b7436323a1b4bf929d68ad400b6>@@QEBA@XZ@$0A@@?$basic_format_string@DAEAY06$$CBDAEAH@v9@fmt@@QEAA@AEBUFMT_COMPILE_STRING@?1???R<lambda_ea8c7b7436323a1b4bf929d68ad400b6>@@QEBA@XZ@@Z
 	??$?0U_Exact_args_t@std@@$0A@@?$tuple@$$V@std@@QEAA@U_Exact_args_t@1@@Z
 	??$?0U_Exact_args_t@std@@AEAVEvent@Engine@@$$V$0A@@?$tuple@AEAVEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVKeyPressedEvent@Engine@@$$V$0A@@?$tuple@AEAVKeyPressedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVKeyPressedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVKeyReleasedEvent@Engine@@$$V$0A@@?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVKeyReleasedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVKeyTypedEvent@Engine@@$$V$0A@@?$tuple@AEAVKeyTypedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVKeyTypedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVMouseButtonPressedEvent@Engine@@$$V$0A@@?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVMouseButtonPressedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVMouseButtonReleasedEvent@Engine@@$$V$0A@@?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVMouseMovedEvent@Engine@@$$V$0A@@?$tuple@AEAVMouseMovedEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVMouseMovedEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVMouseScrolledEvent@Engine@@$$V$0A@@?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVMouseScrolledEvent@Engine@@@Z
 	??$?0U_Exact_args_t@std@@AEAVWindowCloseEvent@Engine@@$$V$0A@@?$tuple@AEAVWindowCloseEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVWindowCloseEvent@Engine@@@Z
+	??$?0U_Exact_args_t@std@@AEAVWindowResizeEvent@Engine@@$$V$0A@@?$tuple@AEAVWindowResizeEvent@Engine@@@std@@QEAA@U_Exact_args_t@1@AEAVWindowResizeEvent@Engine@@@Z
 	??$?0U_Exact_args_t@std@@AEBD$$V$0A@@?$tuple@AEBD@std@@QEAA@U_Exact_args_t@1@AEBD@Z
 	??$?0U_Exact_args_t@std@@AEBU?$_Ph@$00@1@$$V$0A@@?$tuple@U?$_Ph@$00@std@@@std@@QEAA@U_Exact_args_t@1@AEBU?$_Ph@$00@1@@Z
 	??$?0U_Exact_args_t@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAA@U_Exact_args_t@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 	??$?0U_Exact_args_t@std@@PEAVApplication@Engine@@AEBU?$_Ph@$00@1@$0A@@?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@QEAA@U_Exact_args_t@1@$$QEAPEAVApplication@Engine@@AEBU?$_Ph@$00@1@@Z
+	??$?0U_Exact_args_t@std@@PEAVImGuiLayer@Engine@@AEBU?$_Ph@$00@1@$0A@@?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@QEAA@U_Exact_args_t@1@$$QEAPEAVImGuiLayer@Engine@@AEBU?$_Ph@$00@1@@Z
 	??$?0U_Exact_args_t@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAA@U_Exact_args_t@1@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 	??$?0U_Zero_then_variadic_args_t@std@@M@?$_Compressed_pair@U?$hash@D@std@@V?$_Compressed_pair@U?$equal_to@D@std@@M$00@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@$$QEAU21@$$QEAM@Z
 	??$?0U_Zero_then_variadic_args_t@std@@M@?$_Compressed_pair@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$_Compressed_pair@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@M$00@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@$$QEAU21@$$QEAM@Z
@@ -594,6 +662,22 @@ EXPORTS
 	??$?0V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6AXAEAVEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$?0V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$?0V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVWindowCloseEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVKeyPressedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVKeyReleasedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVKeyTypedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVMouseButtonPressedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVMouseButtonReleasedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVMouseMovedEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVMouseScrolledEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$?0V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@$0A@@?$function@$$A6A_NAEAVWindowResizeEvent@Engine@@@Z@std@@QEAA@$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$?0V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@1@@Z
 	??$?0V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@std@@@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@std@@@1@@Z
 	??$?0V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@std@@@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@std@@@1@@Z
@@ -779,7 +863,15 @@ EXPORTS
 	??$?M_JU?$ratio@$00$0JIJGIA@@std@@_JU?$ratio@$00$00@1@@chrono@std@@YA_NAEBV?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$00@std@@@01@@Z
 	??$?P_JU?$ratio@$00$0JIJGIA@@std@@_JU?$ratio@$00$00@1@@chrono@std@@YA_NAEBV?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$00@std@@@01@@Z
 	??$?RAEAVEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVEvent@Engine@@@Z
+	??$?RAEAVKeyPressedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVKeyPressedEvent@Engine@@@Z
+	??$?RAEAVKeyReleasedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVKeyReleasedEvent@Engine@@@Z
+	??$?RAEAVKeyTypedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVKeyTypedEvent@Engine@@@Z
+	??$?RAEAVMouseButtonPressedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVMouseButtonPressedEvent@Engine@@@Z
+	??$?RAEAVMouseButtonReleasedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$?RAEAVMouseMovedEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVMouseMovedEvent@Engine@@@Z
+	??$?RAEAVMouseScrolledEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVMouseScrolledEvent@Engine@@@Z
 	??$?RAEAVWindowCloseEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVWindowCloseEvent@Engine@@@Z
+	??$?RAEAVWindowResizeEvent@Engine@@$0A@@?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA?A_TAEAVWindowResizeEvent@Engine@@@Z
 	??$?RAEBDAEBD@?$equal_to@X@std@@QEBA_NAEBD0@Z
 	??$?RD$0A@@?$precision_checker@Uerror_handler@detail@v9@fmt@@@detail@v9@fmt@@QEAA_KD@Z
 	??$?RD$0A@@?$width_checker@Uerror_handler@detail@v9@fmt@@@detail@v9@fmt@@QEAA_KD@Z
@@ -854,7 +946,15 @@ EXPORTS
 	??$?R_N@?$default_arg_formatter@D@detail@v9@fmt@@QEAA?AVappender@23@_N@Z
 	??$?XH@bigint@detail@v9@fmt@@QEAAAEAV0123@H@Z
 	??$?XVuint128_fallback@detail@v9@fmt@@@bigint@detail@v9@fmt@@QEAAAEAV0123@Vuint128_fallback@123@@Z
+	??$Dispatch@VKeyPressedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVKeyPressedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VKeyReleasedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVKeyReleasedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VKeyTypedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVKeyTypedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VMouseButtonPressedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVMouseButtonPressedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VMouseButtonReleasedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVMouseButtonReleasedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VMouseMovedEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVMouseMovedEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VMouseScrolledEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVMouseScrolledEvent@Engine@@@Z@std@@@Z
 	??$Dispatch@VWindowCloseEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVWindowCloseEvent@Engine@@@Z@std@@@Z
+	??$Dispatch@VWindowResizeEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVWindowResizeEvent@Engine@@@Z@std@@@Z
 	??$IM_DELETE@UImGui_ImplOpenGL3_Data@@@@YAXPEAUImGui_ImplOpenGL3_Data@@@Z
 	??$_Adl_verify_range@PEADPEAD@std@@YAXAEBQEAD0@Z
 	??$_Adl_verify_range@PEAHPEAH@std@@YAXAEBQEAH0@Z
@@ -888,8 +988,24 @@ EXPORTS
 	??$_Buyheadnode@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PEAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PEAX@std@@SAPEAU01@AEAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PEAX@std@@@1@@Z
 	??$_Call@AEAP8Application@Engine@@EAAXAEAVEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SAXAEAP8Application@Engine@@EAAXAEAVEvent@3@@ZAEAPEAV23@0@Z
 	??$_Call@AEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@3@@ZAEAPEAV23@0@Z
+	??$_Call@AEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZAEAPEAV12@AEAV32@@?$_Invoker_ret@U_Unforced@std@@@std@@SA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@3@@ZAEAPEAV23@0@Z
 	??$_Call_binder@U_Unforced@std@@$0A@$00P8Application@Engine@@EAAXAEAVEvent@4@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVEvent@Engine@@@2@@std@@YAXU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8Application@Engine@@EAAXAEAVEvent@4@@ZAEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVEvent@Engine@@@0@@Z
 	??$_Call_binder@U_Unforced@std@@$0A@$00P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVWindowCloseEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZAEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVKeyPressedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVKeyReleasedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVKeyTypedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVMouseButtonPressedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVMouseMovedEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVMouseScrolledEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@2@V?$tuple@AEAVWindowResizeEvent@Engine@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@@0@U?$integer_sequence@_K$0A@$00@0@AEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZAEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@@Z
 	??$_Construct@$00PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXQEBD_K@Z
 	??$_Construct@$01PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXQEBD_K@Z
 	??$_Construct_in_place@DAEAD@std@@YAXAEAD0@Z
@@ -988,12 +1104,44 @@ EXPORTS
 	??$_Find_unchecked@PEAPEAVLayer@Engine@@PEAV12@@std@@YAPEAPEAVLayer@Engine@@PEAPEAV12@QEAPEAV12@AEBQEAV12@@Z
 	??$_Fix@V?$tuple@AEAVEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVEvent@Engine@@@1@@Z
 	??$_Fix@V?$tuple@AEAVEvent@Engine@@@std@@@?$_Select_fixer@PEAVApplication@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVApplication@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyPressedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVKeyPressedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyPressedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVKeyReleasedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyTypedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVKeyTypedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVKeyTypedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVMouseButtonPressedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVMouseButtonReleasedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseMovedEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVMouseMovedEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseMovedEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVMouseScrolledEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@1@@Z
 	??$_Fix@V?$tuple@AEAVWindowCloseEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVWindowCloseEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@1@@Z
 	??$_Fix@V?$tuple@AEAVWindowCloseEvent@Engine@@@std@@@?$_Select_fixer@PEAVApplication@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVApplication@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVWindowResizeEvent@Engine@@@std@@$0A@@?$_Select_fixer@U?$_Ph@$00@std@@$0A@$0A@$00@std@@SAAEAVWindowResizeEvent@Engine@@AEAU?$_Ph@$00@1@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@1@@Z
+	??$_Fix@V?$tuple@AEAVWindowResizeEvent@Engine@@@std@@@?$_Select_fixer@PEAVImGuiLayer@Engine@@$0A@$0A@$0A@@std@@SAAEAPEAVImGuiLayer@Engine@@AEAPEAV23@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@1@@Z
 	??$_Fix_arg@PEAVApplication@Engine@@V?$tuple@AEAVEvent@Engine@@@std@@@std@@YAAEAPEAVApplication@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVEvent@Engine@@@0@@Z
 	??$_Fix_arg@PEAVApplication@Engine@@V?$tuple@AEAVWindowCloseEvent@Engine@@@std@@@std@@YAAEAPEAVApplication@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVKeyPressedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVKeyTypedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVMouseMovedEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@@Z
+	??$_Fix_arg@PEAVImGuiLayer@Engine@@V?$tuple@AEAVWindowResizeEvent@Engine@@@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAPEAV12@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@@Z
 	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVEvent@Engine@@@2@@std@@YAAEAVEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVKeyPressedEvent@Engine@@@2@@std@@YAAEAVKeyPressedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVKeyReleasedEvent@Engine@@@2@@std@@YAAEAVKeyReleasedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVKeyTypedEvent@Engine@@@2@@std@@YAAEAVKeyTypedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVMouseButtonPressedEvent@Engine@@@2@@std@@YAAEAVMouseButtonPressedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@2@@std@@YAAEAVMouseButtonReleasedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVMouseMovedEvent@Engine@@@2@@std@@YAAEAVMouseMovedEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVMouseScrolledEvent@Engine@@@2@@std@@YAAEAVMouseScrolledEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@@Z
 	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVWindowCloseEvent@Engine@@@2@@std@@YAAEAVWindowCloseEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVWindowResizeEvent@Engine@@@2@@std@@YAAEAVWindowResizeEvent@Engine@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@@Z
 	??$_Fnv1a_append_value@D@std@@YA_K_KAEBD@Z
 	??$_Free_non_head@V?$allocator@U?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@@1@PEAU01@@Z
 	??$_Free_non_head@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@std@@@1@PEAU01@@Z
@@ -1075,6 +1223,14 @@ EXPORTS
 	??$_Refancy@PEBD$0A@@std@@YAPEBDPEBD@Z
 	??$_Reset@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@XAEAVEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$_Reset@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
+	??$_Reset@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@IEAAX$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@1@@Z
 	??$_Seek_wrapped@PEAIAEAPEAI@std@@YAXAEAPEAI0@Z
 	??$_Seek_wrapped@PEAIPEAI@std@@YAXAEAPEAI$$QEAPEAI@Z
 	??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@std@@PEAPEAVLayer@Engine@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@0@$$QEAPEAPEAVLayer@Engine@@@Z
@@ -1087,6 +1243,14 @@ EXPORTS
 	??$_Set_ptr_rep_and_enable_shared@Vlogger@spdlog@@@?$shared_ptr@Vlogger@spdlog@@@std@@AEAAXQEAVlogger@spdlog@@QEAV_Ref_count_base@1@@Z
 	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
 	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@@Z
 	??$_To_address@PEAD@std@@YA?A_PAEBQEAD@Z
 	??$_To_address@PEAH@std@@YA?A_PAEBQEAH@Z
 	??$_To_address@PEAI@std@@YA?A_PAEBQEAI@Z
@@ -1130,6 +1294,14 @@ EXPORTS
 	??$__std_find_trivial@PEAVLayer@Engine@@_K@@YAPEAPEAVLayer@Engine@@PEAPEAV01@0_K@Z
 	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
 	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$addressof@$$CBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAPEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
 	??$addressof@$$CBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@YAPEBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@0@AEBV10@@Z
 	??$addressof@$$CBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@std@@YAPEBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@0@AEBV10@@Z
 	??$addressof@$$CBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@std@@YAPEBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@0@AEBV10@@Z
@@ -1192,6 +1364,14 @@ EXPORTS
 	??$begin@$$CBD$02@std@@YAPEBDAEAY02$$CBD@Z
 	??$bind@P8Application@Engine@@EAAXAEAVEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8Application@Engine@@EAAXAEAVEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
 	??$bind@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
+	??$bind@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZPEAV12@AEBU?$_Ph@$00@std@@@std@@YA?AV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@0@@Z
 	??$bit_cast@IM$0A@@detail@v9@fmt@@YAIAEBM@Z
 	??$bit_cast@_KN$0A@@detail@v9@fmt@@YA_KAEBN@Z
 	??$bit_cast@_KO$0A@@detail@v9@fmt@@YA_KAEBO@Z
@@ -1556,7 +1736,15 @@ EXPORTS
 	??$forward@AEAV?$reverse_iterator@PEBD@std@@@std@@YAAEAV?$reverse_iterator@PEBD@0@AEAV10@@Z
 	??$forward@AEAV?$shared_ptr@Vsink@sinks@spdlog@@@std@@@std@@YAAEAV?$shared_ptr@Vsink@sinks@spdlog@@@0@AEAV10@@Z
 	??$forward@AEAVEvent@Engine@@@std@@YAAEAVEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVKeyPressedEvent@Engine@@@std@@YAAEAVKeyPressedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVKeyReleasedEvent@Engine@@@std@@YAAEAVKeyReleasedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVKeyTypedEvent@Engine@@@std@@YAAEAVKeyTypedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVMouseButtonPressedEvent@Engine@@@std@@YAAEAVMouseButtonPressedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVMouseButtonReleasedEvent@Engine@@@std@@YAAEAVMouseButtonReleasedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVMouseMovedEvent@Engine@@@std@@YAAEAVMouseMovedEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVMouseScrolledEvent@Engine@@@std@@YAAEAVMouseScrolledEvent@Engine@@AEAV12@@Z
 	??$forward@AEAVWindowCloseEvent@Engine@@@std@@YAAEAVWindowCloseEvent@Engine@@AEAV12@@Z
+	??$forward@AEAVWindowResizeEvent@Engine@@@std@@YAAEAVWindowResizeEvent@Engine@@AEAV12@@Z
 	??$forward@AEAVlog_msg_buffer@details@spdlog@@@std@@YAAEAVlog_msg_buffer@details@spdlog@@AEAV123@@Z
 	??$forward@AEAVlogger@spdlog@@@std@@YAAEAVlogger@spdlog@@AEAV12@@Z
 	??$forward@AEAW4color_mode@spdlog@@@std@@YAAEAW4color_mode@spdlog@@AEAW412@@Z
@@ -1574,6 +1762,14 @@ EXPORTS
 	??$forward@AEBUpiecewise_construct_t@std@@@std@@YAAEBUpiecewise_construct_t@0@AEBU10@@Z
 	??$forward@AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
 	??$forward@AEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
+	??$forward@AEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YAAEBV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEBV10@@Z
 	??$forward@AEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@YAAEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@0@AEBV10@@Z
 	??$forward@AEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@std@@@std@@YAAEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@0@AEBV10@@Z
 	??$forward@AEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@std@@@std@@YAAEBV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@0@AEBV10@@Z
@@ -1590,6 +1786,14 @@ EXPORTS
 	??$forward@M@std@@YA$$QEAMAEAM@Z
 	??$forward@P8Application@Engine@@EAAXAEAVEvent@2@@Z@std@@YA$$QEAP8Application@Engine@@EAAXAEAVEvent@2@@ZAEAP812@EAAX0@Z@Z
 	??$forward@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@Z@std@@YA$$QEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZAEAP812@EAA_N0@Z@Z
+	??$forward@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@Z@std@@YA$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZAEAP812@EAA_N0@Z@Z
 	??$forward@PEAD@std@@YA$$QEAPEADAEAPEAD@Z
 	??$forward@PEAH@std@@YA$$QEAPEAHAEAPEAH@Z
 	??$forward@PEAI@std@@YA$$QEAPEAIAEAPEAI@Z
@@ -1676,6 +1880,7 @@ EXPORTS
 	??$forward@PEAV?$z_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@@std@@YA$$QEAPEAV?$z_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@AEAPEAV123@@Z
 	??$forward@PEAV?$z_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@@std@@YA$$QEAPEAV?$z_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@AEAPEAV123@@Z
 	??$forward@PEAVApplication@Engine@@@std@@YA$$QEAPEAVApplication@Engine@@AEAPEAV12@@Z
+	??$forward@PEAVImGuiLayer@Engine@@@std@@YA$$QEAPEAVImGuiLayer@Engine@@AEAPEAV12@@Z
 	??$forward@PEAVLayer@Engine@@@std@@YA$$QEAPEAVLayer@Engine@@AEAPEAV12@@Z
 	??$forward@PEAVaggregate_formatter@details@spdlog@@@std@@YA$$QEAPEAVaggregate_formatter@details@spdlog@@AEAPEAV123@@Z
 	??$forward@PEAVch_formatter@details@spdlog@@@std@@YA$$QEAPEAVch_formatter@details@spdlog@@AEAPEAV123@@Z
@@ -1779,6 +1984,14 @@ EXPORTS
 	??$forward@Upadding_info@details@spdlog@@@std@@YA$$QEAUpadding_info@details@spdlog@@AEAU123@@Z
 	??$forward@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
 	??$forward@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$forward@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
 	??$forward@V?$allocator@D@std@@@std@@YA$$QEAV?$allocator@D@0@AEAV10@@Z
 	??$forward@V?$allocator@PEAVLayer@Engine@@@std@@@std@@YA$$QEAV?$allocator@PEAVLayer@Engine@@@0@AEAV10@@Z
 	??$forward@V?$allocator@U?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@@std@@@std@@YA$$QEAV?$allocator@U?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@std@@@0@AEAV10@@Z
@@ -1795,14 +2008,32 @@ EXPORTS
 	??$forward@_N@std@@YA$$QEA_NAEA_N@Z
 	??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ
 	??$forward_as_tuple@AEAVEvent@Engine@@@std@@YA?AV?$tuple@AEAVEvent@Engine@@@0@AEAVEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVKeyPressedEvent@Engine@@@std@@YA?AV?$tuple@AEAVKeyPressedEvent@Engine@@@0@AEAVKeyPressedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVKeyReleasedEvent@Engine@@@std@@YA?AV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@AEAVKeyReleasedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVKeyTypedEvent@Engine@@@std@@YA?AV?$tuple@AEAVKeyTypedEvent@Engine@@@0@AEAVKeyTypedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@YA?AV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@AEAVMouseButtonPressedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@YA?AV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@AEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVMouseMovedEvent@Engine@@@std@@YA?AV?$tuple@AEAVMouseMovedEvent@Engine@@@0@AEAVMouseMovedEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVMouseScrolledEvent@Engine@@@std@@YA?AV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@AEAVMouseScrolledEvent@Engine@@@Z
 	??$forward_as_tuple@AEAVWindowCloseEvent@Engine@@@std@@YA?AV?$tuple@AEAVWindowCloseEvent@Engine@@@0@AEAVWindowCloseEvent@Engine@@@Z
+	??$forward_as_tuple@AEAVWindowResizeEvent@Engine@@@std@@YA?AV?$tuple@AEAVWindowResizeEvent@Engine@@@0@AEAVWindowResizeEvent@Engine@@@Z
 	??$forward_as_tuple@AEBD@std@@YA?AV?$tuple@AEBD@0@AEBD@Z
 	??$forward_as_tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA?AV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
 	??$forward_as_tuple@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA?AV?$tuple@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
 	??$get@$00PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@YAAEAU?$_Ph@$00@0@AEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@@Z
+	??$get@$00PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@YAAEAU?$_Ph@$00@0@AEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@$0A@AEAVEvent@Engine@@@std@@YAAEAVEvent@Engine@@$$QEAV?$tuple@AEAVEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVKeyPressedEvent@Engine@@@std@@YAAEAVKeyPressedEvent@Engine@@$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVKeyReleasedEvent@Engine@@@std@@YAAEAVKeyReleasedEvent@Engine@@$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVKeyTypedEvent@Engine@@@std@@YAAEAVKeyTypedEvent@Engine@@$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVMouseButtonPressedEvent@Engine@@@std@@YAAEAVMouseButtonPressedEvent@Engine@@$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVMouseButtonReleasedEvent@Engine@@@std@@YAAEAVMouseButtonReleasedEvent@Engine@@$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVMouseMovedEvent@Engine@@@std@@YAAEAVMouseMovedEvent@Engine@@$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVMouseScrolledEvent@Engine@@@std@@YAAEAVMouseScrolledEvent@Engine@@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@@Z
 	??$get@$0A@AEAVWindowCloseEvent@Engine@@@std@@YAAEAVWindowCloseEvent@Engine@@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@@Z
+	??$get@$0A@AEAVWindowResizeEvent@Engine@@@std@@YAAEAVWindowResizeEvent@Engine@@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@@Z
 	??$get@$0A@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@YAAEAPEAVApplication@Engine@@AEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@@Z
+	??$get@$0A@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@D@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEBA?AV?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@12@V?$basic_string_view@D@12@@Z
 	??$get@Vlocale@std@@@locale_ref@detail@v9@fmt@@QEBA?AVlocale@std@@XZ
 	??$get_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@H@detail@v9@fmt@@YA?AV?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@12@AEAV?$basic_format_context@Vappender@v9@fmt@@D@12@H@Z
@@ -1832,8 +2063,24 @@ EXPORTS
 	??$init_named_args@V?$basic_string_view@D@v9@fmt@@$$BY02D@detail@v9@fmt@@YAX$$THHAEBV?$basic_string_view@D@12@AEAY02$$CBD@Z
 	??$invoke@AEAP8Application@Engine@@EAAXAEAVEvent@2@@ZAEAPEAV12@AEAV32@@std@@YAXAEAP8Application@Engine@@EAAXAEAVEvent@2@@ZAEAPEAV12@0@Z
 	??$invoke@AEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZAEAPEAV12@0@Z
+	??$invoke@AEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZAEAPEAV12@AEAV32@@std@@YA_NAEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZAEAPEAV12@0@Z
 	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVEvent@Engine@@$$V@std@@YAXAEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVEvent@Engine@@@Z
 	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVWindowCloseEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVWindowCloseEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVKeyPressedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVKeyPressedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVKeyReleasedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVKeyReleasedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVKeyTypedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVKeyTypedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVMouseButtonPressedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVMouseButtonPressedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVMouseButtonReleasedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVMouseButtonReleasedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVMouseMovedEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVMouseMovedEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVMouseScrolledEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVMouseScrolledEvent@Engine@@@Z
+	??$invoke@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@AEAVWindowResizeEvent@Engine@@$$V@std@@YA_NAEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAVWindowResizeEvent@Engine@@@Z
 	??$is_ascii_letter@D@detail@v9@fmt@@YA_ND@Z
 	??$is_left_endpoint_integer_shorter_interval@M@dragonbox@detail@v9@fmt@@YA_NH@Z
 	??$is_left_endpoint_integer_shorter_interval@N@dragonbox@detail@v9@fmt@@YA_NH@Z
@@ -2009,6 +2256,14 @@ EXPORTS
 	??$move@AEAPEBV?$shared_ptr@Vsink@sinks@spdlog@@@std@@@std@@YA$$QEAPEBV?$shared_ptr@Vsink@sinks@spdlog@@@0@AEAPEBV10@@Z
 	??$move@AEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
 	??$move@AEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
+	??$move@AEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@@std@@YA$$QEAV?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@0@AEAV10@@Z
 	??$move@AEAV?$_Func_class@XAEAVEvent@Engine@@@std@@@std@@YA$$QEAV?$_Func_class@XAEAVEvent@Engine@@@0@AEAV10@@Z
 	??$move@AEAV?$allocator@D@std@@@std@@YA$$QEAV?$allocator@D@0@AEAV10@@Z
 	??$move@AEAV?$allocator@I@std@@@std@@YA$$QEAV?$allocator@I@0@AEAV10@@Z
@@ -2025,7 +2280,15 @@ EXPORTS
 	??$move@AEAV?$shared_ptr@Vsink@sinks@spdlog@@@std@@@std@@YA$$QEAV?$shared_ptr@Vsink@sinks@spdlog@@@0@AEAV10@@Z
 	??$move@AEAV?$tuple@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QEAV?$tuple@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AEAV10@@Z
 	??$move@AEAV?$tuple@AEAVEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVKeyPressedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVKeyPressedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVKeyReleasedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVKeyTypedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVKeyTypedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVMouseButtonPressedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVMouseButtonReleasedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVMouseMovedEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVMouseMovedEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@AEAV10@@Z
 	??$move@AEAV?$tuple@AEAVWindowCloseEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@AEAV10@@Z
+	??$move@AEAV?$tuple@AEAVWindowResizeEvent@Engine@@@std@@@std@@YA$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@AEAV10@@Z
 	??$move@AEAV?$tuple@AEBD@std@@@std@@YA$$QEAV?$tuple@AEBD@0@AEAV10@@Z
 	??$move@AEAV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QEAV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AEAV10@@Z
 	??$move@AEAV?$unique_ptr@Vaggregate_formatter@details@spdlog@@U?$default_delete@Vaggregate_formatter@details@spdlog@@@std@@@std@@@std@@YA$$QEAV?$unique_ptr@Vaggregate_formatter@details@spdlog@@U?$default_delete@Vaggregate_formatter@details@spdlog@@@std@@@0@AEAV10@@Z
@@ -2367,16 +2630,72 @@ EXPORTS
 	??0?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
 	??0?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
 	??0?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@3@@Z$$QEAPEAV23@AEBU?$_Ph@$00@1@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@QEAA@AEBV01@@Z
 	??0?$_Compressed_pair@P8Application@Engine@@EAAXAEAVEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
 	??0?$_Compressed_pair@P8Application@Engine@@EAAXAEAVEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
 	??0?$_Compressed_pair@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
 	??0?$_Compressed_pair@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@$$QEAV01@@Z
+	??0?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@AEBV01@@Z
 	??0?$_Container_proxy_ptr12@V?$allocator@U_Container_proxy@std@@@std@@@std@@QEAA@AEAV?$allocator@U_Container_proxy@std@@@1@AEAU_Container_base12@1@@Z
 	??0?$_Func_base@XAEAVEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@std@@QEAA@XZ
 	??0?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@std@@QEAA@XZ
 	??0?$_Func_class@XAEAVEvent@Engine@@@std@@QEAA@XZ
 	??0?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@QEAA@XZ
 	??0?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@QEAA@XZ
+	??0?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@QEAA@XZ
 	??0?$_Hash@V?$_Umap_traits@DV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@V?$_Uhash_compare@DU?$hash@D@std@@U?$equal_to@D@2@@2@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@$0A@@std@@@std@@IEAA@$$QEAV01@@Z
 	??0?$_Hash@V?$_Umap_traits@DV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@V?$_Uhash_compare@DU?$hash@D@std@@U?$equal_to@D@2@@2@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@$0A@@std@@@std@@IEAA@AEBV?$_Uhash_compare@DU?$hash@D@std@@U?$equal_to@D@2@@1@AEBV?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@1@@Z
 	??0?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@2@$0A@@std@@@std@@IEAA@AEBV?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@1@AEBV?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@1@@Z
@@ -2587,6 +2906,8 @@ EXPORTS
 	??0?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAA@$$QEAV01@@Z
 	??0?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@QEAA@$$QEAV01@@Z
 	??0?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@QEAA@AEBV01@@Z
+	??0?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@QEAA@$$QEAV01@@Z
+	??0?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@QEAA@AEBV01@@Z
 	??0?$tuple@U?$_Ph@$00@std@@@std@@QEAA@$$QEAV01@@Z
 	??0?$tuple@U?$_Ph@$00@std@@@std@@QEAA@AEBV01@@Z
 	??0?$unordered_map@DV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@U?$hash@D@2@U?$equal_to@D@2@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@@std@@QEAA@$$QEAV01@@Z
@@ -2638,6 +2959,9 @@ EXPORTS
 	??0KeyReleasedEvent@Engine@@QEAA@$$QEAV01@@Z
 	??0KeyReleasedEvent@Engine@@QEAA@AEBV01@@Z
 	??0KeyReleasedEvent@Engine@@QEAA@H@Z
+	??0KeyTypedEvent@Engine@@QEAA@$$QEAV01@@Z
+	??0KeyTypedEvent@Engine@@QEAA@AEBV01@@Z
+	??0KeyTypedEvent@Engine@@QEAA@H@Z
 	??0Layer@Engine@@QEAA@AEBV01@@Z
 	??0Layer@Engine@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 	??0LayerStack@Engine@@QEAA@AEBV01@@Z
@@ -2785,7 +3109,15 @@ EXPORTS
 	??1?$_Container_proxy_ptr12@V?$allocator@U_Container_proxy@std@@@std@@@std@@QEAA@XZ
 	??1?$_Func_class@XAEAVEvent@Engine@@@std@@QEAA@XZ
 	??1?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@QEAA@XZ
 	??1?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@QEAA@XZ
 	??1?$_Hash@V?$_Umap_traits@DV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@V?$_Uhash_compare@DU?$hash@D@std@@U?$equal_to@D@2@@2@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@$0A@@std@@@std@@QEAA@XZ
 	??1?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@2@$0A@@std@@@std@@QEAA@XZ
 	??1?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@2@$0A@@std@@@std@@QEAA@XZ
@@ -2859,7 +3191,15 @@ EXPORTS
 	??1?$f_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$function@$$A6AXAEAVEvent@Engine@@@Z@std@@QEAA@XZ
 	??1?$function@$$A6AXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVKeyPressedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVKeyReleasedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVKeyTypedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVMouseButtonPressedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVMouseButtonReleasedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVMouseMovedEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVMouseScrolledEvent@Engine@@@Z@std@@QEAA@XZ
 	??1?$function@$$A6A_NAEAVWindowCloseEvent@Engine@@@Z@std@@QEAA@XZ
+	??1?$function@$$A6A_NAEAVWindowResizeEvent@Engine@@@Z@std@@QEAA@XZ
 	??1?$level_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$level_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$list@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@@std@@QEAA@XZ
@@ -3015,6 +3355,7 @@ EXPORTS
 	??1KeyEvent@Engine@@UEAA@XZ
 	??1KeyPressedEvent@Engine@@UEAA@XZ
 	??1KeyReleasedEvent@Engine@@UEAA@XZ
+	??1KeyTypedEvent@Engine@@UEAA@XZ
 	??1Layer@Engine@@UEAA@XZ
 	??1LayerStack@Engine@@QEAA@XZ
 	??1MouseButtonEvent@Engine@@UEAA@XZ
@@ -3109,6 +3450,8 @@ EXPORTS
 	??4KeyPressedEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4KeyReleasedEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
 	??4KeyReleasedEvent@Engine@@QEAAAEAV01@AEBV01@@Z
+	??4KeyTypedEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
+	??4KeyTypedEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4Layer@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4LayerStack@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4Log@Engine@@QEAAAEAV01@$$QEAV01@@Z
@@ -3335,7 +3678,15 @@ EXPORTS
 	??R?$_Conditionally_enabled_hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$00@std@@QEBA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 	??R?$_Func_class@XAEAVEvent@Engine@@@std@@QEBAXAEAVEvent@Engine@@@Z
 	??R?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??R?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@QEBA_NAEAVKeyPressedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@QEBA_NAEAVKeyReleasedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@QEBA_NAEAVKeyTypedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@QEBA_NAEAVMouseButtonPressedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@QEBA_NAEAVMouseButtonReleasedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@QEBA_NAEAVMouseMovedEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@QEBA_NAEAVMouseScrolledEvent@Engine@@@Z
 	??R?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@QEBA_NAEAVWindowCloseEvent@Engine@@@Z
+	??R?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@QEBA_NAEAVWindowResizeEvent@Engine@@@Z
 	??R?$arg_formatter@D@detail@v9@fmt@@QEAA?AVappender@23@Vhandle@?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@23@@Z
 	??R?$custom_formatter@D@detail@v9@fmt@@QEBAXVhandle@?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@23@@Z
 	??R?$default_arg_formatter@D@detail@v9@fmt@@QEAA?AVappender@23@Vhandle@?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@23@@Z
@@ -3474,6 +3825,7 @@ EXPORTS
 	?GetEventType@AppUpdateEvent@Engine@@UEBA?AW4EventType@2@XZ
 	?GetEventType@KeyPressedEvent@Engine@@UEBA?AW4EventType@2@XZ
 	?GetEventType@KeyReleasedEvent@Engine@@UEBA?AW4EventType@2@XZ
+	?GetEventType@KeyTypedEvent@Engine@@UEBA?AW4EventType@2@XZ
 	?GetEventType@MouseButtonPressedEvent@Engine@@UEBA?AW4EventType@2@XZ
 	?GetEventType@MouseButtonReleasedEvent@Engine@@UEBA?AW4EventType@2@XZ
 	?GetEventType@MouseMovedEvent@Engine@@UEBA?AW4EventType@2@XZ
@@ -3489,6 +3841,7 @@ EXPORTS
 	?GetName@AppUpdateEvent@Engine@@UEBAPEBDXZ
 	?GetName@KeyPressedEvent@Engine@@UEBAPEBDXZ
 	?GetName@KeyReleasedEvent@Engine@@UEBAPEBDXZ
+	?GetName@KeyTypedEvent@Engine@@UEBAPEBDXZ
 	?GetName@Layer@Engine@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?GetName@MouseButtonPressedEvent@Engine@@UEBAPEBDXZ
 	?GetName@MouseButtonReleasedEvent@Engine@@UEBAPEBDXZ
@@ -3502,6 +3855,7 @@ EXPORTS
 	?GetStaticType@AppUpdateEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@KeyPressedEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@KeyReleasedEvent@Engine@@SA?AW4EventType@2@XZ
+	?GetStaticType@KeyTypedEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@MouseButtonPressedEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@MouseButtonReleasedEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@MouseMovedEvent@Engine@@SA?AW4EventType@2@XZ
@@ -3535,10 +3889,18 @@ EXPORTS
 	?OnEvent@Application@Engine@@QEAAXAEAVEvent@2@@Z
 	?OnEvent@ImGuiLayer@Engine@@UEAAXAEAVEvent@2@@Z
 	?OnEvent@Layer@Engine@@UEAAXAEAVEvent@2@@Z
+	?OnKeyPressedEvent@ImGuiLayer@Engine@@AEAA_NAEAVKeyPressedEvent@2@@Z
+	?OnKeyReleasedEvent@ImGuiLayer@Engine@@AEAA_NAEAVKeyReleasedEvent@2@@Z
+	?OnKeyTypedEvent@ImGuiLayer@Engine@@AEAA_NAEAVKeyTypedEvent@2@@Z
+	?OnMouseButtonPressedEvent@ImGuiLayer@Engine@@AEAA_NAEAVMouseButtonPressedEvent@2@@Z
+	?OnMouseButtonReleasedEvent@ImGuiLayer@Engine@@AEAA_NAEAVMouseButtonReleasedEvent@2@@Z
+	?OnMouseMovedEvent@ImGuiLayer@Engine@@AEAA_NAEAVMouseMovedEvent@2@@Z
+	?OnMouseScrolledEvent@ImGuiLayer@Engine@@AEAA_NAEAVMouseScrolledEvent@2@@Z
 	?OnUpdate@ImGuiLayer@Engine@@UEAAXXZ
 	?OnUpdate@Layer@Engine@@UEAAXXZ
 	?OnUpdate@WindowsWindow@Engine@@UEAAXXZ
 	?OnWindowClose@Application@Engine@@AEAA_NAEAVWindowCloseEvent@2@@Z
+	?OnWindowResizedEvent@ImGuiLayer@Engine@@AEAA_NAEAVWindowResizeEvent@2@@Z
 	?PopLayer@LayerStack@Engine@@QEAAXPEAVLayer@2@@Z
 	?PopOverLay@LayerStack@Engine@@QEAAXPEAVLayer@2@@Z
 	?PushLayer@Application@Engine@@QEAAXPEAVLayer@2@@Z
@@ -3553,6 +3915,7 @@ EXPORTS
 	?ToString@Event@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@KeyPressedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@KeyReleasedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+	?ToString@KeyTypedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@MouseButtonPressedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@MouseButtonReleasedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@MouseMovedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
@@ -3604,6 +3967,14 @@ EXPORTS
 	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$shared_ptr@Vsink@sinks@spdlog@@@std@@@std@@@std@@@std@@QEBAXAEBV12@@Z
 	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEBAPEAV?$_Func_base@XAEAVEvent@Engine@@@2@PEAX@Z
 	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEBAPEAV?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@2@PEAX@Z
 	?_Deallocate_for_capacity@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXAEAV?$allocator@D@2@QEAD_K@Z
 	?_Decref@?$_Ptr_base@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@IEAAXXZ
 	?_Decref@?$_Ptr_base@Vlogger@spdlog@@@std@@IEAAXXZ
@@ -3613,6 +3984,14 @@ EXPORTS
 	?_Decwref@_Ref_count_base@std@@QEAAXXZ
 	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEAAX_N@Z
 	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEAAX_N@Z
 	?_Delete_this@?$_Ref_count_obj2@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@EEAAXXZ
 	?_Delete_this@?$_Ref_count_obj2@Vlogger@spdlog@@@std@@EEAAXXZ
 	?_Desired_grow_bucket_count@?$_Hash@V?$_Umap_traits@DV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@V?$_Uhash_compare@DU?$hash@D@std@@U?$equal_to@D@2@@2@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@$0A@@std@@@std@@IEBA_K_K@Z
@@ -3621,11 +4000,27 @@ EXPORTS
 	?_Destroy@?$_Ref_count_obj2@Vlogger@spdlog@@@std@@EEAAXXZ
 	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEAAXAEAVEvent@Engine@@@Z
 	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEAA_NAEAVWindowCloseEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEAA_NAEAVKeyPressedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEAA_NAEAVKeyReleasedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEAA_NAEAVKeyTypedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEAA_NAEAVMouseButtonPressedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEAA_NAEAVMouseButtonReleasedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEAA_NAEAVMouseMovedEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEAA_NAEAVMouseScrolledEvent@Engine@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEAA_NAEAVWindowResizeEvent@Engine@@@Z
 	?_Do_hash@?$hash@D@std@@SA_KAEBD@Z
 	?_Do_hash@?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@SA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z
 	?_Empty@?$_Func_class@XAEAVEvent@Engine@@@std@@IEBA_NXZ
 	?_Empty@?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@IEBA_NXZ
 	?_Empty@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@IEBA_NXZ
+	?_Empty@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@IEBA_NXZ
 	?_Equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_NAEBV12@@Z
 	?_Floor_of_log_2@std@@YAK_K@Z
 	?_Fnv1a_append_bytes@std@@YA_K_KQEBE_K@Z
@@ -3633,11 +4028,27 @@ EXPORTS
 	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
 	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEBAPEBXXZ
 	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEBAPEBXXZ
 	?_Get_buffer_view@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AU_Buffer_view@12@XZ
 	?_Get_current@?$reverse_iterator@PEBD@std@@QEBAAEBQEBDXZ
 	?_Get_deleter@_Ref_count_base@std@@UEBAPEAXAEBVtype_info@@@Z
 	?_Get_first@?$_Compressed_pair@P8Application@Engine@@EAAXAEAVEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8Application@Engine@@EAAXAEAVEvent@4@@ZXZ
 	?_Get_first@?$_Compressed_pair@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZXZ
+	?_Get_first@?$_Compressed_pair@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@2@@ZV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAAAEAP8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZXZ
 	?_Get_first@?$_Compressed_pair@U?$default_delete@V?$A_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@@std@@PEAV?$A_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@$00@std@@QEAAAEAU?$default_delete@V?$A_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@@2@XZ
 	?_Get_first@?$_Compressed_pair@U?$default_delete@V?$A_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@@std@@PEAV?$A_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@$00@std@@QEAAAEAU?$default_delete@V?$A_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@@2@XZ
 	?_Get_first@?$_Compressed_pair@U?$default_delete@V?$B_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@@std@@PEAV?$B_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@$00@std@@QEAAAEAU?$default_delete@V?$B_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@@2@XZ
@@ -3781,7 +4192,15 @@ EXPORTS
 	?_Getfacet@locale@std@@QEBAPEBVfacet@12@_K@Z
 	?_Getimpl@?$_Func_class@XAEAVEvent@Engine@@@std@@AEBAPEAV?$_Func_base@XAEAVEvent@Engine@@@2@XZ
 	?_Getimpl@?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@AEBAPEAV?$_Func_base@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@2@XZ
 	?_Getimpl@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@2@XZ
+	?_Getimpl@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@AEBAPEAV?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@2@XZ
 	?_Getstate@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAHH@Z
 	?_Incref@?$_Ptr_base@Vlogger@spdlog@@@std@@IEBAXXZ
 	?_Incref@?$_Ptr_base@Vsink@sinks@spdlog@@@std@@IEBAXXZ
@@ -3792,7 +4211,15 @@ EXPORTS
 	?_Large_mode_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QEBA_NXZ
 	?_Local@?$_Func_class@XAEAVEvent@Engine@@@std@@AEBA_NXZ
 	?_Local@?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@AEBA_NXZ
 	?_Local@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@AEBA_NXZ
+	?_Local@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@AEBA_NXZ
 	?_Make_iter@?$list@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@V?$allocator@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@2@@std@@QEBA?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@2@PEAU?$_List_node@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@PEAX@2@@Z
 	?_Make_iter@?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@2@@std@@QEBA?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@2@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@PEAX@2@@Z
 	?_Make_iter@?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@2@@std@@QEBA?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@2@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@PEAX@2@@Z
@@ -3811,6 +4238,14 @@ EXPORTS
 	?_Min_load_factor_buckets@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@2@$0A@@std@@@std@@IEBA_K_K@Z
 	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEAAPEAV?$_Func_base@XAEAVEvent@Engine@@@2@PEAX@Z
 	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEAAPEAV?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@2@PEAX@Z
 	?_Mycnd@condition_variable@std@@AEAAPEAU_Cnd_internal_imp_t@@XZ
 	?_Mymtx@_Mutex_base@std@@AEAAPEAU_Mtx_internal_imp_t@@XZ
 	?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAAPEADXZ
@@ -3853,7 +4288,15 @@ EXPORTS
 	?_Seek_to@?$checked_array_iterator@PEAI@stdext@@QEAAXPEAI@Z
 	?_Set@?$_Func_class@XAEAVEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@XAEAVEvent@Engine@@@2@@Z
 	?_Set@?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@AEAAXPEAV?$_Func_base@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVKeyPressedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVKeyReleasedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVKeyTypedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVMouseButtonPressedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVMouseButtonReleasedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVMouseMovedEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVMouseScrolledEvent@Engine@@@2@@Z
 	?_Set@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVWindowCloseEvent@Engine@@@2@@Z
+	?_Set@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@AEAAXPEAV?$_Func_base@_NAEAVWindowResizeEvent@Engine@@@2@@Z
 	?_Swap@?$_Func_class@XAEAVEvent@Engine@@@std@@IEAAXAEAV12@@Z
 	?_Swap@?$_Ptr_base@Vlogger@spdlog@@@std@@IEAAXAEAV12@@Z
 	?_Swap_proxy_and_iterators@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXAEAV12@@Z
@@ -3866,11 +4309,27 @@ EXPORTS
 	?_Take_contents@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXAEAV12@@Z
 	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
 	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@EEBAAEBVtype_info@@XZ
 	?_Throw_bad_array_new_length@std@@YAXXZ
 	?_Throw_bad_cast@std@@YAXXZ
 	?_Tidy@?$_Func_class@XAEAVEvent@Engine@@@std@@IEAAXXZ
 	?_Tidy@?$_Func_class@XAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVKeyPressedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVKeyReleasedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVKeyTypedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVMouseButtonPressedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVMouseMovedEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVMouseScrolledEvent@Engine@@@std@@IEAAXXZ
 	?_Tidy@?$_Func_class@_NAEAVWindowCloseEvent@Engine@@@std@@IEAAXXZ
+	?_Tidy@?$_Func_class@_NAEAVWindowResizeEvent@Engine@@@std@@IEAAXXZ
 	?_Tidy@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBDV?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@QEAAXXZ
 	?_Tidy@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@Vlogger@spdlog@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAXXZ
 	?_Tidy@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4level_enum@level@spdlog@@@std@@@std@@@std@@@std@@@std@@@std@@QEAAXXZ
