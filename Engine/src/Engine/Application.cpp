@@ -1,5 +1,5 @@
-#include "../Enpch.h"
-#include "Application.h"
+#include "Enpch.h"
+#include "Engine/Application.h"
 
 #include <glad/glad.h>
 
@@ -7,8 +7,13 @@ namespace Engine {
 
 #define BIND_EVENT_FN(x) std::bind(&x, this, std::placeholders::_1)
 
+    Application* Application::s_Instance = nullptr;
+
     Application::Application()
     {
+        EN_ENGINE_ASSERT(!s_Instance, "Applicatin already excist!");
+        s_Instance = this;
+
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallBack(BIND_EVENT_FN(Application::OnEvent));
     }
@@ -20,11 +25,13 @@ namespace Engine {
     void Application::PushLayer(Layer* layer)
     {
         m_Layerstack.PushLayer(layer);
+        layer->OnAttach();
     }
 
     void Application::PushOverLay(Layer* overlay)
     {
         m_Layerstack.PushOverLay(overlay);
+        overlay->OnAttach();
     }
 
     void Application::OnEvent(Event& e)

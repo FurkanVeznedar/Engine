@@ -1,8 +1,8 @@
 #ifndef _EVENT_H_
 #define _EVENT_H_
 
-#include "../../Enpch.h"
-#include "../Core.h"
+#include "Enpch.h"
+#include "Engine/Core.h"
 
 namespace Engine {
 

@@ -1,8 +1,8 @@
 #ifndef _LAYER_H_
 #define _LAYER_H_
 
-#include "Core.h"
-#include "./Events/Event.h"
+#include "Engine/Core.h"
+#include "Engine/Events/Event.h"
 
 namespace Engine {
 

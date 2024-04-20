@@ -29,9 +29,9 @@ This software depends on the fmt lib (MIT License),
 and users must comply to its license: https://raw.githubusercontent.com/fmtlib/fmt/master/LICENSE
 */
 
-#include "../Enpch.h"
+#include "Enpch.h"
 
-#include "Core.h"
+#include "Engine/Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
 #include "spdlog/fmt/ostr.h"

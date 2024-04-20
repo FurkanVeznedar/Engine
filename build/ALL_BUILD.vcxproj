@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\spdlog\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\GLAD\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\spdlog\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\GLAD\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\spdlog\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\GLAD\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\spdlog\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\GLAD\include;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -184,6 +184,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\GLAD\glad.vcxproj">
       <Project>{53B74B32-EA3C-3E15-B048-3D0711199CF9}</Project>
       <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\imgui.vcxproj">
+      <Project>{1BB77FDC-3B8C-3AEA-8FD0-651D1B6BB489}</Project>
+      <Name>imgui</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

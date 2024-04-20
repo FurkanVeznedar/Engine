@@ -1,10 +1,10 @@
 #ifndef _LAYERSTACK_H_
 #define _LAYERSTACK_H_
 
-#include "Core.h"
-#include "Layer.h"
+#include "Engine/Core.h"
+#include "Engine/Layer.h"
 
-#include "../Enpch.h"
+#include "Enpch.h"
 
 namespace Engine {
 

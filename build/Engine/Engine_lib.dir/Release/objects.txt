@@ -4,3 +4,5 @@ C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/WindowsWindow.obj
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/Layer.obj
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/LayerStack.obj
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/ImGuiLayer.obj
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/ImGuiOpenGLRenderer.obj

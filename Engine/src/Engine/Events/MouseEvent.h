@@ -1,7 +1,6 @@
 #ifndef _MOUSEEVENT_H_
 #define _MOUSEEVENT_H_
 
-#include "../../Enpch.h"
 #include "Event.h"
 
 namespace Engine {

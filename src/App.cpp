@@ -24,6 +24,7 @@ public:
     App()
     {
         PushLayer(new ExampleLayer());
+        PushOverLay(new Engine::ImGuiLayer());
     }
 
     ~App()

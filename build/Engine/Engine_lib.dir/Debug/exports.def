@@ -113,6 +113,7 @@ EXPORTS
 	??_R0?AVAppUpdateEvent@Engine@@@8 	 DATA
 	??_R0?AVApplication@Engine@@@8 	 DATA
 	??_R0?AVEvent@Engine@@@8 	 DATA
+	??_R0?AVImGuiLayer@Engine@@@8 	 DATA
 	??_R0?AVKeyEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyPressedEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyReleasedEvent@Engine@@@8 	 DATA
@@ -154,6 +155,7 @@ EXPORTS
 	??__J?1??get_context@mdc@spdlog@@SAAEAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@XZ@51 	 DATA
 	??__J?1??thread_id@os@details@spdlog@@YA_KXZ@51 	 DATA
 	?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 	 DATA
+	?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 	 DATA
 	?_Psave@?$_Facetptr@V?$numpunct@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
 	?_Static@?1???$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@1@XZ@4U?$_Constexpr_immortalize_impl@V_Generic_error_category@std@@@1@A 	 DATA
 	?context@?1??get_context@mdc@spdlog@@SAAEAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@XZ@4V45@A 	 DATA
@@ -162,10 +164,12 @@ EXPORTS
 	?mutex@?6??err_handler_@logger@spdlog@@IEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@4V05@A 	 DATA
 	?s_AppLogger@Log@Engine@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A 	 DATA
 	?s_EngineLogger@Log@Engine@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A 	 DATA
+	?s_Instance@Application@Engine@@0PEAV12@EA 	 DATA
 	?s_instance@?1??instance@registry@details@spdlog@@SAAEAV234@XZ@4V234@A 	 DATA
 	?s_mutex@?1??mutex@console_mutex@details@spdlog@@SAAEAV1std@@XZ@4V15@A 	 DATA
 	?tid@?1??thread_id@os@details@spdlog@@YA_KXZ@4_KB 	 DATA
 	__ 	 DATA
+	imgl3wProcs 	 DATA
 	??$?0$$BY06DH@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEAA@AEBV?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@$$BY06DH@12@@Z
 	??$?0$$BY0BG@D$0A@@?$basic_format_string@DAEAHAEAPEBD@v9@fmt@@QEAA@AEAY0BG@$$CBD@Z
 	??$?0$$BY0BP@D$0A@@?$basic_format_string@DAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBIAEBI@v9@fmt@@QEAA@AEAY0BP@$$CBD@Z
@@ -851,6 +855,7 @@ EXPORTS
 	??$?XH@bigint@detail@v9@fmt@@QEAAAEAV0123@H@Z
 	??$?XVuint128_fallback@detail@v9@fmt@@@bigint@detail@v9@fmt@@QEAAAEAV0123@Vuint128_fallback@123@@Z
 	??$Dispatch@VWindowCloseEvent@Engine@@@EventDispatcher@Engine@@QEAA_NV?$function@$$A6A_NAEAVWindowCloseEvent@Engine@@@Z@std@@@Z
+	??$IM_DELETE@UImGui_ImplOpenGL3_Data@@@@YAXPEAUImGui_ImplOpenGL3_Data@@@Z
 	??$_Adl_verify_range@PEADPEAD@std@@YAXAEBQEAD0@Z
 	??$_Adl_verify_range@PEAHPEAH@std@@YAXAEBQEAH0@Z
 	??$_Adl_verify_range@PEAIPEAI@std@@YAXAEBQEAI0@Z
@@ -2339,6 +2344,7 @@ EXPORTS
 	??0?$H_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
 	??0?$I_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
 	??0?$I_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
+	??0?$ImVector@D@@QEAA@XZ
 	??0?$M_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
 	??0?$M_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
 	??0?$R_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@QEAA@Upadding_info@12@@Z
@@ -2619,6 +2625,10 @@ EXPORTS
 	??0Event@Engine@@QEAA@AEBV01@@Z
 	??0Event@Engine@@QEAA@XZ
 	??0EventDispatcher@Engine@@QEAA@AEAVEvent@1@@Z
+	??0ImGuiLayer@Engine@@QEAA@AEBV01@@Z
+	??0ImGuiLayer@Engine@@QEAA@XZ
+	??0ImGui_ImplOpenGL3_Data@@QEAA@XZ
+	??0ImVec2@@QEAA@MM@Z
 	??0KeyEvent@Engine@@IEAA@H@Z
 	??0KeyEvent@Engine@@QEAA@$$QEAV01@@Z
 	??0KeyEvent@Engine@@QEAA@AEBV01@@Z
@@ -2757,6 +2767,7 @@ EXPORTS
 	??1?$H_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$I_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$I_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
+	??1?$ImVector@D@@QEAA@XZ
 	??1?$M_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$M_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
 	??1?$R_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@UEAA@XZ
@@ -3000,6 +3011,7 @@ EXPORTS
 	??1AppUpdateEvent@Engine@@UEAA@XZ
 	??1Application@Engine@@UEAA@XZ
 	??1Event@Engine@@UEAA@XZ
+	??1ImGuiLayer@Engine@@UEAA@XZ
 	??1KeyEvent@Engine@@UEAA@XZ
 	??1KeyPressedEvent@Engine@@UEAA@XZ
 	??1KeyReleasedEvent@Engine@@UEAA@XZ
@@ -3060,6 +3072,8 @@ EXPORTS
 	??1system_error@std@@UEAA@XZ
 	??1thread@std@@QEAA@XZ
 	??2@YAPEAX_KPEAX@Z
+	??2@YAPEAX_KUImNewWrapper@@PEAX@Z
+	??3@YAXPEAXUImNewWrapper@@0@Z
 	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@std@@QEAAAEAV01@$$QEAV01@@Z
 	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@std@@QEAAAEAV01@AEBV01@@Z
 	??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@std@@QEAAAEAV01@$$QEAV01@@Z
@@ -3088,6 +3102,7 @@ EXPORTS
 	??4AppUpdateEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
 	??4AppUpdateEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4Event@Engine@@QEAAAEAV01@AEBV01@@Z
+	??4ImGuiLayer@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4KeyEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
 	??4KeyEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4KeyPressedEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
@@ -3141,6 +3156,8 @@ EXPORTS
 	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PEAVLayer@Engine@@@std@@@std@@@std@@QEBA_NAEBV01@@Z
 	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$shared_ptr@Vsink@sinks@spdlog@@@std@@@std@@@std@@@std@@QEBA_NAEBV01@@Z
 	??9detail@v9@fmt@@YA_NAEBVuint128_fallback@012@0@Z
+	??A?$ImVector@PEAUImDrawList@@@@QEAAAEAPEAUImDrawList@@H@Z
+	??A?$ImVector@UImDrawCmd@@@@QEBAAEBUImDrawCmd@@H@Z
 	??A?$array@G$06@std@@QEAAAEAG_K@Z
 	??A?$array@PEBD$06@std@@QEAAAEAPEBD_K@Z
 	??A?$array@PEBD$0M@@std@@QEBAAEBQEBD_K@Z
@@ -3203,6 +3220,7 @@ EXPORTS
 	??D?$checked_array_iterator@PEAD@stdext@@QEBAAEADXZ
 	??D?$checked_array_iterator@PEAI@stdext@@QEBAAEAIXZ
 	??D?$reverse_iterator@PEBD@std@@QEBAAEBDXZ
+	??D?$unique_ptr@VWindow@Engine@@U?$default_delete@VWindow@Engine@@@std@@@std@@QEBAAEAVWindow@Engine@@XZ
 	??Dcounting_iterator@detail@v9@fmt@@QEBA?AUvalue_type@0123@XZ
 	??Ddetail@v9@fmt@@YA?AU?$basic_fp@_K@012@U3012@0@Z
 	??Ddetail@v9@fmt@@YA?AVuint128_fallback@012@AEBV3012@I@Z
@@ -3439,6 +3457,7 @@ EXPORTS
 	??__Fs_instance@?1??instance@registry@details@spdlog@@SAAEAV123@XZ@YAXXZ
 	??__Fs_mutex@?1??mutex@console_mutex@details@spdlog@@SAAEAV0std@@XZ@YAXXZ
 	?Create@Window@Engine@@SAPEAV12@AEBUWindowProps@2@@Z
+	?Get@Application@Engine@@SAAEAV12@XZ
 	?GetCategoryFlags@AppRenderEvent@Engine@@UEBAHXZ
 	?GetCategoryFlags@AppTickEvent@Engine@@UEBAHXZ
 	?GetCategoryFlags@AppUpdateEvent@Engine@@UEBAHXZ
@@ -3489,20 +3508,34 @@ EXPORTS
 	?GetStaticType@MouseScrolledEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@WindowCloseEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@WindowResizeEvent@Engine@@SA?AW4EventType@2@XZ
+	?GetTexID@ImDrawCmd@@QEBAPEAXXZ
 	?GetWidth@WindowResizeEvent@Engine@@QEBAIXZ
 	?GetWidth@WindowsWindow@Engine@@UEBAIXZ
+	?GetWindow@Application@Engine@@QEAAAEAVWindow@2@XZ
 	?GetX@MouseMovedEvent@Engine@@QEBAMXZ
 	?GetXOffSet@MouseScrolledEvent@Engine@@QEBAMXZ
 	?GetY@MouseMovedEvent@Engine@@QEBAMXZ
 	?GetYOffSet@MouseScrolledEvent@Engine@@QEBAMXZ
+	?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ
+	?ImGui_ImplOpenGL3_CreateFontsTexture@@YA_NXZ
+	?ImGui_ImplOpenGL3_DestroyDeviceObjects@@YAXXZ
+	?ImGui_ImplOpenGL3_DestroyFontsTexture@@YAXXZ
+	?ImGui_ImplOpenGL3_Init@@YA_NPEBD@Z
+	?ImGui_ImplOpenGL3_NewFrame@@YAXXZ
+	?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z
+	?ImGui_ImplOpenGL3_Shutdown@@YAXXZ
 	?Init@Log@Engine@@SAXXZ
 	?Init@WindowsWindow@Engine@@EEAAXAEBUWindowProps@2@@Z
 	?IsInCategory@Event@Engine@@QEAA_NW4EventCategory@2@@Z
 	?IsVSync@WindowsWindow@Engine@@UEBA_NXZ
+	?OnAttach@ImGuiLayer@Engine@@UEAAXXZ
 	?OnAttach@Layer@Engine@@UEAAXXZ
+	?OnDetach@ImGuiLayer@Engine@@UEAAXXZ
 	?OnDetach@Layer@Engine@@UEAAXXZ
 	?OnEvent@Application@Engine@@QEAAXAEAVEvent@2@@Z
+	?OnEvent@ImGuiLayer@Engine@@UEAAXAEAVEvent@2@@Z
 	?OnEvent@Layer@Engine@@UEAAXAEAVEvent@2@@Z
+	?OnUpdate@ImGuiLayer@Engine@@UEAAXXZ
 	?OnUpdate@Layer@Engine@@UEAAXXZ
 	?OnUpdate@WindowsWindow@Engine@@UEAAXXZ
 	?OnWindowClose@Application@Engine@@AEAA_NAEAVWindowCloseEvent@2@@Z
@@ -3514,6 +3547,7 @@ EXPORTS
 	?PushOverLay@LayerStack@Engine@@QEAAXPEAVLayer@2@@Z
 	?Run@Application@Engine@@QEAAXXZ
 	?SetEventCallBack@WindowsWindow@Engine@@UEAAXAEBV?$function@$$A6AXAEAVEvent@Engine@@@Z@std@@@Z
+	?SetTexID@ImFontAtlas@@QEAAXPEAX@Z
 	?SetVSync@WindowsWindow@Engine@@UEAAX_N@Z
 	?ShutDown@WindowsWindow@Engine@@EEAAXXZ
 	?ToString@Event@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
@@ -3895,6 +3929,7 @@ EXPORTS
 	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
 	?__empty_global_delete@@YAXPEAX_K@Z
 	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?_grow_capacity@?$ImVector@D@@QEBAHH@Z
 	?_thread_id@os@details@spdlog@@YA_KXZ
 	?abort_fuzzing_if@detail@v9@fmt@@YAX_N@Z
 	?add_ch@aggregate_formatter@details@spdlog@@QEAAXD@Z
@@ -3940,6 +3975,7 @@ EXPORTS
 	?base@?$reverse_iterator@PEBD@std@@QEBAPEBDXZ
 	?basename@?$short_filename_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@SAPEBDPEBD@Z
 	?basename@?$short_filename_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@SAPEBDPEBD@Z
+	?begin@?$ImVector@D@@QEAAPEADXZ
 	?begin@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QEBA?AV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@XZ
 	?begin@?$basic_format_parse_context@DUerror_handler@detail@v9@fmt@@@v9@fmt@@QEBAPEBDXZ
 	?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ
@@ -4516,10 +4552,12 @@ EXPORTS
 	?remove_trailing_zeros@dragonbox@detail@v9@fmt@@YAHAEAI@Z
 	?remove_trailing_zeros@dragonbox@detail@v9@fmt@@YAHAEA_K@Z
 	?require_numeric_argument@?$specs_checker@V?$specs_handler@D@detail@v9@fmt@@@detail@v9@fmt@@AEAAXXZ
+	?reserve@?$ImVector@D@@QEAAXH@Z
 	?reset@?$unique_ptr@VWindow@Engine@@U?$default_delete@VWindow@Engine@@@std@@@std@@QEAAXPEAVWindow@Engine@@@Z
 	?reset@?$unique_ptr@Vaggregate_formatter@details@spdlog@@U?$default_delete@Vaggregate_formatter@details@spdlog@@@std@@@std@@QEAAXPEAVaggregate_formatter@details@spdlog@@@Z
 	?reset@?$unique_ptr@Vcustom_flag_formatter@spdlog@@U?$default_delete@Vcustom_flag_formatter@spdlog@@@std@@@std@@QEAAXPEAVcustom_flag_formatter@spdlog@@@Z
 	?reset@?$unique_ptr@Vformatter@spdlog@@U?$default_delete@Vformatter@spdlog@@@std@@@std@@QEAAXPEAVformatter@spdlog@@@Z
+	?resize@?$ImVector@D@@QEAAXH@Z
 	?resize@?$basic_memory_buffer@D$0PK@V?$allocator@D@std@@@v9@fmt@@QEAAX_K@Z
 	?resize@?$basic_memory_buffer@I$0CA@V?$allocator@I@std@@@v9@fmt@@QEAAX_K@Z
 	?rotr@detail@v9@fmt@@YAIII@Z
@@ -4609,8 +4647,15 @@ EXPORTS
 	?zero@?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@chrono@std@@SA?AV123@XZ
 	?zero@?$duration_values@_J@chrono@std@@SA_JXZ
 	__local_stdio_printf_options
+	__local_stdio_scanf_options
 	_vfprintf_l
 	_vsnprintf_s_l
+	_vsscanf_l
 	fprintf
+	imgl3wGetProcAddress
+	imgl3wInit
+	imgl3wInit2
+	imgl3wIsSupported
+	sscanf
 	vsnprintf_s
 	wmemcpy

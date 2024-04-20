@@ -6,11 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 add_subdirectory(Engine)
 
-include_directories(
-    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty/spdlog/include
-    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty/GLAD/include
-    ${CMAKE_SOURCE_DIR}/Engine/ThirdParty)
-
 add_executable(${PROJECT_NAME}
     ./src/App.cpp)
 
