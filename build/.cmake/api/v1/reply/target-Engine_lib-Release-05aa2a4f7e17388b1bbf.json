@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Engine/Debug/Engine_lib.dll"
+			"path" : "Engine/Release/Engine_lib.dll"
 		},
 		{
-			"path" : "Engine/Debug/Engine_lib.lib"
+			"path" : "Engine/Release/Engine_lib.lib"
 		},
 		{
-			"path" : "Engine/Debug/Engine_lib.pdb"
+			"path" : "Engine/Release/Engine_lib.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -69,10 +69,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				},
 				{
-					"fragment" : "\"/YcC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Debug/cmake_pch.hxx\" \"/FpC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Debug/cmake_pch.pch\" \"/FIC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Debug/cmake_pch.hxx\""
+					"fragment" : "\"/YcC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Release/cmake_pch.hxx\" \"/FpC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/cmake_pch.pch\" \"/FIC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Release/cmake_pch.hxx\""
 				}
 			],
 			"defines" : 
@@ -137,10 +137,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				},
 				{
-					"fragment" : "\"/YuC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Debug/cmake_pch.hxx\" \"/FpC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Debug/cmake_pch.pch\" \"/FIC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Debug/cmake_pch.hxx\""
+					"fragment" : "\"/YuC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Release/cmake_pch.hxx\" \"/FpC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/Release/cmake_pch.pch\" \"/FIC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir/Release/cmake_pch.hxx\""
 				}
 			],
 			"defines" : 
@@ -209,11 +209,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "glad::@9d00860883e65ec93b8f"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "glad::@9d00860883e65ec93b8f"
 		}
 	],
 	"id" : "Engine_lib::@8f69bdd092c897d92c1e",
@@ -222,16 +222,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/DEF:Engine_lib.dir\\Debug\\exports.def",
+				"fragment" : "/DEF:Engine_lib.dir\\Release\\exports.def",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "ThirdParty\\GLAD\\Debug\\glad.lib",
+				"fragment" : "ThirdParty\\GLAD\\Release\\glad.lib",
 				"role" : "libraries"
 			},
 			{

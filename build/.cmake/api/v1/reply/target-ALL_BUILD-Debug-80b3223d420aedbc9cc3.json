@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"Engine/ThirdParty/GLAD/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,19 +17,25 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "glad::@9d00860883e65ec93b8f"
+			"id" : "Engine_lib::@8f69bdd092c897d92c1e"
+		},
+		{
+			"id" : "App::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "glad::@9d00860883e65ec93b8f"
 		}
 	],
-	"id" : "ALL_BUILD::@9d00860883e65ec93b8f",
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : "Engine/ThirdParty/GLAD",
-		"source" : "Engine/ThirdParty/GLAD"
+		"build" : ".",
+		"source" : "."
 	},
 	"sources" : [],
 	"type" : "UTILITY"
