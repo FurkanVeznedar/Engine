@@ -216,7 +216,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,7 +229,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,7 +242,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,7 +255,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\mingw64\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debog Mode",
+            "name": "Debug Mode",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/App.exe",
@@ -12,7 +12,7 @@
             "environment": [
                 {
                     "name": "PATH",
-                    "value": "${workspaceFolder}/Engine/Dependencies/GLFW;${env:PATH}"
+                    "value": "${workspaceFolder}/Engine/Dependencies/GLFW:${env:PATH}"
                 }
             ],
             "externalConsole": false

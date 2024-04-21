@@ -4,6 +4,8 @@ project(App)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
+
+
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/GLAD)
@@ -16,11 +18,18 @@ set(ENGINE_SOURCES
     src/Engine/Layer.cpp
     src/Engine/LayerStack.cpp
     src/Engine/ImGui/ImGuiLayer.cpp
-    src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp)
+    src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp
+    src/Platform/WindowsInput.cpp)
 
 add_library(Engine_lib
     SHARED
     ${ENGINE_SOURCES})
+
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    target_compile_definitions(Engine_lib PRIVATE EN_DEBUG)
+elseif (CMAKE_BUILD_TYPE STREQUAL "Release")
+    target_compile_definitions(Engine_lib PRIVATE EN_RELEASE)
+endif()
 
 target_precompile_headers(Engine_lib
     PRIVATE

@@ -74,5 +74,6 @@
         "regex": "cpp",
         "span": "cpp",
         "unordered_set": "cpp"
-    }
+    },
+    "cmake.cmakePath": "C:/cmake/bin/cmake.exe"
 }

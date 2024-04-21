@@ -1,6 +1,8 @@
 #ifndef _CORE_H_
 #define _CORE_H_
 
+#include <iostream>
+
 #ifdef EN_PLATFORM_WINDOWS
     #ifdef EN_BUILD_DLL
         #define ENGINE_API __declspec(dllexport)
@@ -10,6 +12,10 @@
 
 #else
     #error Engine only supports windows!
+#endif
+
+#ifdef EN_DEBUG
+    #define EN_ENABLE_ASSERTS
 #endif
 
 #ifdef EN_ENABLE_ASSERTS

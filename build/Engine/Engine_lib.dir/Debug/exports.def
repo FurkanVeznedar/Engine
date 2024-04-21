@@ -138,6 +138,7 @@ EXPORTS
 	??_R0?AVApplication@Engine@@@8 	 DATA
 	??_R0?AVEvent@Engine@@@8 	 DATA
 	??_R0?AVImGuiLayer@Engine@@@8 	 DATA
+	??_R0?AVInput@Engine@@@8 	 DATA
 	??_R0?AVKeyEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyPressedEvent@Engine@@@8 	 DATA
 	??_R0?AVKeyReleasedEvent@Engine@@@8 	 DATA
@@ -190,6 +191,7 @@ EXPORTS
 	?s_AppLogger@Log@Engine@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A 	 DATA
 	?s_EngineLogger@Log@Engine@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A 	 DATA
 	?s_Instance@Application@Engine@@0PEAV12@EA 	 DATA
+	?s_Instance@Input@Engine@@0PEAV12@EA 	 DATA
 	?s_instance@?1??instance@registry@details@spdlog@@SAAEAV234@XZ@4V234@A 	 DATA
 	?s_mutex@?1??mutex@console_mutex@details@spdlog@@SAAEAV1std@@XZ@4V15@A 	 DATA
 	?tid@?1??thread_id@os@details@spdlog@@YA_KXZ@4_KB 	 DATA
@@ -2950,6 +2952,9 @@ EXPORTS
 	??0ImGuiLayer@Engine@@QEAA@XZ
 	??0ImGui_ImplOpenGL3_Data@@QEAA@XZ
 	??0ImVec2@@QEAA@MM@Z
+	??0Input@Engine@@QEAA@$$QEAV01@@Z
+	??0Input@Engine@@QEAA@AEBV01@@Z
+	??0Input@Engine@@QEAA@XZ
 	??0KeyEvent@Engine@@IEAA@H@Z
 	??0KeyEvent@Engine@@QEAA@$$QEAV01@@Z
 	??0KeyEvent@Engine@@QEAA@AEBV01@@Z
@@ -3444,6 +3449,8 @@ EXPORTS
 	??4AppUpdateEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4Event@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4ImGuiLayer@Engine@@QEAAAEAV01@AEBV01@@Z
+	??4Input@Engine@@QEAAAEAV01@$$QEAV01@@Z
+	??4Input@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4KeyEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
 	??4KeyEvent@Engine@@QEAAAEAV01@AEBV01@@Z
 	??4KeyPressedEvent@Engine@@QEAAAEAV01@$$QEAV01@@Z
@@ -3800,6 +3807,150 @@ EXPORTS
 	??Yuint128_fallback@detail@v9@fmt@@QEAAXV0123@@Z
 	??_2uint128_fallback@detail@v9@fmt@@QEAAAEAV0123@H@Z
 	??_3bigint@detail@v9@fmt@@QEAAAEAV0123@H@Z
+	??_7?$A_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$A_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$B_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$B_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$C_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$C_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$D_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$D_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$E_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$E_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$F_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$F_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$H_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$H_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$I_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$I_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$M_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$M_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$R_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$R_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$S_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$S_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$T_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$T_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$Y_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$Y_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAAXAEAVEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEAVEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowCloseEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyPressedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyReleasedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVKeyTypedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVKeyTypedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonPressedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonPressedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseButtonReleasedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseButtonReleasedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseMovedEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseMovedEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVMouseScrolledEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVMouseScrolledEvent@Engine@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8ImGuiLayer@Engine@@EAA_NAEAVWindowResizeEvent@4@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@_NAEAVWindowResizeEvent@Engine@@@std@@6B@
+	??_7?$_Ref_count_obj2@V?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@@std@@6B@
+	??_7?$_Ref_count_obj2@Vlogger@spdlog@@@std@@6B@
+	??_7?$a_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$a_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$b_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$b_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$basic_memory_buffer@D$0BPE@V?$allocator@D@std@@@v9@fmt@@6B@
+	??_7?$basic_memory_buffer@D$0PK@V?$allocator@D@std@@@v9@fmt@@6B@
+	??_7?$basic_memory_buffer@H$0BPE@V?$allocator@H@std@@@v9@fmt@@6B@
+	??_7?$basic_memory_buffer@I$0CA@V?$allocator@I@std@@@v9@fmt@@6B@
+	??_7?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+	??_7?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+	??_7?$buffer@D@detail@v9@fmt@@6B@
+	??_7?$buffer@H@detail@v9@fmt@@6B@
+	??_7?$buffer@I@detail@v9@fmt@@6B@
+	??_7?$c_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$c_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$d_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$d_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$e_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$e_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Unull_scoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$elapsed_formatter@Vscoped_padder@details@spdlog@@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@@details@spdlog@@6B@
+	??_7?$f_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$f_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$iterator_buffer@V?$back_insert_iterator@V?$basic_memory_buffer@D$0PK@V?$allocator@D@std@@@v9@fmt@@@std@@DUbuffer_traits@detail@v9@fmt@@@detail@v9@fmt@@6B@
+	??_7?$level_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$level_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$m_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$m_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$mdc_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$mdc_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$name_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$name_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$numpunct@D@std@@6B@
+	??_7?$p_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$p_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$pid_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$pid_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$r_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$r_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$short_filename_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$short_filename_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$short_level_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$short_level_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_filename_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_filename_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_funcname_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_funcname_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_linenum_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_linenum_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_location_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$source_location_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$t_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$t_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$v_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$v_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$wincolor_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@6B@
+	??_7?$wincolor_stdout_sink@Uconsole_mutex@details@spdlog@@@sinks@spdlog@@6B@
+	??_7?$z_formatter@Unull_scoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7?$z_formatter@Vscoped_padder@details@spdlog@@@details@spdlog@@6B@
+	??_7AppRenderEvent@Engine@@6B@
+	??_7AppTickEvent@Engine@@6B@
+	??_7AppUpdateEvent@Engine@@6B@
+	??_7Application@Engine@@6B@
+	??_7Event@Engine@@6B@
+	??_7ImGuiLayer@Engine@@6B@
+	??_7Input@Engine@@6B@
+	??_7KeyEvent@Engine@@6B@
+	??_7KeyPressedEvent@Engine@@6B@
+	??_7KeyReleasedEvent@Engine@@6B@
+	??_7KeyTypedEvent@Engine@@6B@
+	??_7Layer@Engine@@6B@
+	??_7MouseButtonEvent@Engine@@6B@
+	??_7MouseButtonPressedEvent@Engine@@6B@
+	??_7MouseButtonReleasedEvent@Engine@@6B@
+	??_7MouseMovedEvent@Engine@@6B@
+	??_7MouseScrolledEvent@Engine@@6B@
+	??_7Window@Engine@@6B@
+	??_7WindowCloseEvent@Engine@@6B@
+	??_7WindowResizeEvent@Engine@@6B@
+	??_7WindowsWindow@Engine@@6B@
+	??_7_Generic_error_category@std@@6B@
+	??_7_System_error@std@@6B@
+	??_7aggregate_formatter@details@spdlog@@6B@
+	??_7bad_alloc@std@@6B@
+	??_7bad_array_new_length@std@@6B@
+	??_7bad_cast@std@@6B@
+	??_7ch_formatter@details@spdlog@@6B@
+	??_7color_start_formatter@details@spdlog@@6B@
+	??_7color_stop_formatter@details@spdlog@@6B@
+	??_7exception@std@@6B@
+	??_7flag_formatter@details@spdlog@@6B@
+	??_7format_error@v9@fmt@@6B@
+	??_7formatter@spdlog@@6B@
+	??_7full_formatter@details@spdlog@@6B@
+	??_7logger@spdlog@@6B@
+	??_7pattern_formatter@spdlog@@6B@
+	??_7runtime_error@std@@6B@
+	??_7sink@sinks@spdlog@@6B@
+	??_7spdlog_ex@spdlog@@6B@
+	??_7system_error@std@@6B@
 	??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
 	??_FLayer@Engine@@QEAAXXZ
 	??_H@YAXPEAX_K1P6APEAX0@Z@Z
@@ -3881,6 +4032,8 @@ EXPORTS
 	?Init@Log@Engine@@SAXXZ
 	?Init@WindowsWindow@Engine@@EEAAXAEBUWindowProps@2@@Z
 	?IsInCategory@Event@Engine@@QEAA_NW4EventCategory@2@@Z
+	?IsKeyPressed@Input@Engine@@SA_NH@Z
+	?IsKeyPressedImpl@WindowsInput@Engine@@MEAA_NH@Z
 	?IsVSync@WindowsWindow@Engine@@UEBA_NXZ
 	?OnAttach@ImGuiLayer@Engine@@UEAAXXZ
 	?OnAttach@Layer@Engine@@UEAAXXZ
