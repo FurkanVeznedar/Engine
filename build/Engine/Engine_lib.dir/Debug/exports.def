@@ -152,6 +152,7 @@ EXPORTS
 	??_R0?AVWindow@Engine@@@8 	 DATA
 	??_R0?AVWindowCloseEvent@Engine@@@8 	 DATA
 	??_R0?AVWindowResizeEvent@Engine@@@8 	 DATA
+	??_R0?AVWindowsInput@Engine@@@8 	 DATA
 	??_R0?AVWindowsWindow@Engine@@@8 	 DATA
 	??_R0?AV_Facet_base@std@@@8 	 DATA
 	??_R0?AV_Generic_error_category@std@@@8 	 DATA
@@ -197,6 +198,7 @@ EXPORTS
 	?tid@?1??thread_id@os@details@spdlog@@YA_KXZ@4_KB 	 DATA
 	__ 	 DATA
 	imgl3wProcs 	 DATA
+	??$<move>@AEAU?$pair@MM@std@@@@YA$$QEAU?$pair@MM@std@@AEAU01@@Z
 	??$?0$$BY06DH@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEAA@AEBV?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@$$BY06DH@12@@Z
 	??$?0$$BY0BG@D$0A@@?$basic_format_string@DAEAHAEAPEBD@v9@fmt@@QEAA@AEAY0BG@$$CBD@Z
 	??$?0$$BY0BP@D$0A@@?$basic_format_string@DAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBIAEBI@v9@fmt@@QEAA@AEAY0BP@$$CBD@Z
@@ -370,6 +372,7 @@ EXPORTS
 	??$?0HPEBD@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEAA@AEBV?$format_arg_store@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@HPEBD@12@@Z
 	??$?0M@?$_Compressed_pair@U?$equal_to@D@std@@M$00@std@@QEAA@U_Zero_then_variadic_args_t@1@$$QEAM@Z
 	??$?0M@?$_Compressed_pair@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@M$00@std@@QEAA@U_Zero_then_variadic_args_t@1@$$QEAM@Z
+	??$?0MM$0A@@?$pair@MM@std@@QEAA@$$QEAM0@Z
 	??$?0N@?$basic_fp@_K@detail@v9@fmt@@QEAA@N@Z
 	??$?0P8Application@Engine@@EAAXAEAVEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8Application@Engine@@EAAXAEAVEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8Application@Engine@@EAAXAEAVEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
 	??$?0P8Application@Engine@@EAA_NAEAVWindowCloseEvent@1@@ZPEAV01@AEBU?$_Ph@$00@std@@@?$_Compressed_pair@P8Application@Engine@@EAA_NAEAVWindowCloseEvent@2@@ZV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@$0A@@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAP8Application@Engine@@EAA_NAEAVWindowCloseEvent@4@@Z$$QEAPEAV34@AEBU?$_Ph@$00@1@@Z
@@ -2022,6 +2025,7 @@ EXPORTS
 	??$forward_as_tuple@AEBD@std@@YA?AV?$tuple@AEBD@0@AEBD@Z
 	??$forward_as_tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA?AV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
 	??$forward_as_tuple@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA?AV?$tuple@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$get@$00MM@std@@YA$$QEAM$$QEAU?$pair@MM@0@@Z
 	??$get@$00PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@YAAEAU?$_Ph@$00@0@AEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@$00PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@YAAEAU?$_Ph@$00@0@AEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@$0A@AEAVEvent@Engine@@@std@@YAAEAVEvent@Engine@@$$QEAV?$tuple@AEAVEvent@Engine@@@0@@Z
@@ -2034,6 +2038,7 @@ EXPORTS
 	??$get@$0A@AEAVMouseScrolledEvent@Engine@@@std@@YAAEAVMouseScrolledEvent@Engine@@$$QEAV?$tuple@AEAVMouseScrolledEvent@Engine@@@0@@Z
 	??$get@$0A@AEAVWindowCloseEvent@Engine@@@std@@YAAEAVWindowCloseEvent@Engine@@$$QEAV?$tuple@AEAVWindowCloseEvent@Engine@@@0@@Z
 	??$get@$0A@AEAVWindowResizeEvent@Engine@@@std@@YAAEAVWindowResizeEvent@Engine@@$$QEAV?$tuple@AEAVWindowResizeEvent@Engine@@@0@@Z
+	??$get@$0A@MM@std@@YA$$QEAM$$QEAU?$pair@MM@0@@Z
 	??$get@$0A@PEAVApplication@Engine@@U?$_Ph@$00@std@@@std@@YAAEAPEAVApplication@Engine@@AEAV?$tuple@PEAVApplication@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@$0A@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@std@@YAAEAPEAVImGuiLayer@Engine@@AEAV?$tuple@PEAVImGuiLayer@Engine@@U?$_Ph@$00@std@@@0@@Z
 	??$get@D@?$basic_format_args@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@v9@fmt@@QEBA?AV?$basic_format_arg@V?$basic_format_context@Vappender@v9@fmt@@D@v9@fmt@@@12@V?$basic_string_view@D@12@@Z
@@ -2996,6 +3001,7 @@ EXPORTS
 	??0WindowResizeEvent@Engine@@QEAA@$$QEAV01@@Z
 	??0WindowResizeEvent@Engine@@QEAA@AEBV01@@Z
 	??0WindowResizeEvent@Engine@@QEAA@II@Z
+	??0WindowsInput@Engine@@QEAA@XZ
 	??0WindowsWindow@Engine@@QEAA@AEBUWindowProps@1@@Z
 	??0_Basic_container_proxy_ptr12@std@@IEAA@XZ
 	??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ
@@ -3930,6 +3936,7 @@ EXPORTS
 	??_7Window@Engine@@6B@
 	??_7WindowCloseEvent@Engine@@6B@
 	??_7WindowResizeEvent@Engine@@6B@
+	??_7WindowsInput@Engine@@6B@
 	??_7WindowsWindow@Engine@@6B@
 	??_7_Generic_error_category@std@@6B@
 	??_7_System_error@std@@6B@
@@ -3987,6 +3994,12 @@ EXPORTS
 	?GetHeight@WindowsWindow@Engine@@UEBAIXZ
 	?GetKeyCode@KeyEvent@Engine@@QEBAHXZ
 	?GetMouseButton@MouseButtonEvent@Engine@@QEBAHXZ
+	?GetMousePosition@Input@Engine@@SA?AU?$pair@MM@std@@XZ
+	?GetMousePositionImpl@WindowsInput@Engine@@MEAA?AU?$pair@MM@std@@XZ
+	?GetMouseX@Input@Engine@@SAMXZ
+	?GetMouseXImpl@WindowsInput@Engine@@MEAAMXZ
+	?GetMouseY@Input@Engine@@SAMXZ
+	?GetMouseYImpl@WindowsInput@Engine@@MEAAMXZ
 	?GetName@AppRenderEvent@Engine@@UEBAPEBDXZ
 	?GetName@AppTickEvent@Engine@@UEBAPEBDXZ
 	?GetName@AppUpdateEvent@Engine@@UEBAPEBDXZ
@@ -4000,6 +4013,7 @@ EXPORTS
 	?GetName@MouseScrolledEvent@Engine@@UEBAPEBDXZ
 	?GetName@WindowCloseEvent@Engine@@UEBAPEBDXZ
 	?GetName@WindowResizeEvent@Engine@@UEBAPEBDXZ
+	?GetNativeWindow@WindowsWindow@Engine@@UEBAPEAXXZ
 	?GetRepeatCount@KeyPressedEvent@Engine@@QEBAHXZ
 	?GetStaticType@AppRenderEvent@Engine@@SA?AW4EventType@2@XZ
 	?GetStaticType@AppTickEvent@Engine@@SA?AW4EventType@2@XZ
@@ -4034,6 +4048,8 @@ EXPORTS
 	?IsInCategory@Event@Engine@@QEAA_NW4EventCategory@2@@Z
 	?IsKeyPressed@Input@Engine@@SA_NH@Z
 	?IsKeyPressedImpl@WindowsInput@Engine@@MEAA_NH@Z
+	?IsMouseButtonPressed@Input@Engine@@SA_NH@Z
+	?IsMouseButtonPressedImpl@WindowsInput@Engine@@MEAA_NH@Z
 	?IsVSync@WindowsWindow@Engine@@UEBA_NXZ
 	?OnAttach@ImGuiLayer@Engine@@UEAAXXZ
 	?OnAttach@Layer@Engine@@UEAAXXZ

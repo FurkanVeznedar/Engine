@@ -4,8 +4,6 @@ project(App)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-
-
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/GLAD)
@@ -41,7 +39,8 @@ target_include_directories(Engine_lib
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/imgui
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/spdlog/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/GLAD/include)
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/GLAD/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glm)
 
 target_link_libraries(Engine_lib
     PRIVATE

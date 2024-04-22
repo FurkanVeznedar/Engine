@@ -2,6 +2,9 @@
 #include "Engine/Application.h"
 
 #include <glad/glad.h>
+#include "Engine/Input.h"
+
+#include "glm/glm.hpp"
 
 namespace Engine {
 
@@ -52,6 +55,8 @@ namespace Engine {
             glClear(GL_COLOR_BUFFER_BIT);
 
             for(Layer* layer : m_Layerstack) layer->OnUpdate();
+
+
             m_Window->OnUpdate();
         }
     }
