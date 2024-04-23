@@ -5,5 +5,5 @@ C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/Layer.obj
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/LayerStack.obj
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/ImGuiLayer.obj
-C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/ImGuiOpenGLRenderer.obj
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/ImGuiBuild.obj
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/Engine_lib.dir/MinSizeRel/WindowsInput.obj

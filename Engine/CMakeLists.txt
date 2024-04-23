@@ -16,7 +16,7 @@ set(ENGINE_SOURCES
     src/Engine/Layer.cpp
     src/Engine/LayerStack.cpp
     src/Engine/ImGui/ImGuiLayer.cpp
-    src/Platform/OpenGL/ImGuiOpenGLRenderer.cpp
+    src/Engine/ImGui/ImGuiBuild.cpp
     src/Platform/WindowsInput.cpp)
 
 add_library(Engine_lib
@@ -48,6 +48,10 @@ target_link_libraries(Engine_lib
     imgui
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/Dependencies/GLFW/glfw3dll.lib
     opengl32.lib)
+
+target_link_libraries(Engine_lib
+    PUBLIC
+    imgui)
 
 target_compile_definitions(Engine_lib
     PRIVATE

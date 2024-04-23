@@ -198,7 +198,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for the target
-Engine_lib_LIB_DEPENDS:STATIC=general;glad;general;imgui;general;C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/../Engine/Dependencies/GLFW/glfw3dll.lib;general;opengl32.lib;
+Engine_lib_LIB_DEPENDS:STATIC=general;glad;general;imgui;general;C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/../Engine/Dependencies/GLFW/glfw3dll.lib;general;opengl32.lib;general;imgui;
 
 //Value Computed by CMake
 Glad_BINARY_DIR:STATIC=C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD
