@@ -3618,8 +3618,10 @@ EXPORTS
 	??__Fmutex@?6??err_handler_@logger@spdlog@@IEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@YAXXZ
 	??__Fs_instance@?1??instance@registry@details@spdlog@@SAAEAV123@XZ@YAXXZ
 	??__Fs_mutex@?1??mutex@console_mutex@details@spdlog@@SAAEAV0std@@XZ@YAXXZ
+	?Begin@ImGui@@YA_NPEBDPEA_NH@Z
 	?Begin@ImGuiLayer@Engine@@QEAAXXZ
 	?Create@Window@Engine@@SAPEAV12@AEBUWindowProps@2@@Z
+	?End@ImGui@@YAXXZ
 	?End@ImGuiLayer@Engine@@QEAAXXZ
 	?Get@Application@Engine@@SAAEAV12@XZ
 	?GetCategoryFlags@AppRenderEvent@Engine@@UEBAHXZ
@@ -3744,6 +3746,7 @@ EXPORTS
 	?SetTexID@ImFontAtlas@@QEAAXPEAX@Z
 	?SetVSync@WindowsWindow@Engine@@UEAAX_N@Z
 	?ShutDown@WindowsWindow@Engine@@EEAAXXZ
+	?Text@ImGui@@YAXPEBDZZ
 	?ToString@Event@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@KeyPressedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
 	?ToString@KeyReleasedEvent@Engine@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
