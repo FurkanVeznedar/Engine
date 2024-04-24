@@ -185,6 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{53B74B32-EA3C-3E15-B048-3D0711199CF9}</Project>
       <Name>glad</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\glfw.vcxproj">
+      <Project>{53746398-D255-3CBD-9F83-275D9D14FC12}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\imgui.vcxproj">
       <Project>{1BB77FDC-3B8C-3AEA-8FD0-651D1B6BB489}</Project>
       <Name>imgui</Name>

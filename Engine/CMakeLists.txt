@@ -8,6 +8,7 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/GLAD)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/imgui)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glfw)
 
 set(ENGINE_SOURCES
     src/Engine/Application.cpp
@@ -38,24 +39,23 @@ target_include_directories(Engine_lib
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/src
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/imgui
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glm
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/GLAD/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glm)
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glfw/include)
 
 target_link_libraries(Engine_lib
     PRIVATE
     glad
-    imgui
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/Dependencies/GLFW/glfw3dll.lib
-    opengl32.lib)
-
-target_link_libraries(Engine_lib
-    PUBLIC
+    glfw
     imgui)
 
 target_compile_definitions(Engine_lib
     PRIVATE
     EN_PLATFORM_WINDOWS
     EN_BUILD_DLL
-    GLFW_DLL
     GLFW_INCLUDE_NONE)
+
+target_sources(Engine_lib
+    PRIVATE
+    src/Engine.def)
