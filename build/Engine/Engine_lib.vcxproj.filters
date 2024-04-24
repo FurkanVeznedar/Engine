@@ -47,6 +47,11 @@
     <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\src\Engine.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Precompile Header File">
       <UniqueIdentifier>{5B194501-013A-3052-AAE2-580655825B17}</UniqueIdentifier>
     </Filter>
