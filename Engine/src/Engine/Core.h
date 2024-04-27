@@ -4,12 +4,15 @@
 #include <iostream>
 
 #ifdef EN_PLATFORM_WINDOWS
+#if EN_DYNAMIC_LINK
     #ifdef EN_BUILD_DLL
         #define ENGINE_API __declspec(dllexport)
     #else
         #define ENGINE_API __declspec(dllimport)
     #endif
-
+#else
+    #define ENGINE_API
+#endif
 #else
     #error Engine only supports windows!
 #endif

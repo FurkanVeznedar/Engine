@@ -11,7 +11,8 @@ add_executable(${PROJECT_NAME}
 
 target_compile_definitions(${PROJECT_NAME}
     PRIVATE
-    EN_PLATFORM_WINDOWS)
+    EN_PLATFORM_WINDOWS
+    _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS)
 
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
@@ -20,9 +21,3 @@ target_link_libraries(${PROJECT_NAME}
 target_include_directories(${PROJECT_NAME}
     PRIVATE
     ${CMAKE_SOURCE_DIR}/Engine/src)
-
-add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy -t $<TARGET_FILE_DIR:${PROJECT_NAME}> 
-        $<TARGET_RUNTIME_DLLS:${PROJECT_NAME}>
-    COMMAND_EXPAND_LISTS)
-

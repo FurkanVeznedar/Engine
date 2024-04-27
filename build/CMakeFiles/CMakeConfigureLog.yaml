@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 24/04/2024 22:49:32.
+      Build started 25/04/2024 20:47:06.
       
       Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -62,7 +62,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.87
+      Time Elapsed 00:00:00.84
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -88,7 +88,7 @@ events:
       The output was:
       0
       MSBuild version 17.8.5+b5265ef37 for .NET Framework
-      Build started 24/04/2024 22:49:33.
+      Build started 25/04/2024 20:47:07.
       
       Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -145,8 +145,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-yy13fv"
-      binary: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-yy13fv"
+      source: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-t43hl3"
+      binary: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-t43hl3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -154,49 +154,49 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-yy13fv'
+        Change Dir: 'C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-t43hl3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36f49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28b70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 24/04/2024 22:49:34.
+        Build started 25/04/2024 20:47:08.
         
-        Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\cmTC_36f49.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\cmTC_28b70.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_36f49.dir\\Debug\\".
+          Creating directory "cmTC_28b70.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\".
-          Creating directory "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\".
+          Creating directory "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\".
+          Creating directory "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\unsuccessfulbuild".
+          Creating "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36f49.dir\\Debug\\\\" /Fd"cmTC_36f49.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28b70.dir\\Debug\\\\" /Fd"cmTC_28b70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36f49.dir\\Debug\\\\" /Fd"cmTC_36f49.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28b70.dir\\Debug\\\\" /Fd"cmTC_28b70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\cmTC_36f49.exe" /INCREMENTAL /ILK:"cmTC_36f49.dir\\Debug\\cmTC_36f49.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-yy13fv/Debug/cmTC_36f49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-yy13fv/Debug/cmTC_36f49.lib" /MACHINE:X64  /machine:x64 cmTC_36f49.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_36f49.vcxproj -> C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\cmTC_36f49.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\cmTC_28b70.exe" /INCREMENTAL /ILK:"cmTC_28b70.dir\\Debug\\cmTC_28b70.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-t43hl3/Debug/cmTC_28b70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-t43hl3/Debug/cmTC_28b70.lib" /MACHINE:X64  /machine:x64 cmTC_28b70.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_28b70.vcxproj -> C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\cmTC_28b70.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\cmTC_36f49.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\cmTC_36f49.write.1u.tlog" "cmTC_36f49.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\cmTC_28b70.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\cmTC_28b70.write.1u.tlog" "cmTC_28b70.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\cmTC_36f49.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\cmTC_36f49.write.1u.tlog" "cmTC_36f49.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\Debug\\cmTC_36f49.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\cmTC_36f49.write.1u.tlog" "cmTC_36f49.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\cmTC_28b70.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\cmTC_28b70.write.1u.tlog" "cmTC_28b70.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\Debug\\cmTC_28b70.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\cmTC_28b70.write.1u.tlog" "cmTC_28b70.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\unsuccessfulbuild".
-          Touching "cmTC_36f49.dir\\Debug\\cmTC_36f49.tlog\\cmTC_36f49.lastbuildstate".
-        Done Building Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yy13fv\\cmTC_36f49.vcxproj" (default targets).
+          Deleting file "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\unsuccessfulbuild".
+          Touching "cmTC_28b70.dir\\Debug\\cmTC_28b70.tlog\\cmTC_28b70.lastbuildstate".
+        Done Building Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t43hl3\\cmTC_28b70.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.81
+        Time Elapsed 00:00:00.80
         
       exitCode: 0
   -
@@ -208,8 +208,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjs1o0"
-      binary: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjs1o0"
+      source: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-cddymr"
+      binary: "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-cddymr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -217,49 +217,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjs1o0'
+        Change Dir: 'C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-cddymr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2bc82.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a92a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.8.5+b5265ef37 for .NET Framework
-        Build started 24/04/2024 22:49:35.
+        Build started 25/04/2024 20:47:09.
         
-        Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\cmTC_2bc82.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\cmTC_a92a0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2bc82.dir\\Debug\\".
+          Creating directory "cmTC_a92a0.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\".
-          Creating directory "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\".
+          Creating directory "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\".
+          Creating directory "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2bc82.dir\\Debug\\\\" /Fd"cmTC_2bc82.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a92a0.dir\\Debug\\\\" /Fd"cmTC_a92a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2bc82.dir\\Debug\\\\" /Fd"cmTC_2bc82.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a92a0.dir\\Debug\\\\" /Fd"cmTC_a92a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\cmTC_2bc82.exe" /INCREMENTAL /ILK:"cmTC_2bc82.dir\\Debug\\cmTC_2bc82.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjs1o0/Debug/cmTC_2bc82.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjs1o0/Debug/cmTC_2bc82.lib" /MACHINE:X64  /machine:x64 cmTC_2bc82.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_2bc82.vcxproj -> C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\cmTC_2bc82.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\cmTC_a92a0.exe" /INCREMENTAL /ILK:"cmTC_a92a0.dir\\Debug\\cmTC_a92a0.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-cddymr/Debug/cmTC_a92a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/CMakeScratch/TryCompile-cddymr/Debug/cmTC_a92a0.lib" /MACHINE:X64  /machine:x64 cmTC_a92a0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a92a0.vcxproj -> C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\cmTC_a92a0.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\cmTC_2bc82.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\cmTC_2bc82.write.1u.tlog" "cmTC_2bc82.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\cmTC_a92a0.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\cmTC_a92a0.write.1u.tlog" "cmTC_a92a0.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\cmTC_2bc82.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\cmTC_2bc82.write.1u.tlog" "cmTC_2bc82.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\Debug\\cmTC_2bc82.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\cmTC_2bc82.write.1u.tlog" "cmTC_2bc82.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\cmTC_a92a0.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\cmTC_a92a0.write.1u.tlog" "cmTC_a92a0.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\Debug\\cmTC_a92a0.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\cmTC_a92a0.write.1u.tlog" "cmTC_a92a0.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2bc82.dir\\Debug\\cmTC_2bc82.tlog\\cmTC_2bc82.lastbuildstate".
-        Done Building Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjs1o0\\cmTC_2bc82.vcxproj" (default targets).
+          Deleting file "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a92a0.dir\\Debug\\cmTC_a92a0.tlog\\cmTC_a92a0.lastbuildstate".
+        Done Building Project "C:\\Users\\furka\\Desktop\\Furkan VEZNEDAR\\03-Programming\\11-FEAEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddymr\\cmTC_a92a0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.86
+        Time Elapsed 00:00:00.83
         
       exitCode: 0
 ...

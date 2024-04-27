@@ -1,6 +1,8 @@
 #ifndef _ENPCH_H_
 #define _ENPCH_H_
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <iostream>
 #include <memory>
 #include <utility>

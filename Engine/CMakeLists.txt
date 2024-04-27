@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/GLAD)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glad)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/imgui)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glfw)
 
@@ -18,10 +18,15 @@ set(ENGINE_SOURCES
     src/Engine/LayerStack.cpp
     src/Engine/ImGui/ImGuiLayer.cpp
     src/Engine/ImGui/ImGuiBuild.cpp
-    src/Platform/WindowsInput.cpp)
+    src/Platform/WindowsInput.cpp
+    src/Platform/OpenGL/OpenGLContext.cpp
+    src/Engine/Renderer/Shader.cpp
+    src/Engine/Renderer/Buffer.cpp
+    src/Engine/Renderer/Renderer.cpp
+    src/Platform/OpenGL/OpenGLBuffer.cpp)
 
 add_library(Engine_lib
-    SHARED
+    STATIC
     ${ENGINE_SOURCES})
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
@@ -30,10 +35,6 @@ elseif (CMAKE_BUILD_TYPE STREQUAL "Release")
     target_compile_definitions(Engine_lib PRIVATE EN_RELEASE)
 endif()
 
-target_precompile_headers(Engine_lib
-    PRIVATE
-    src/Enpch.h)
-
 target_include_directories(Engine_lib
     PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/src
@@ -41,7 +42,7 @@ target_include_directories(Engine_lib
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/imgui
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glm
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/spdlog/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/GLAD/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glfw/include)
 
 target_link_libraries(Engine_lib
@@ -53,9 +54,5 @@ target_link_libraries(Engine_lib
 target_compile_definitions(Engine_lib
     PRIVATE
     EN_PLATFORM_WINDOWS
-    EN_BUILD_DLL
-    GLFW_INCLUDE_NONE)
-
-target_sources(Engine_lib
-    PRIVATE
-    src/Engine.def)
+    GLFW_INCLUDE_NONE
+    _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS)

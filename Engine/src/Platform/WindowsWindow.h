@@ -2,8 +2,9 @@
 #define _WINDOWSWINDOW_H_
 
 #include "Engine/Window.h"
+#include "Engine/Renderer/RenderingContext.h"
 
-#include "GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 
 namespace Engine {
 
@@ -29,6 +30,7 @@ namespace Engine {
         virtual void ShutDown();
     private:
         GLFWwindow* m_Window;
+        RenderingContext* m_Context;
 
         struct WindowData
         {
