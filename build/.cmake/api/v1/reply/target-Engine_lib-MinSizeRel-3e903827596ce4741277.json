@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Engine/Release/Engine_lib.lib"
+			"path" : "Engine/MinSizeRel/Engine_lib.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -66,7 +66,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
 				}
 			],
 			"defines" : 
@@ -146,15 +146,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "glad::@9d00860883e65ec93b8f"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "imgui::@22b7c08d0f2ced739b64"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@9e1fcc0fa4bf278045c7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glad::@9d00860883e65ec93b8f"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
