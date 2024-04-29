@@ -23,7 +23,9 @@ set(ENGINE_SOURCES
     src/Engine/Renderer/Shader.cpp
     src/Engine/Renderer/Buffer.cpp
     src/Engine/Renderer/Renderer.cpp
-    src/Platform/OpenGL/OpenGLBuffer.cpp)
+    src/Platform/OpenGL/OpenGLBuffer.cpp
+    src/Engine/Renderer/VertexArray.cpp
+    src/Platform/OpenGL/OpenGLVertexArray.cpp)
 
 add_library(Engine_lib
     STATIC
@@ -55,4 +57,5 @@ target_compile_definitions(Engine_lib
     PRIVATE
     EN_PLATFORM_WINDOWS
     GLFW_INCLUDE_NONE
+    EN_ENABLE_ASSERTS
     _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS)
