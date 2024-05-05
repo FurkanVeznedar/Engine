@@ -5,7 +5,7 @@
 
 namespace Engine {
 
-    class ENGINE_API MouseMovedEvent : public Event
+    class MouseMovedEvent : public Event
     {
     public:
         MouseMovedEvent(float x, float y)
@@ -27,7 +27,7 @@ namespace Engine {
         float m_MouseX, m_MouseY;
     };
 
-    class ENGINE_API MouseScrolledEvent : public Event
+    class MouseScrolledEvent : public Event
     {
     public:
         MouseScrolledEvent(float xoffset, float yoffset)
@@ -49,7 +49,7 @@ namespace Engine {
         float m_XOffSet, m_YOffSet;
     };
 
-    class ENGINE_API MouseButtonEvent : public Event
+    class MouseButtonEvent : public Event
     {
     public:
         inline int GetMouseButton() const { return m_Button; }
@@ -61,7 +61,7 @@ namespace Engine {
         int m_Button;
     };
 
-    class ENGINE_API MouseButtonPressedEvent : public MouseButtonEvent
+    class MouseButtonPressedEvent : public MouseButtonEvent
     {
     public:
         MouseButtonPressedEvent(int button)
@@ -77,7 +77,7 @@ namespace Engine {
         EVENT_CLASS_TYPE(MouseButtonPressed)
     };
 
-    class ENGINE_API MouseButtonReleasedEvent : public MouseButtonEvent
+    class MouseButtonReleasedEvent : public MouseButtonEvent
     {
     public:
         MouseButtonReleasedEvent(int button)

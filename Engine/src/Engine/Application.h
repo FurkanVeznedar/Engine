@@ -4,6 +4,7 @@
 #include "Engine/Core.h"
 #include "Engine/Events/Event.h"
 #include "Engine/Events/ApplicationEvent.h"
+#include "Engine/Events/KeyEvent.h"
 #include "Engine/Window.h"
 #include "Engine/LayerStack.h"
 
@@ -12,10 +13,11 @@
 #include "Engine/Renderer/Shader.h"
 #include "Engine/Renderer/Buffer.h"
 #include "Engine/Renderer/VertexArray.h"
+#include "Engine/Renderer/Camera.h"
 
 namespace Engine {
 
-    class ENGINE_API Application
+    class Application
     {
     public:
         Application();
@@ -34,6 +36,7 @@ namespace Engine {
         bool OnWindowClose(WindowCloseEvent &e);
 
         std::unique_ptr<Window> m_Window;
+        int m_WindowWidth, m_WindowHeight;
         ImGuiLayer* m_ImGuiLayer;
         bool m_Running = true;
         LayerStack m_Layerstack;
@@ -43,6 +46,8 @@ namespace Engine {
 
         std::shared_ptr<Shader> m_BlueShader;
         std::shared_ptr<VertexArray> m_SquareVA;
+
+        std::shared_ptr<Camera> m_Camera;
 
         static Application* s_Instance;
     };

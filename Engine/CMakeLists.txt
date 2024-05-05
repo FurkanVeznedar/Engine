@@ -25,7 +25,11 @@ set(ENGINE_SOURCES
     src/Engine/Renderer/Renderer.cpp
     src/Platform/OpenGL/OpenGLBuffer.cpp
     src/Engine/Renderer/VertexArray.cpp
-    src/Platform/OpenGL/OpenGLVertexArray.cpp)
+    src/Platform/OpenGL/OpenGLVertexArray.cpp
+    src/Engine/Renderer/RendererAPI.cpp
+    src/Engine/Renderer/RenderCommand.cpp
+    src/Platform/OpenGL/OpenGLRendererAPI.cpp
+    src/Engine/Renderer/Camera.cpp)
 
 add_library(Engine_lib
     STATIC
@@ -55,7 +59,6 @@ target_link_libraries(Engine_lib
 
 target_compile_definitions(Engine_lib
     PRIVATE
-    EN_PLATFORM_WINDOWS
-    GLFW_INCLUDE_NONE
     EN_ENABLE_ASSERTS
+    GLFW_INCLUDE_NONE
     _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS)

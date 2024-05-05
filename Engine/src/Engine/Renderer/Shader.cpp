@@ -5,109 +5,84 @@
 
 namespace Engine {
 
-    Shader::Shader(const std::string& VertexSrc, const std::string& FragmentSrc)
+    Shader::Shader(const std::string& vertexpath, const std::string& fragmentpath)
     {
-        // Create an empty vertex shader handle
-        GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
-
-        // Send the vertex shader source code to GL
-        // Note that std::string's .c_str is NULL character terminated.
-        const GLchar *source = VertexSrc.c_str();
-        glShaderSource(vertexShader, 1, &source, 0);
-
-        // Compile the vertex shader
-        glCompileShader(vertexShader);
-
-        // Checking vertexshader is compiled or not
-        GLint isCompiled = 0;
-        glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &isCompiled);
-        if(isCompiled == GL_FALSE)
+        // 1. retrieve the vertex/fragment source code from filePath
+        std::string vertexCode;
+        std::string fragmentCode;
+        std::ifstream vShaderFile;
+        std::ifstream fShaderFile;
+        // ensure ifstream objects can throw exceptions:
+        vShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
+        fShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
+        try 
         {
-            GLint maxLength = 0;
-            glGetShaderiv(vertexShader, GL_INFO_LOG_LENGTH, &maxLength);
-
-            // The maxLength includes the NULL character
-            std::vector<GLchar> infoLog(maxLength);
-            glGetShaderInfoLog(vertexShader, maxLength, &maxLength, &infoLog[0]);
-            
-            // We don't need the shader anymore.
-            glDeleteShader(vertexShader);
-
-            EN_ENGINE_ERROR("{0}", infoLog.data());
-            EN_ENGINE_ASSERT(false,"Vertex shader compilation failure!")
-            return;
+            // open files
+            vShaderFile.open(vertexpath);
+            fShaderFile.open(fragmentpath);
+            std::stringstream vShaderStream, fShaderStream;
+            // read file's buffer contents into streams
+            vShaderStream << vShaderFile.rdbuf();
+            fShaderStream << fShaderFile.rdbuf();		
+            // close file handlers
+            vShaderFile.close();
+            fShaderFile.close();
+            // convert stream into string
+            vertexCode   = vShaderStream.str();
+            fragmentCode = fShaderStream.str();
         }
-
-        // Create an empty fragment shader handle
-        GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-
-        // Send the fragment shader source code to GL
-        // Note that std::string's .c_str is NULL character terminated.
-        source = (const GLchar *)FragmentSrc.c_str();
-        glShaderSource(fragmentShader, 1, &source, 0);
-
-        // Compile the fragment shader
-        glCompileShader(fragmentShader);
-
-        glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &isCompiled);
-        if (isCompiled == GL_FALSE)
+        catch(std::ifstream::failure e)
         {
-            GLint maxLength = 0;
-            glGetShaderiv(fragmentShader, GL_INFO_LOG_LENGTH, &maxLength);
-
-            // The maxLength includes the NULL character
-            std::vector<GLchar> infoLog(maxLength);
-            glGetShaderInfoLog(fragmentShader, maxLength, &maxLength, &infoLog[0]);
-            
-            // We don't need the shader anymore.
-            glDeleteShader(fragmentShader);
-            // Either of them. Don't leak shaders.
-            glDeleteShader(vertexShader);
-
-            EN_ENGINE_ERROR("{0}", infoLog.data());
-            EN_ENGINE_ASSERT(false,"Fragment shader compilation failure!")
-            return;
+            EN_ENGINE_ERROR("ERROR::SHADER::FILE_NOT_SUCCESSFULLY_READ, {0}", e.what());
         }
+        const char* vShaderCode = vertexCode.c_str();
+        const char* fShaderCode = fragmentCode.c_str();
 
-        // Vertex and fragment shaders are successfully compiled.
-        // Now time to link them together into a program.
-        // Get a program object.
+        // 2. compile shaders
+        unsigned int vertex, fragment;
+        int success;
+        char infoLog[512];
+        
+        // vertex Shader
+        vertex = glCreateShader(GL_VERTEX_SHADER);
+        glShaderSource(vertex, 1, &vShaderCode, NULL);
+        glCompileShader(vertex);
+        // print compile errors if any
+        glGetShaderiv(vertex, GL_COMPILE_STATUS, &success);
+        if(!success)
+        {
+            glGetShaderInfoLog(vertex, 512, NULL, infoLog);
+            EN_ENGINE_ERROR("ERROR::SHADER::VERTEX::COMPILATION_FAILED, {0}", infoLog);
+        };
+        
+        // similiar for Fragment Shader
+        fragment = glCreateShader(GL_FRAGMENT_SHADER);
+        glShaderSource(fragment, 1, &fShaderCode, NULL);
+        glCompileShader(fragment);
+
+        glGetShaderiv(fragment, GL_COMPILE_STATUS, &success);
+        if(!success)
+        {
+            glGetShaderInfoLog(vertex, 512, NULL, infoLog);
+            EN_ENGINE_ERROR("ERROR::SHADER::FRAGMENT::COMPILATION_FAILED, {0}", infoLog);
+        };
+        
+        // shader Program
         m_RendererID = glCreateProgram();
-        GLuint program = m_RendererID;
-
-        // Attach our shaders to our program
-        glAttachShader(program, vertexShader);
-        glAttachShader(program, fragmentShader);
-
-        // Link our program
-        glLinkProgram(program);
-
-        // Note the different functions here: glGetProgram* instead of glGetShader*.
-        GLint isLinked = 0;
-        glGetProgramiv(program, GL_LINK_STATUS, (int *)&isLinked);
-        if (isLinked == GL_FALSE)
+        glAttachShader(m_RendererID, vertex);
+        glAttachShader(m_RendererID, fragment);
+        glLinkProgram(m_RendererID);
+        // print linking errors if any
+        glGetProgramiv(m_RendererID, GL_LINK_STATUS, &success);
+        if(!success)
         {
-            GLint maxLength = 0;
-            glGetProgramiv(program, GL_INFO_LOG_LENGTH, &maxLength);
-
-            // The maxLength includes the NULL character
-            std::vector<GLchar> infoLog(maxLength);
-            glGetProgramInfoLog(program, maxLength, &maxLength, &infoLog[0]);
-            
-            // We don't need the program anymore.
-            glDeleteProgram(program);
-            // Don't leak shaders either.
-            glDeleteShader(vertexShader);
-            glDeleteShader(fragmentShader);
-
-            EN_ENGINE_ERROR("{0}", infoLog.data());
-            EN_ENGINE_ASSERT(false,"Shader link failure!")
-            return;
+            glGetProgramInfoLog(m_RendererID, 512, NULL, infoLog);
+            EN_ENGINE_ERROR("ERROR::SHADER::PROGRAM::COMPILATION_FAILED, {0}", infoLog);
         }
-
-        // Always detach shaders after a successful link.
-        glDetachShader(program, vertexShader);
-        glDetachShader(program, fragmentShader);
+        
+        // delete the shaders as they're linked into our program now and no longer necessary
+        glDeleteShader(vertex);
+        glDeleteShader(fragment);
     }
 
     Shader::~Shader()
@@ -115,13 +90,88 @@ namespace Engine {
         glDeleteProgram(m_RendererID);
     }
 
-    void Shader::Bind() const
+    void Shader::Use() const
     {
         glUseProgram(m_RendererID);
     }
     
-    void Shader::Unbind() const
+    void Shader::Unuse() const
     {
         glUseProgram(0);
     }
+
+    void Shader::SetBool(const std::string &name, bool value) const
+    {
+        glUniform1i(GetUniformLoc(name), static_cast<int>(value));
+    }
+
+    void Shader::SetInt(const std::string &name, int value) const
+    {
+        glUniform1i(GetUniformLoc(name), value); 
+    }
+    
+    void Shader::SetFloat(const std::string &name, float value) const
+    {
+        glUniform1f(GetUniformLoc(name), value); 
+    }
+    
+    void Shader::SetVec2(const std::string &name, const glm::vec2 &value) const
+    {
+        glUniform2fv(GetUniformLoc(name), 1, &value[0]);
+    }
+    
+    void Shader::SetVec2(const std::string &name, float x, float y) const
+    {
+        glUniform2f(GetUniformLoc(name), x, y);
+    }
+    
+    void Shader::SetVec3(const std::string &name, const glm::vec3 &value) const
+    {
+        glUniform3fv(GetUniformLoc(name), 1, &value[0]);
+    }
+    
+    void Shader::SetVec3(const std::string &name, float x, float y, float z) const
+    {
+        glUniform3f(GetUniformLoc(name), x, y, z);
+    }
+    
+    void Shader::SetVec4(const std::string &name, const glm::vec4 &value) const
+    {
+        glUniform4fv(GetUniformLoc(name), 1, &value[0]);
+    }
+    
+    void Shader::SetVec4(const std::string &name, float x, float y, float z, float w) const
+    {
+        glUniform4f(GetUniformLoc(name), x, y, z, w);
+    }
+    
+    void Shader::SetMat2(const std::string &name, const glm::mat2 &mat) const
+    {
+        glUniformMatrix2fv(GetUniformLoc(name), 1, GL_FALSE, &mat[0][0]);
+    }
+    
+    void Shader::SetMat3(const std::string &name, const glm::mat3 &mat) const
+    {
+        glUniformMatrix3fv(GetUniformLoc(name), 1, GL_FALSE, &mat[0][0]);
+    }
+    
+    void Shader::SetMat4(const std::string &name, const glm::mat4 &mat) const
+    {
+        glUniformMatrix4fv(GetUniformLoc(name), 1, GL_FALSE, &mat[0][0]);
+    }
+
+    unsigned int Shader::GetUniformLoc(const std::string& name) const
+    {
+        unsigned int location = glGetUniformLocation(m_RendererID, name.c_str());
+
+        if(location == -1)
+        {
+            EN_ENGINE_ERROR("Uniform Location Could NOT Find!");
+            return 0;
+        } else
+        {
+            return location;
+        }
+    }
+    
 }

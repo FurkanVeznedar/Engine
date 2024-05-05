@@ -115,7 +115,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Engine\Debug\Engine_lib.lib;Engine\ThirdParty\GLAD\Debug\glad.lib;Engine\ThirdParty\glfw\Debug\glfw.lib;Engine\ThirdParty\imgui\Debug\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Engine\Debug\Engine_lib.lib;Engine\ThirdParty\glad\Debug\glad.lib;Engine\ThirdParty\glfw\Debug\glfw.lib;Engine\ThirdParty\imgui\Debug\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -159,7 +159,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Engine\Release\Engine_lib.lib;Engine\ThirdParty\GLAD\Release\glad.lib;Engine\ThirdParty\glfw\Release\glfw.lib;Engine\ThirdParty\imgui\Release\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Engine\Release\Engine_lib.lib;Engine\ThirdParty\glad\Release\glad.lib;Engine\ThirdParty\glfw\Release\glfw.lib;Engine\ThirdParty\imgui\Release\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -203,7 +203,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Engine\MinSizeRel\Engine_lib.lib;Engine\ThirdParty\GLAD\MinSizeRel\glad.lib;Engine\ThirdParty\glfw\MinSizeRel\glfw.lib;Engine\ThirdParty\imgui\MinSizeRel\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Engine\MinSizeRel\Engine_lib.lib;Engine\ThirdParty\glad\MinSizeRel\glad.lib;Engine\ThirdParty\glfw\MinSizeRel\glfw.lib;Engine\ThirdParty\imgui\MinSizeRel\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -246,7 +246,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>Engine\RelWithDebInfo\Engine_lib.lib;Engine\ThirdParty\GLAD\RelWithDebInfo\glad.lib;Engine\ThirdParty\glfw\RelWithDebInfo\glfw.lib;Engine\ThirdParty\imgui\RelWithDebInfo\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Engine\RelWithDebInfo\Engine_lib.lib;Engine\ThirdParty\glad\RelWithDebInfo\glad.lib;Engine\ThirdParty\glfw\RelWithDebInfo\glfw.lib;Engine\ThirdParty\imgui\RelWithDebInfo\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -330,7 +330,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CCA686B1-5414-3C0A-B9FD-A1CA22490A8A}</Project>
       <Name>Engine_lib</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\GLAD\glad.vcxproj">
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glad\glad.vcxproj">
       <Project>{53B74B32-EA3C-3E15-B048-3D0711199CF9}</Project>
       <Name>glad</Name>
     </ProjectReference>

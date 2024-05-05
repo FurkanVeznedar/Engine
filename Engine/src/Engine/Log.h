@@ -37,9 +37,9 @@ and users must comply to its license: https://raw.githubusercontent.com/fmtlib/f
 #include "spdlog/fmt/ostr.h"
 
 namespace Engine {
-    // template class ENGINE_API std::shared_ptr<spdlog::logger>;
+    // template class std::shared_ptr<spdlog::logger>;
 
-    class ENGINE_API Log
+    class Log
     {
     private:
         static std::shared_ptr<spdlog::logger> s_EngineLogger;
@@ -47,6 +47,11 @@ namespace Engine {
     public:
 
         static void Init();
+
+        static std::string GetAssetsDir();
+        static std::string GetShadersDir();
+        static std::string GetImagesDir();
+        static std::string GetFilesDir();
 
         inline static std::shared_ptr<spdlog::logger>& GetEngineLogger() { return s_EngineLogger; }
         inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_AppLogger; }

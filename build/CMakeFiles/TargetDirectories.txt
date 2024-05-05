@@ -2,8 +2,8 @@ C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFi
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/CMakeFiles/Engine_lib.dir
-C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD/CMakeFiles/glad.dir
-C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD/CMakeFiles/ALL_BUILD.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glad/CMakeFiles/glad.dir
+C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glad/CMakeFiles/ALL_BUILD.dir
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/imgui.dir
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/ALL_BUILD.dir
 C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/CMakeFiles/glfw.dir

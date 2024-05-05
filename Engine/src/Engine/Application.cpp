@@ -1,10 +1,10 @@
 #include "Enpch.h"
 #include "Engine/Application.h"
 
-#include <glad/glad.h>
 #include "Engine/Input.h"
+#include "Engine/KeyCodes.h"
 
-#include "glm/glm.hpp"
+#include "Engine/Renderer/Renderer.h"
 
 namespace Engine {
 
@@ -17,6 +17,8 @@ namespace Engine {
 
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallBack(EN_BIND_EVENT_FN(Application::OnEvent));
+        m_WindowWidth = m_Window->GetWidth();
+        m_WindowHeight = m_Window->GetHeight();
 
         m_ImGuiLayer = new ImGuiLayer();
         PushOverLay(m_ImGuiLayer);
@@ -48,16 +50,17 @@ namespace Engine {
         m_SquareVA.reset(VertexArray::Create());
 
         float squarevertices[] = {
-            -0.75f, -0.75f, 0.0f,
-             0.75f, -0.75f, 0.0f,
-             0.75f,  0.75f, 0.0f,
-            -0.75f,  0.75f, 0.0f
+            -0.75f, -0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.75f, -0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.75f,  0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+            -0.75f,  0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f
         };
 
         std::shared_ptr<VertexBuffer> SquareVB;
         SquareVB.reset(VertexBuffer::Create(squarevertices, sizeof(squarevertices)));
         SquareVB->SetLayout({
             { ShaderDataType::Float3, "a_Position"},
+            { ShaderDataType::Float4, "a_Color"}
         });
         m_SquareVA->AddVertexBuffer(SquareVB);
 
@@ -68,68 +71,10 @@ namespace Engine {
         SquareIB.reset(IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t)));
         m_SquareVA->SetIndexBuffer(SquareIB);
 
-        std::string VertexSrc = R"(
-            #version 330 core
+        m_Shader.reset(new Shader(Log::GetShadersDir() + "VertexSrc.txt", Log::GetShadersDir() + "FragmentSrc.txt"));
+        m_BlueShader.reset(new Shader(Log::GetShadersDir() + "VertexSrc.txt", Log::GetShadersDir() + "FragmentSrc.txt"));
 
-            layout(location = 0) in vec3 a_Position;
-            layout(location = 1) in vec4 a_Color;
-
-            out vec3 v_Position;
-            out vec4 v_Color;
-
-            void main()
-            {
-                v_Position = a_Position;
-                v_Color = a_Color;
-                gl_Position = vec4(a_Position, 1.0);
-            }
-        )";
-
-        std::string FragmentSrc = R"(
-            #version 330 core
-
-            layout(location = 0) out vec4 color;
-
-            in vec3 v_Position;
-            in vec4 v_Color;
-
-            void main()
-            {
-                color = vec4(v_Position * 0.5 + 0.5, 1.0);
-                color = v_Color;
-            }
-        )";
-
-        std::string BlueVertexSrc = R"(
-            #version 330 core
-
-            layout(location = 0) in vec3 a_Position;
-
-            out vec3 v_Position;
-
-            void main()
-            {
-                v_Position = a_Position;
-                gl_Position = vec4(a_Position, 1.0);
-            }
-        )";
-
-        std::string BlueFragmentSrc = R"(
-            #version 330 core
-
-            layout(location = 0) out vec4 color;
-
-            in vec3 v_Position;
-
-            void main()
-            {
-                color = vec4(0.2, 0.3, 0.8, 1.0);
-            }
-        )";
-
-        m_Shader.reset(new Shader(VertexSrc, FragmentSrc));
-        m_BlueShader.reset(new Shader(BlueVertexSrc, BlueFragmentSrc));
-
+        m_Camera.reset(new Camera(static_cast<float>(m_WindowWidth), static_cast<float>(m_WindowHeight)));
     }
 
     Application::~Application()
@@ -164,16 +109,16 @@ namespace Engine {
     {
         while(m_Running)
         {
-            glClearColor(0.1f, 0.1f, 0.1f, 1);
-            glClear(GL_COLOR_BUFFER_BIT);
 
-            m_BlueShader->Bind();
-            m_SquareVA->Bind();
-            glDrawElements(GL_TRIANGLES, m_SquareVA->GetIndexBuffers()->GetCount(), GL_UNSIGNED_INT, nullptr);
+            RenderCommand::SetClearColor({0.1f, 0.1f, 0.1f, 1.0f});
+            RenderCommand::Clear();
 
-            m_Shader->Bind();
-            m_VertexArray->Bind();
-            glDrawElements(GL_TRIANGLES, m_VertexArray->GetIndexBuffers()->GetCount(), GL_UNSIGNED_INT, nullptr);
+            Renderer::BeginScene(m_Camera);
+            
+            Renderer::SubmitGeometry(m_BlueShader, m_SquareVA);
+            Renderer::SubmitGeometry(m_Shader, m_VertexArray);
+
+            Renderer::EndScene();
 
             for(Layer* layer : m_Layerstack) layer->OnUpdate();
 

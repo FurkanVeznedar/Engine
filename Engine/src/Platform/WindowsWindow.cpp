@@ -147,6 +147,7 @@ namespace Engine {
     {
         return m_Data.Width;
     }
+
     inline unsigned int WindowsWindow::GetHeight() const
     {
         return m_Data.Height;

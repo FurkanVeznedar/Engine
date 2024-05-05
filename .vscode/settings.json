@@ -77,7 +77,9 @@
         "filesystem": "cpp",
         "variant": "cpp",
         "random": "cpp",
-        "memory_resource": "cpp"
+        "memory_resource": "cpp",
+        "complex": "cpp",
+        "numeric": "cpp"
     },
     "cmake.cmakePath": "C:/cmake/bin/cmake.exe"
 }

@@ -181,7 +181,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CCA686B1-5414-3C0A-B9FD-A1CA22490A8A}</Project>
       <Name>Engine_lib</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\GLAD\glad.vcxproj">
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glad\glad.vcxproj">
       <Project>{53B74B32-EA3C-3E15-B048-3D0711199CF9}</Project>
       <Name>glad</Name>
     </ProjectReference>

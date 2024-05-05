@@ -201,7 +201,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Engine_lib_LIB_DEPENDS:STATIC=general;glad;general;glfw;general;imgui;
 
 //Value Computed by CMake
-Glad_BINARY_DIR:STATIC=C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/GLAD
+Glad_BINARY_DIR:STATIC=C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glad
 
 //Value Computed by CMake
 Glad_IS_TOP_LEVEL:STATIC=OFF
