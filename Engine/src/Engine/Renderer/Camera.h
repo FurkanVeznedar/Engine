@@ -2,6 +2,7 @@
 #define _CAMERA_H_
 
 #include "Engine/Renderer/Shader.h"
+#include "Engine/Core/DeltaTime.h"
 
 namespace Engine {
 
@@ -32,7 +33,7 @@ namespace Engine {
         glm::mat4 m_ProjectionMatrix = glm::mat4(1.0f);
 
         glm::vec3 CameraPos, CameraFront, CameraUp;
-        float DeltaTime, LastFrame, CurrentFrame;
+        float LastFrame = 0.0f;
         
         float LastCursorPosX, LastCursorPosY;
         float yaw, pitch, fov;

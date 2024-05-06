@@ -22,7 +22,6 @@ namespace Engine
         CameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
         CameraUp = glm::vec3(0.0f, 1.0f,  0.0f);
 
-        DeltaTime = 0.0f;
         LastFrame = 0.0f;
 
         //Initialize Mouse Control Variables
@@ -65,16 +64,16 @@ namespace Engine
 
     void Camera::KeyCallBack()
     {
-        CurrentFrame = static_cast<float>(glfwGetTime());
-        DeltaTime = CurrentFrame - LastFrame;
+        float CurrentFrame = static_cast<float>(glfwGetTime());
+        DeltaTime m_DeltaTime = CurrentFrame - LastFrame;
         LastFrame = CurrentFrame;
 
-        float CameraSpeed = 2.5f * DeltaTime;
+        float CameraSpeed = 2.5f * m_DeltaTime;
 
         if(Input::IsKeyPressed(EN_KEY_W)) CameraPos += CameraSpeed * CameraFront;
         if(Input::IsKeyPressed(EN_KEY_S)) CameraPos -= CameraSpeed * CameraFront;
-        if(Input::IsKeyPressed(EN_KEY_A)) CameraPos -=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
-        if(Input::IsKeyPressed(EN_KEY_D)) CameraPos +=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
+        if(Input::IsKeyPressed(EN_KEY_A)) CameraPos +=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
+        if(Input::IsKeyPressed(EN_KEY_D)) CameraPos -=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
     }
 
     void Camera::MouseButtonCallBack()
