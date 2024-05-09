@@ -3,11 +3,13 @@
 
 #include "imgui/imgui.h"
 
+#include <glm/gtc/matrix_transform.hpp>
+
 class ExampleLayer : public Engine::Layer
 {
 public:
     ExampleLayer()
-        : Layer("Example")
+        : Layer("Example"), m_SquarePosition(0.0f)
     {
         m_VertexArray.reset(Engine::VertexArray::Create());
 
@@ -36,10 +38,10 @@ public:
         m_SquareVA.reset(Engine::VertexArray::Create());
 
         float squarevertices[] = {
-            -0.75f, -0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-             0.75f, -0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-             0.75f,  0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-            -0.75f,  0.75f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f
+            -0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.5f,  0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+            -0.5f,  0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f
         };
 
         std::shared_ptr<Engine::VertexBuffer> SquareVB;
@@ -57,20 +59,38 @@ public:
         SquareIB.reset(Engine::IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t)));
         m_SquareVA->SetIndexBuffer(SquareIB);
 
-        m_Shader.reset(new Engine::Shader(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
-        m_BlueShader.reset(new Engine::Shader(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
+        m_Shader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
+        m_BlueShader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
 
         m_Camera.reset(new Engine::Camera(Engine::Application::GetWindowWidth(), Engine::Application::GetWindowHeight()));
     }
     
-    void OnUpdate() override
+    void OnUpdate(Engine::DeltaTime ts) override
     {
+        if(Engine::Input::IsKeyPressed(EN_KEY_J)) m_SquarePosition.x -= m_SquarePositionSpeed * ts;
+        else if(Engine::Input::IsKeyPressed(EN_KEY_L)) m_SquarePosition.x += m_SquarePositionSpeed * ts;
+
+        if(Engine::Input::IsKeyPressed(EN_KEY_I)) m_SquarePosition.y += m_SquarePositionSpeed * ts;
+        else if(Engine::Input::IsKeyPressed(EN_KEY_K)) m_SquarePosition.y -= m_SquarePositionSpeed * ts;
+
         Engine::RenderCommand::SetClearColor({0.1f, 0.1f, 0.1f, 1.0f});
         Engine::RenderCommand::Clear();
 
         Engine::Renderer::BeginScene(m_Camera);
-        
-        Engine::Renderer::SubmitGeometry(m_BlueShader, m_SquareVA);
+
+        glm::mat4 scale = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f));
+
+        for(int i = 0; i < 20; i++)
+        {
+            for(int j = 0; j < 20; j++)
+            {
+                glm::vec3 pos(i * 0.11f, j * 0.11f, 0.0f);
+                glm::mat4 transform = glm::translate(glm::mat4(1.0f), pos) * scale;
+                Engine::Renderer::SubmitGeometry(m_BlueShader, m_SquareVA, transform);
+            }
+
+        }
+
         Engine::Renderer::SubmitGeometry(m_Shader, m_VertexArray);
 
         Engine::Renderer::EndScene();
@@ -78,6 +98,8 @@ public:
 
     virtual void OnImGuiRender() override
     {
+        ImGui::Begin("Settings");
+        ImGui::End();
     }
     void OnEvent(Engine::Event& event) override
     {
@@ -90,6 +112,9 @@ private:
     std::shared_ptr<Engine::VertexArray> m_SquareVA;
 
     std::shared_ptr<Engine::Camera> m_Camera;
+
+    glm::vec3 m_SquarePosition;
+    float m_SquarePositionSpeed = 1.0f;
     };
 
 class App : public Engine::Application

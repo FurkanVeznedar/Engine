@@ -5,6 +5,8 @@
 
 #include "Engine/Renderer/Renderer.h"
 
+#include <glfw/glfw3.h>
+
 namespace Engine {
 
     Application* Application::s_Instance = nullptr;
@@ -57,7 +59,11 @@ namespace Engine {
     {
         while(m_Running)
         {
-            for(Layer* layer : m_Layerstack) layer->OnUpdate();
+            float CurrentFrame = static_cast<float>(glfwGetTime());
+            DeltaTime deltatime = CurrentFrame - m_LastFrame;
+            m_LastFrame = CurrentFrame;
+
+            for(Layer* layer : m_Layerstack) layer->OnUpdate(deltatime);
 
             m_ImGuiLayer->Begin();
             for(Layer* layer : m_Layerstack) layer->OnImGuiRender();

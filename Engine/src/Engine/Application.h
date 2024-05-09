@@ -5,6 +5,7 @@
 #include "Engine/Events/ApplicationEvent.h"
 #include "Engine/Window.h"
 #include "Engine/LayerStack.h"
+#include "Engine/Core/DeltaTime.h"
 
 #include "Engine/ImGui/ImGuiLayer.h"
 
@@ -36,6 +37,7 @@ namespace Engine {
         ImGuiLayer* m_ImGuiLayer;
         bool m_Running = true;
         LayerStack m_Layerstack;
+        float m_LastFrame = 0.0f;
     private:
         static Application* s_Instance;
     };

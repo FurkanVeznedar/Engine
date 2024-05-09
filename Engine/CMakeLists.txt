@@ -29,7 +29,8 @@ set(ENGINE_SOURCES
     src/Engine/Renderer/RendererAPI.cpp
     src/Engine/Renderer/RenderCommand.cpp
     src/Platform/OpenGL/OpenGLRendererAPI.cpp
-    src/Engine/Renderer/Camera.cpp)
+    src/Engine/Renderer/Camera.cpp
+    src/Platform/OpenGL/OpenGLShader.cpp)
 
 add_library(Engine_lib
     STATIC

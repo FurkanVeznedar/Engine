@@ -1,7 +1,6 @@
 #include "Enpch.h"
 #include "Camera.h"
 
-#include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
 #include <glad/glad.h>
@@ -33,28 +32,11 @@ namespace Engine
         FirstMouse = true;
 
         // Initialize Model & Projection Matrices
-        m_ModelMatrix = glm::rotate(m_ModelMatrix, glm::radians(0.0f), glm::vec3(1.0f, 0.0f, 0.0f));
         m_ProjectionMatrix = glm::perspective(glm::radians(45.0f), m_WindowWidth / m_WindowHeight, 0.1f, 100.0f);
     }
 
     Camera::~Camera()
     {
-    }
-
-    void Camera::SetModelMatrix(const float& degree, const int& direction)
-    {
-        switch (direction)
-        {
-        case X_Direction:
-            m_ModelMatrix = glm::rotate(m_ModelMatrix, glm::radians(degree), glm::vec3(1.0f, 0.0f, 0.0f));
-            break;
-        case Y_Direction:
-            m_ModelMatrix = glm::rotate(m_ModelMatrix, glm::radians(degree), glm::vec3(0.0f, 1.0f, 0.0f));
-            break;
-        case Z_Direction:
-            m_ModelMatrix = glm::rotate(m_ModelMatrix, glm::radians(degree), glm::vec3(0.0f, 0.0f, 1.0f));
-            break;
-        }
     }
 
     void Camera::SetProjectionMatrix(const float& fov, const float& windowwidth, const float& windowheight)

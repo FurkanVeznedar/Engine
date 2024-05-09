@@ -3,6 +3,7 @@
 
 #include "Engine/Core.h"
 #include "Engine/Events/Event.h"
+#include "Engine/Core/DeltaTime.h"
 
 namespace Engine {
 
@@ -14,7 +15,7 @@ namespace Engine {
 
         virtual void OnAttach() {}
         virtual void OnDetach() {}
-        virtual void OnUpdate() {}
+        virtual void OnUpdate(DeltaTime ts) {}
         virtual void OnImGuiRender() {}
         virtual void OnEvent(Event& event) {}
 
