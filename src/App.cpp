@@ -4,6 +4,7 @@
 #include "imgui/imgui.h"
 
 #include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.inl>
 
 class ExampleLayer : public Engine::Layer
 {
@@ -18,7 +19,7 @@ public:
              0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
              0.0f,  0.5f, 0.0f, 0.8f, 0.8f, 0.2f, 1.0f
         };
-        std::shared_ptr<Engine::VertexBuffer> vertexbuffer;
+        Engine::Ref<Engine::VertexBuffer> vertexbuffer;
         vertexbuffer.reset(Engine::VertexBuffer::Create(vertices, sizeof(vertices)));
 
         Engine::BufferLayout layout = {
@@ -31,23 +32,24 @@ public:
         uint32_t indices[] = {
             0, 1, 2
         };
-        std::shared_ptr<Engine::IndexBuffer> indexbuffer;
+        Engine::Ref<Engine::IndexBuffer> indexbuffer;
         indexbuffer.reset(Engine::IndexBuffer::Create(indices, sizeof(indices) / sizeof(uint32_t)));
         m_VertexArray->SetIndexBuffer(indexbuffer);
 
         m_SquareVA.reset(Engine::VertexArray::Create());
 
         float squarevertices[] = {
-            -0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-             0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-             0.5f,  0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
-            -0.5f,  0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f
+            -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+             0.5f,  0.5f, 0.0f, 1.0f, 1.0f, 0.2f, 0.3f, 0.8f, 1.0f,
+            -0.5f,  0.5f, 0.0f, 0.0f, 1.0f, 0.2f, 0.3f, 0.8f, 1.0f
         };
 
-        std::shared_ptr<Engine::VertexBuffer> SquareVB;
+        Engine::Ref<Engine::VertexBuffer> SquareVB;
         SquareVB.reset(Engine::VertexBuffer::Create(squarevertices, sizeof(squarevertices)));
         SquareVB->SetLayout({
             { Engine::ShaderDataType::Float3, "a_Position"},
+            { Engine::ShaderDataType::Float2, "a_TextCoord"},
             { Engine::ShaderDataType::Float4, "a_Color"}
         });
         m_SquareVA->AddVertexBuffer(SquareVB);
@@ -55,14 +57,21 @@ public:
         uint32_t squareindices[] = {
             0, 1, 2, 2, 3 ,0
         };
-        std::shared_ptr<Engine::IndexBuffer> SquareIB;
+        Engine::Ref<Engine::IndexBuffer> SquareIB;
         SquareIB.reset(Engine::IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t)));
         m_SquareVA->SetIndexBuffer(SquareIB);
 
         m_Shader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
         m_BlueShader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
+        m_TextureShader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "TextureVertex.txt", Engine::Log::GetShadersDir() + "TextureFragment.txt"));
 
         m_Camera.reset(new Engine::Camera(Engine::Application::GetWindowWidth(), Engine::Application::GetWindowHeight()));
+
+        m_Texture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/Checkerboard.png");
+        m_LogoTexture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/ChernoLogo.png");
+
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_TextureShader)->Use();
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_TextureShader)->SetInt("u_Texture", 0);
     }
     
     void OnUpdate(Engine::DeltaTime ts) override
@@ -80,6 +89,9 @@ public:
 
         glm::mat4 scale = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f));
 
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_BlueShader)->Use();
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_BlueShader)->SetVec3("u_Color", m_SquareColor);
+
         for(int i = 0; i < 20; i++)
         {
             for(int j = 0; j < 20; j++)
@@ -88,10 +100,15 @@ public:
                 glm::mat4 transform = glm::translate(glm::mat4(1.0f), pos) * scale;
                 Engine::Renderer::SubmitGeometry(m_BlueShader, m_SquareVA, transform);
             }
-
         }
 
-        Engine::Renderer::SubmitGeometry(m_Shader, m_VertexArray);
+        m_Texture->Bind();
+        Engine::Renderer::SubmitGeometry(m_TextureShader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+
+        m_LogoTexture->Bind();
+        Engine::Renderer::SubmitGeometry(m_TextureShader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+        //Triangle
+        //Engine::Renderer::SubmitGeometry(m_Shader, m_VertexArray);
 
         Engine::Renderer::EndScene();
     }
@@ -99,21 +116,25 @@ public:
     virtual void OnImGuiRender() override
     {
         ImGui::Begin("Settings");
+        ImGui::ColorEdit3("Square Color", glm::value_ptr(m_SquareColor));
         ImGui::End();
     }
     void OnEvent(Engine::Event& event) override
     {
     }
 private:
-    std::shared_ptr<Engine::Shader> m_Shader;
-    std::shared_ptr<Engine::VertexArray> m_VertexArray;
+    Engine::Ref<Engine::Shader> m_Shader;
+    Engine::Ref<Engine::VertexArray> m_VertexArray;
 
-    std::shared_ptr<Engine::Shader> m_BlueShader;
-    std::shared_ptr<Engine::VertexArray> m_SquareVA;
+    Engine::Ref<Engine::Shader> m_BlueShader, m_TextureShader;
+    Engine::Ref<Engine::VertexArray> m_SquareVA;
 
-    std::shared_ptr<Engine::Camera> m_Camera;
+    Engine::Ref<Engine::Texture2D> m_Texture, m_LogoTexture;
+
+    Engine::Ref<Engine::Camera> m_Camera;
 
     glm::vec3 m_SquarePosition;
+    glm::vec3 m_SquareColor = { 0.2f, 0.3f, 0.8f };
     float m_SquarePositionSpeed = 1.0f;
     };
 
@@ -122,7 +143,7 @@ class App : public Engine::Application
 public:
     App()
     {
-        PushLayer(new ExampleLayer());
+        Engine::Application::PushLayer(new ExampleLayer());
     }
 
     ~App()

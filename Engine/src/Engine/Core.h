@@ -2,6 +2,7 @@
 #define _CORE_H_
 
 #include <iostream>
+#include <memory>
 
 #ifdef EN_ENABLE_ASSERTS
     #define EN_ASSERT(x, ...) { if(!(x)) { EN_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
@@ -15,6 +16,13 @@
 
 #define EN_BIND_EVENT_FN(x) std::bind(&x, this, std::placeholders::_1)
 
-#define GetShadersDirs "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/Assets/Shaders/"
+namespace Engine {
+
+    template<typename T>
+    using Scope = std::unique_ptr<T>;
+
+    template<typename T>
+    using Ref = std::shared_ptr<T>;
+}
 
 #endif // _CORE_H_

@@ -20,8 +20,11 @@ namespace Engine {
 
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallBack(EN_BIND_EVENT_FN(Application::OnEvent));
+
         m_WindowWidth = static_cast<float>(m_Window->GetWidth());
         m_WindowHeight = static_cast<float>(m_Window->GetHeight());
+
+        Renderer::Init();
 
         m_ImGuiLayer = new ImGuiLayer();
         PushOverLay(m_ImGuiLayer);

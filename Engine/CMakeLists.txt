@@ -9,6 +9,7 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glad)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/imgui)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glfw)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/stb_image)
 
 set(ENGINE_SOURCES
     src/Engine/Application.cpp
@@ -30,7 +31,9 @@ set(ENGINE_SOURCES
     src/Engine/Renderer/RenderCommand.cpp
     src/Platform/OpenGL/OpenGLRendererAPI.cpp
     src/Engine/Renderer/Camera.cpp
-    src/Platform/OpenGL/OpenGLShader.cpp)
+    src/Platform/OpenGL/OpenGLShader.cpp
+    src/Engine/Renderer/Texture.cpp
+    src/Platform/OpenGL/OpenGLTexture.cpp)
 
 add_library(Engine_lib
     STATIC
@@ -50,13 +53,15 @@ target_include_directories(Engine_lib
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glm
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glad/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glfw/include)
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/glfw/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Engine/ThirdParty/stb_image)
 
 target_link_libraries(Engine_lib
     PRIVATE
     glad
     glfw
-    imgui)
+    imgui
+    stb_image)
 
 target_compile_definitions(Engine_lib
     PRIVATE

@@ -52,8 +52,8 @@ namespace Engine
 
         float CameraSpeed = 2.5f * m_DeltaTime;
 
-        if(Input::IsKeyPressed(EN_KEY_W)) CameraPos += CameraSpeed * CameraFront;
-        if(Input::IsKeyPressed(EN_KEY_S)) CameraPos -= CameraSpeed * CameraFront;
+        if(Input::IsKeyPressed(EN_KEY_W)) CameraPos -= CameraUp * CameraSpeed;
+        if(Input::IsKeyPressed(EN_KEY_S)) CameraPos += CameraUp * CameraSpeed;
         if(Input::IsKeyPressed(EN_KEY_A)) CameraPos +=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
         if(Input::IsKeyPressed(EN_KEY_D)) CameraPos -=  glm::normalize(glm::cross(CameraFront, CameraUp)) * CameraSpeed;
     }

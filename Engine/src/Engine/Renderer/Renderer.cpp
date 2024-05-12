@@ -7,7 +7,12 @@ namespace Engine {
 
     glm::mat4 Renderer::VPMatrix = glm::mat4(1.0f);
 
-    void Renderer::BeginScene(const std::shared_ptr<Camera>& camera)
+    void Renderer::Init()
+    {
+        RenderCommand::Init();
+    }
+
+    void Renderer::BeginScene(const Ref<Camera>& camera)
     {
         // takes all the scene parameters;
         // make sure shaders get correct uniforms which enviroment maps, camre and etc.
@@ -20,7 +25,7 @@ namespace Engine {
 
     }
 
-    void Renderer::SubmitGeometry(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& vertexarray, const glm::mat4& transform)
+    void Renderer::SubmitGeometry(const Ref<Shader>& shader, const Ref<VertexArray>& vertexarray, const glm::mat4& transform)
     {
         shader->Use();
         std::dynamic_pointer_cast<OpenGLShader>(shader)->SetMat4("VPMatrix", VPMatrix);
