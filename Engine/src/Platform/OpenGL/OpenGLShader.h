@@ -10,11 +10,13 @@ namespace Engine {
     class OpenGLShader : public Shader
     {
     public:
-        OpenGLShader(const std::string& vertexpath, const std::string& fragmentpath);
+        OpenGLShader(const std::string& name, const std::string& vertexpath, const std::string& fragmentpath);
         virtual ~OpenGLShader();
 
         virtual void Use() const override;
         virtual void Unuse() const override;
+
+        virtual const std::string& GetName() const override;
 
         void SetBool(const std::string &name, bool value) const;
         void SetInt(const std::string &name, int value) const;
@@ -34,6 +36,7 @@ namespace Engine {
         inline const uint32_t GetID() const { return m_RendererID; }
     private:
         uint32_t m_RendererID;
+        std::string m_Name;
     };
 }
 

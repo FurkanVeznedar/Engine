@@ -5,7 +5,8 @@
 
 namespace Engine {
 
-    OpenGLShader::OpenGLShader(const std::string& vertexpath, const std::string& fragmentpath)
+    OpenGLShader::OpenGLShader(const std::string& name, const std::string& vertexpath, const std::string& fragmentpath)
+        : m_Name(name)
     {
         // 1. retrieve the vertex/fragment source code from filePath
         std::string vertexCode;
@@ -98,6 +99,11 @@ namespace Engine {
     void OpenGLShader::Unuse() const
     {
         glUseProgram(0);
+    }
+
+    const std::string& OpenGLShader::GetName() const
+    {
+        return m_Name;
     }
 
     void OpenGLShader::SetBool(const std::string &name, bool value) const

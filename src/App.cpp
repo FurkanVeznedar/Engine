@@ -61,17 +61,17 @@ public:
         SquareIB.reset(Engine::IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t)));
         m_SquareVA->SetIndexBuffer(SquareIB);
 
-        m_Shader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
-        m_BlueShader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt"));
-        m_TextureShader.reset(Engine::Shader::Create(Engine::Log::GetShadersDir() + "TextureVertex.txt", Engine::Log::GetShadersDir() + "TextureFragment.txt"));
+        m_Shader = Engine::Shader::Create("TriangleShader", Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt");
+        m_BlueShader = Engine::Shader::Create("BlueShader", Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt");
+        auto textureshader = m_ShaderLibrary.Load("TextureShader", Engine::Log::GetShadersDir() + "TextureVertex.txt", Engine::Log::GetShadersDir() + "TextureFragment.txt");
 
         m_Camera.reset(new Engine::Camera(Engine::Application::GetWindowWidth(), Engine::Application::GetWindowHeight()));
 
         m_Texture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/Checkerboard.png");
         m_LogoTexture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/ChernoLogo.png");
 
-        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_TextureShader)->Use();
-        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_TextureShader)->SetInt("u_Texture", 0);
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(textureshader)->Use();
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(textureshader)->SetInt("u_Texture", 0);
     }
     
     void OnUpdate(Engine::DeltaTime ts) override
@@ -103,10 +103,11 @@ public:
         }
 
         m_Texture->Bind();
-        Engine::Renderer::SubmitGeometry(m_TextureShader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+        auto textureshader = m_ShaderLibrary.Get("TextureShader");
+        Engine::Renderer::SubmitGeometry(textureshader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
 
         m_LogoTexture->Bind();
-        Engine::Renderer::SubmitGeometry(m_TextureShader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+        Engine::Renderer::SubmitGeometry(textureshader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
         //Triangle
         //Engine::Renderer::SubmitGeometry(m_Shader, m_VertexArray);
 
@@ -123,10 +124,11 @@ public:
     {
     }
 private:
+    Engine::ShaderLibrary m_ShaderLibrary;
     Engine::Ref<Engine::Shader> m_Shader;
     Engine::Ref<Engine::VertexArray> m_VertexArray;
 
-    Engine::Ref<Engine::Shader> m_BlueShader, m_TextureShader;
+    Engine::Ref<Engine::Shader> m_BlueShader;
     Engine::Ref<Engine::VertexArray> m_SquareVA;
 
     Engine::Ref<Engine::Texture2D> m_Texture, m_LogoTexture;
