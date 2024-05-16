@@ -10,7 +10,7 @@ class ExampleLayer : public Engine::Layer
 {
 public:
     ExampleLayer()
-        : Layer("Example"), m_SquarePosition(0.0f)
+        : Layer("Example"), m_CameraController(1280.0f / 720.0f, true)
     {
         m_VertexArray.reset(Engine::VertexArray::Create());
 
@@ -65,8 +65,6 @@ public:
         m_BlueShader = Engine::Shader::Create("BlueShader", Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt");
         auto textureshader = m_ShaderLibrary.Load("TextureShader", Engine::Log::GetShadersDir() + "TextureVertex.txt", Engine::Log::GetShadersDir() + "TextureFragment.txt");
 
-        m_Camera.reset(new Engine::Camera(Engine::Application::GetWindowWidth(), Engine::Application::GetWindowHeight()));
-
         m_Texture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/Checkerboard.png");
         m_LogoTexture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/ChernoLogo.png");
 
@@ -76,16 +74,13 @@ public:
     
     void OnUpdate(Engine::DeltaTime ts) override
     {
-        if(Engine::Input::IsKeyPressed(EN_KEY_J)) m_SquarePosition.x -= m_SquarePositionSpeed * ts;
-        else if(Engine::Input::IsKeyPressed(EN_KEY_L)) m_SquarePosition.x += m_SquarePositionSpeed * ts;
-
-        if(Engine::Input::IsKeyPressed(EN_KEY_I)) m_SquarePosition.y += m_SquarePositionSpeed * ts;
-        else if(Engine::Input::IsKeyPressed(EN_KEY_K)) m_SquarePosition.y -= m_SquarePositionSpeed * ts;
+        // Update
+        m_CameraController.OnUpdate(ts);
 
         Engine::RenderCommand::SetClearColor({0.1f, 0.1f, 0.1f, 1.0f});
         Engine::RenderCommand::Clear();
 
-        Engine::Renderer::BeginScene(m_Camera);
+        Engine::Renderer::BeginScene(m_CameraController.GetCamera());
 
         glm::mat4 scale = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f));
 
@@ -108,6 +103,7 @@ public:
 
         m_LogoTexture->Bind();
         Engine::Renderer::SubmitGeometry(textureshader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+        
         //Triangle
         //Engine::Renderer::SubmitGeometry(m_Shader, m_VertexArray);
 
@@ -120,8 +116,9 @@ public:
         ImGui::ColorEdit3("Square Color", glm::value_ptr(m_SquareColor));
         ImGui::End();
     }
-    void OnEvent(Engine::Event& event) override
+    void OnEvent(Engine::Event& e) override
     {
+        m_CameraController.OnEvent(e);
     }
 private:
     Engine::ShaderLibrary m_ShaderLibrary;
@@ -133,7 +130,7 @@ private:
 
     Engine::Ref<Engine::Texture2D> m_Texture, m_LogoTexture;
 
-    Engine::Ref<Engine::Camera> m_Camera;
+    Engine::OrthographicCameraController m_CameraController;
 
     glm::vec3 m_SquarePosition;
     glm::vec3 m_SquareColor = { 0.2f, 0.3f, 0.8f };

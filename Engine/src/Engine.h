@@ -12,6 +12,7 @@
 #include "Engine/Input.h"
 #include "Engine/KeyCodes.h"
 #include "Engine/MouseButtonCodes.h"
+#include "Engine/OrthographicCameraController.h"
 
 #include "Engine/ImGui/ImGuiLayer.h"
 
@@ -25,6 +26,7 @@
 #include "Engine/Renderer/VertexArray.h"
 
 #include "Engine/Renderer/Camera.h"
+#include "Engine/Renderer/OrthographicCamera.h"
 //---Renderer-------------------
 
 //---OpenGL-------------------

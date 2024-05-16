@@ -10,8 +10,6 @@
 namespace Engine {
 
     Application* Application::s_Instance = nullptr;
-    float Application::m_WindowWidth;
-    float Application::m_WindowHeight;
 
     Application::Application()
     {
@@ -20,9 +18,6 @@ namespace Engine {
 
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallBack(EN_BIND_EVENT_FN(Application::OnEvent));
-
-        m_WindowWidth = static_cast<float>(m_Window->GetWidth());
-        m_WindowHeight = static_cast<float>(m_Window->GetHeight());
 
         Renderer::Init();
 
@@ -50,6 +45,7 @@ namespace Engine {
     {
         EventDispatcher dispatcher(e);
         dispatcher.Dispatch<WindowCloseEvent>(EN_BIND_EVENT_FN(Application::OnWindowClose));
+        dispatcher.Dispatch<WindowResizeEvent>(EN_BIND_EVENT_FN(Application::OnWindowResize));
 
         for(auto it = m_Layerstack.end(); it != m_Layerstack.begin();)
         {
@@ -66,7 +62,10 @@ namespace Engine {
             DeltaTime deltatime = CurrentFrame - m_LastFrame;
             m_LastFrame = CurrentFrame;
 
-            for(Layer* layer : m_Layerstack) layer->OnUpdate(deltatime);
+            if(!m_Minimized)
+            {
+                for(Layer* layer : m_Layerstack) layer->OnUpdate(deltatime);
+            }
 
             m_ImGuiLayer->Begin();
             for(Layer* layer : m_Layerstack) layer->OnImGuiRender();
@@ -80,5 +79,19 @@ namespace Engine {
     {
         m_Running = false;
         return true;
+    }
+
+    bool Application::OnWindowResize(WindowResizeEvent &e)
+    {
+        if(e.GetWidth() == 0 || e.GetHeight() == 0)
+        {
+            m_Minimized = true;
+            return false;
+        }
+
+        m_Minimized = false;
+        Renderer::OnWindowResize(e.GetWidth(), e.GetHeight());
+
+        return false;
     }
 }
