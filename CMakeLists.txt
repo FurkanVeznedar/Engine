@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 add_subdirectory(Engine)
 
 add_executable(${PROJECT_NAME}
-    ./src/App.cpp)
+    ./src/App.cpp
+    ./src/App2D.cpp)
 
 target_compile_definitions(${PROJECT_NAME}
     PRIVATE

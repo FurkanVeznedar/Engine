@@ -1,0 +1,1120 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "Engine",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-Engine-Debug-e7cda9100e735d363573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Engine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glad",
+					"jsonFile" : "directory-Engine.ThirdParty.glad-Debug-cc23ed1d8fe967d9af3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Engine/ThirdParty/glad",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/imgui",
+					"jsonFile" : "directory-Engine.ThirdParty.imgui-Debug-6f11da1f57ccc4913237.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Engine/ThirdParty/imgui",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glfw",
+					"jsonFile" : "directory-Engine.ThirdParty.glfw-Debug-ed8cf75d962203edfe8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "Engine/ThirdParty/glfw",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/stb_image",
+					"jsonFile" : "directory-Engine.ThirdParty.stb_image-Debug-6b68704f52e094407ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Engine/ThirdParty/stb_image",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "App",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "glfw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-188ea4f7a0d0e9279f08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-ALL_BUILD-Debug-343733cb58cbd56cf73d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-ALL_BUILD-Debug-7f9876e83c111caaaf6c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-ALL_BUILD-Debug-5fbef9d9600ccbd593f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-ALL_BUILD-Debug-82bb804657ef194568d0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-App-Debug-21786cfa8163b9de98da.json",
+					"name" : "App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_lib::@8f69bdd092c897d92c1e",
+					"jsonFile" : "target-Engine_lib-Debug-bcf155e33f263616df0f.json",
+					"name" : "Engine_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-7d690948acebb19db555.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-glad-Debug-d423f8c2425f0142aeab.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-glfw-Debug-6050740e5f6093a6d494.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-imgui-Debug-a0690f8a89b9368a4d2d.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "stb_image::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-stb_image-Debug-004534f5e508fb5f3058.json",
+					"name" : "stb_image",
+					"projectIndex" : 4
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "Engine",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-Engine-Release-e7cda9100e735d363573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Engine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glad",
+					"jsonFile" : "directory-Engine.ThirdParty.glad-Release-cc23ed1d8fe967d9af3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Engine/ThirdParty/glad",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/imgui",
+					"jsonFile" : "directory-Engine.ThirdParty.imgui-Release-6f11da1f57ccc4913237.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Engine/ThirdParty/imgui",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glfw",
+					"jsonFile" : "directory-Engine.ThirdParty.glfw-Release-ed8cf75d962203edfe8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "Engine/ThirdParty/glfw",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/stb_image",
+					"jsonFile" : "directory-Engine.ThirdParty.stb_image-Release-6b68704f52e094407ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Engine/ThirdParty/stb_image",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "App",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "glfw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-188ea4f7a0d0e9279f08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-ALL_BUILD-Release-343733cb58cbd56cf73d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-ALL_BUILD-Release-7f9876e83c111caaaf6c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-ALL_BUILD-Release-5fbef9d9600ccbd593f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-ALL_BUILD-Release-82bb804657ef194568d0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-App-Release-f60c3e220a9b0cffd62a.json",
+					"name" : "App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_lib::@8f69bdd092c897d92c1e",
+					"jsonFile" : "target-Engine_lib-Release-66ebd9ee767034845e53.json",
+					"name" : "Engine_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-7d690948acebb19db555.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-glad-Release-dd0df7184c1d09d31e93.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-glfw-Release-50c2d6f2dc6dcccc6207.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-imgui-Release-4b43a7a62c710b719520.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "stb_image::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-stb_image-Release-01a9f97d9b728662d3e2.json",
+					"name" : "stb_image",
+					"projectIndex" : 4
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "Engine",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-Engine-MinSizeRel-e7cda9100e735d363573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Engine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glad",
+					"jsonFile" : "directory-Engine.ThirdParty.glad-MinSizeRel-cc23ed1d8fe967d9af3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Engine/ThirdParty/glad",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/imgui",
+					"jsonFile" : "directory-Engine.ThirdParty.imgui-MinSizeRel-6f11da1f57ccc4913237.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Engine/ThirdParty/imgui",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glfw",
+					"jsonFile" : "directory-Engine.ThirdParty.glfw-MinSizeRel-ed8cf75d962203edfe8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "Engine/ThirdParty/glfw",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/stb_image",
+					"jsonFile" : "directory-Engine.ThirdParty.stb_image-MinSizeRel-6b68704f52e094407ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Engine/ThirdParty/stb_image",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "App",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "glfw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-188ea4f7a0d0e9279f08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-343733cb58cbd56cf73d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7f9876e83c111caaaf6c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5fbef9d9600ccbd593f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-82bb804657ef194568d0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-App-MinSizeRel-97c25ec6ce44c2365325.json",
+					"name" : "App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_lib::@8f69bdd092c897d92c1e",
+					"jsonFile" : "target-Engine_lib-MinSizeRel-ad6b5d4c8789130793b1.json",
+					"name" : "Engine_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-7d690948acebb19db555.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-glad-MinSizeRel-ad3c3e893ecd62dfd4bf.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-glfw-MinSizeRel-a4e8024ef1ba3589e275.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-imgui-MinSizeRel-e3a93f5fd34144cb261e.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "stb_image::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-stb_image-MinSizeRel-c801ac1dac90f24eb2ab.json",
+					"name" : "stb_image",
+					"projectIndex" : 4
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "Engine",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-Engine-RelWithDebInfo-e7cda9100e735d363573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Engine",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glad",
+					"jsonFile" : "directory-Engine.ThirdParty.glad-RelWithDebInfo-cc23ed1d8fe967d9af3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Engine/ThirdParty/glad",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/imgui",
+					"jsonFile" : "directory-Engine.ThirdParty.imgui-RelWithDebInfo-6f11da1f57ccc4913237.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Engine/ThirdParty/imgui",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/glfw",
+					"jsonFile" : "directory-Engine.ThirdParty.glfw-RelWithDebInfo-ed8cf75d962203edfe8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "Engine/ThirdParty/glfw",
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"build" : "Engine/ThirdParty/stb_image",
+					"jsonFile" : "directory-Engine.ThirdParty.stb_image-RelWithDebInfo-6b68704f52e094407ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Engine/ThirdParty/stb_image",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "App",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "glfw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-188ea4f7a0d0e9279f08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-343733cb58cbd56cf73d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7f9876e83c111caaaf6c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5fbef9d9600ccbd593f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-82bb804657ef194568d0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-App-RelWithDebInfo-2cf85749a75f355e8967.json",
+					"name" : "App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_lib::@8f69bdd092c897d92c1e",
+					"jsonFile" : "target-Engine_lib-RelWithDebInfo-bf41261df0936de09eb4.json",
+					"name" : "Engine_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-7d690948acebb19db555.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@ce8acb11203b9aa95410",
+					"jsonFile" : "target-glad-RelWithDebInfo-3dbc39c0b077fa3ab1bd.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9e1fcc0fa4bf278045c7",
+					"jsonFile" : "target-glfw-RelWithDebInfo-f00f8e6c1819c8946f39.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@22b7c08d0f2ced739b64",
+					"jsonFile" : "target-imgui-RelWithDebInfo-3b7be8c89a7e30f7d3d6.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "stb_image::@0b4f675cec7b6fe2d629",
+					"jsonFile" : "target-stb_image-RelWithDebInfo-fdcb18ad47516c724222.json",
+					"name" : "stb_image",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build",
+		"source" : "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

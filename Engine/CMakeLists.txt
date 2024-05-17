@@ -12,11 +12,11 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/glfw)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/stb_image)
 
 set(ENGINE_SOURCES
-    src/Engine/Application.cpp
-    src/Engine/Log.cpp
+    src/Engine/Core/Application.cpp
+    src/Engine/Core/Log.cpp
     src/Platform/WindowsWindow.cpp
-    src/Engine/Layer.cpp
-    src/Engine/LayerStack.cpp
+    src/Engine/Core/Layer.cpp
+    src/Engine/Core/LayerStack.cpp
     src/Engine/ImGui/ImGuiLayer.cpp
     src/Engine/ImGui/ImGuiBuild.cpp
     src/Platform/WindowsInput.cpp
@@ -35,7 +35,7 @@ set(ENGINE_SOURCES
     src/Platform/OpenGL/OpenGLShader.cpp
     src/Engine/Renderer/Texture.cpp
     src/Platform/OpenGL/OpenGLTexture.cpp
-    src/Engine/OrthographicCameraController.cpp)
+    src/Engine/Renderer/OrthographicCameraController.cpp)
 
 add_library(Engine_lib
     STATIC

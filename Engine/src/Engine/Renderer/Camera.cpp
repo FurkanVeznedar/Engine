@@ -7,9 +7,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "Engine/KeyCodes.h"
-#include "Engine/MouseButtonCodes.h"
-#include "Engine/Input.h"
+#include "Engine/Core/KeyCodes.h"
+#include "Engine/Core/MouseButtonCodes.h"
+#include "Engine/Core/Input.h"
 
 namespace Engine
 {

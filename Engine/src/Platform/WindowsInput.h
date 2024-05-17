@@ -1,7 +1,7 @@
 #ifndef _WINDOWSINPUT_H_
 #define _WINDOWSINPUT_H_
 
-#include "Engine/Input.h"
+#include "Engine/Core/Input.h"
 
 namespace Engine {
     class WindowsInput : public Input

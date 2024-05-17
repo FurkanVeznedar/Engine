@@ -2,17 +2,16 @@
 #define _ENGINE_H_
 
 // For use by Engine applications
-#include "Engine/Application.h"
-#include "Engine/Window.h"
-#include "Engine/Layer.h"
-#include "Engine/Log.h"
+#include "Engine/Core/Application.h"
+#include "Engine/Core/Window.h"
+#include "Engine/Core/Layer.h"
+#include "Engine/Core/Log.h"
 
 #include "Engine/Core/DeltaTime.h"
 
-#include "Engine/Input.h"
-#include "Engine/KeyCodes.h"
-#include "Engine/MouseButtonCodes.h"
-#include "Engine/OrthographicCameraController.h"
+#include "Engine/Core/Input.h"
+#include "Engine/Core/KeyCodes.h"
+#include "Engine/Core/MouseButtonCodes.h"
 
 #include "Engine/ImGui/ImGuiLayer.h"
 
@@ -27,13 +26,10 @@
 
 #include "Engine/Renderer/Camera.h"
 #include "Engine/Renderer/OrthographicCamera.h"
+#include "Engine/Renderer/OrthographicCameraController.h"
 //---Renderer-------------------
 
 //---OpenGL-------------------
 #include "Platform/OpenGL/OpenGLShader.h"
-
-//---Entry Point----------------
-#include "Engine/EntryPoint.h"
-//---Entry Point----------------
 
 #endif // _ENGINE_H_

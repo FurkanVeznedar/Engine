@@ -1,18 +1,20 @@
 #include "Engine.h"
-#include "Enpch.h"
+#include <Engine/Core/EntryPoint.h>
 
 #include "imgui/imgui.h"
 
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.inl>
 
+#include "App2D.h"
+
 class ExampleLayer : public Engine::Layer
 {
 public:
     ExampleLayer()
-        : Layer("Example"), m_CameraController(1280.0f / 720.0f, true)
+        : Layer("Example"), m_CameraController(1280.0f / 720.0f)
     {
-        m_VertexArray.reset(Engine::VertexArray::Create());
+        m_VertexArray = Engine::VertexArray::Create();
 
         float vertices[] = {
             -0.5f, -0.5f, 0.0f, 0.8f, 0.2f, 0.8f, 1.0f,
@@ -36,7 +38,7 @@ public:
         indexbuffer.reset(Engine::IndexBuffer::Create(indices, sizeof(indices) / sizeof(uint32_t)));
         m_VertexArray->SetIndexBuffer(indexbuffer);
 
-        m_SquareVA.reset(Engine::VertexArray::Create());
+        m_SquareVA = Engine::VertexArray::Create();
 
         float squarevertices[] = {
             -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
@@ -134,7 +136,6 @@ private:
 
     glm::vec3 m_SquarePosition;
     glm::vec3 m_SquareColor = { 0.2f, 0.3f, 0.8f };
-    float m_SquarePositionSpeed = 1.0f;
     };
 
 class App : public Engine::Application
@@ -142,10 +143,11 @@ class App : public Engine::Application
 public:
     App()
     {
-        Engine::Application::PushLayer(new ExampleLayer());
+        // PushLayer(new ExampleLayer());
+        PushLayer(new App2D());
     }
 
-    ~App()
+    virtual ~App()
     {
 
     }

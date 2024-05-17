@@ -18,7 +18,7 @@
 
 #include <cmath>
 
-#include "./Engine/Log.h"
+#include "Engine/Core/Log.h"
 
 #ifdef EN_PLATFORM_WINDOWS
     #include <Windows.h>
