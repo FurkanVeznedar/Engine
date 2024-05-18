@@ -1,0 +1,7 @@
+To Do List
+
+	Memory allocation matrix
+	Profilling
+	Timing
+	Material System
+	How to draw everything in 1 draw call

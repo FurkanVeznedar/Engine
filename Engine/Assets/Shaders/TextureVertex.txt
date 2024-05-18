@@ -5,11 +5,11 @@ layout(location = 1) in vec2 a_TextCoord;
 
 out vec2 v_TextCoord;
 
-uniform mat4 VPMatrix;
-uniform mat4 Transform;
+uniform mat4 u_VPMatrix;
+uniform mat4 u_Transform;
 
 void main()
 {
     v_TextCoord = a_TextCoord;
-    gl_Position = VPMatrix * Transform * vec4(a_Position, 1.0);
+    gl_Position = u_VPMatrix * u_Transform * vec4(a_Position, 1.0);
 }

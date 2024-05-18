@@ -71,7 +71,7 @@ public:
         m_LogoTexture = Engine::Texture2D::Create(Engine::Log::GetAssetsDir() + "Texture/ChernoLogo.png");
 
         std::dynamic_pointer_cast<Engine::OpenGLShader>(textureshader)->Use();
-        std::dynamic_pointer_cast<Engine::OpenGLShader>(textureshader)->SetInt("u_Texture", 0);
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(textureshader)->UploadInt("u_Texture", 0);
     }
     
     void OnUpdate(Engine::DeltaTime ts) override
@@ -87,7 +87,7 @@ public:
         glm::mat4 scale = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f));
 
         std::dynamic_pointer_cast<Engine::OpenGLShader>(m_BlueShader)->Use();
-        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_BlueShader)->SetVec3("u_Color", m_SquareColor);
+        std::dynamic_pointer_cast<Engine::OpenGLShader>(m_BlueShader)->UploadVec3("u_Color", m_SquareColor);
 
         for(int i = 0; i < 20; i++)
         {

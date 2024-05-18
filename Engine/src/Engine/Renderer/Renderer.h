@@ -1,8 +1,8 @@
 #ifndef _RENDERER_H_
 #define _RENDERER_H_
 
-#include "Engine/Renderer/VertexArray.h"
 #include "Engine/Renderer/RenderCommand.h"
+
 #include "Engine/Renderer/OrthographicCamera.h"
 #include "Engine/Renderer/Shader.h"
 

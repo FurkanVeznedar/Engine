@@ -16,20 +16,24 @@ namespace Engine {
         virtual void Use() const override;
         virtual void Unuse() const override;
 
+        virtual void SetVec3(const std::string& name, const glm::vec3& value) override;
+        virtual void SetVec4(const std::string& name, const glm::vec4& value) override;
+        virtual void SetMat4(const std::string& name, const glm::mat4& value) override;
+
         virtual const std::string& GetName() const override;
 
-        void SetBool(const std::string &name, bool value) const;
-        void SetInt(const std::string &name, int value) const;
-        void SetFloat(const std::string &name, float value) const;
-        void SetVec2(const std::string &name, const glm::vec2 &value) const;
-        void SetVec2(const std::string &name, float x, float y) const;
-        void SetVec3(const std::string &name, const glm::vec3 &value) const;
-        void SetVec3(const std::string &name, float x, float y, float z) const;
-        void SetVec4(const std::string &name, const glm::vec4 &value) const;
-        void SetVec4(const std::string &name, float x, float y, float z, float w) const;
-        void SetMat2(const std::string &name, const glm::mat2 &mat) const;
-        void SetMat3(const std::string &name, const glm::mat3 &mat) const;
-        void SetMat4(const std::string &name, const glm::mat4 &mat) const;
+        void UploadBool(const std::string &name, bool value) const;
+        void UploadInt(const std::string &name, int value) const;
+        void UploadFloat(const std::string &name, float value) const;
+        void UploadVec2(const std::string &name, const glm::vec2 &value) const;
+        void UploadVec2(const std::string &name, float x, float y) const;
+        void UploadVec3(const std::string &name, const glm::vec3 &value) const;
+        void UploadVec3(const std::string &name, float x, float y, float z) const;
+        void UploadVec4(const std::string &name, const glm::vec4 &value) const;
+        void UploadVec4(const std::string &name, float x, float y, float z, float w) const;
+        void UploadMat2(const std::string &name, const glm::mat2 &mat) const;
+        void UploadMat3(const std::string &name, const glm::mat3 &mat) const;
+        void UploadMat4(const std::string &name, const glm::mat4 &mat) const;
 
         unsigned int GetUniformLoc(const std::string& name) const;
 

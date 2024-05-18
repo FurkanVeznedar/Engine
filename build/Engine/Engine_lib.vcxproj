@@ -293,6 +293,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\src\Engine\Renderer\Texture.cpp" />
     <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\src\Platform\OpenGL\OpenGLTexture.cpp" />
     <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\src\Engine\Renderer\OrthographicCameraController.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\src\Engine\Renderer\Renderer2D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\ZERO_CHECK.vcxproj">

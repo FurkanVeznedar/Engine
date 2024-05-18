@@ -2,6 +2,7 @@
 #include "Renderer.h"
 
 #include "Platform/OpenGL/OpenGLShader.h"
+#include "Engine/Renderer/Renderer2D.h"
 
 namespace Engine {
 
@@ -10,6 +11,7 @@ namespace Engine {
     void Renderer::Init()
     {
         RenderCommand::Init();
+        Renderer2D::Init();
     }
 
     void Renderer::OnWindowResize(uint32_t width, uint32_t height)
@@ -32,8 +34,8 @@ namespace Engine {
     void Renderer::SubmitGeometry(const Ref<Shader>& shader, const Ref<VertexArray>& vertexarray, const glm::mat4& transform)
     {
         shader->Use();
-        std::dynamic_pointer_cast<OpenGLShader>(shader)->SetMat4("VPMatrix", s_SceneData->VPMatrix);
-        std::dynamic_pointer_cast<OpenGLShader>(shader)->SetMat4("Transform", transform);
+        std::dynamic_pointer_cast<OpenGLShader>(shader)->UploadMat4("u_VPMatrix", s_SceneData->VPMatrix);
+        std::dynamic_pointer_cast<OpenGLShader>(shader)->UploadMat4("u_Transform", transform);
 
         vertexarray->Bind();
         RenderCommand::DrawIndexed(vertexarray);
