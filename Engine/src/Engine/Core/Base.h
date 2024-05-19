@@ -4,6 +4,18 @@
 #include <iostream>
 #include <memory>
 
+// Platform detection using predefined macros
+#ifdef _WIN32
+    /* Window x64/x86 */
+    #ifdef _WIN64
+        /* Window x64*/
+        #define EN_PLATFORM_WINDOWS
+    #else
+        /* Window x86*/
+        #error "x86 Builds are not supported!"
+    #endif
+#endif
+
 #ifdef EN_ENABLE_ASSERTS
     #define EN_ASSERT(x, ...) { if(!(x)) { EN_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
     #define EN_ENGINE_ASSERT(x, ...) { if(!(x)) { EN_ENGINE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }

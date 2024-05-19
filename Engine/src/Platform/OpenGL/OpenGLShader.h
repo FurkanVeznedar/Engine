@@ -16,6 +16,7 @@ namespace Engine {
         virtual void Use() const override;
         virtual void Unuse() const override;
 
+        virtual void SetInt(const std::string& name, const int& value) override;
         virtual void SetVec3(const std::string& name, const glm::vec3& value) override;
         virtual void SetVec4(const std::string& name, const glm::vec4& value) override;
         virtual void SetMat4(const std::string& name, const glm::mat4& value) override;

@@ -101,6 +101,11 @@ namespace Engine {
         glUseProgram(0);
     }
 
+    void OpenGLShader::SetInt(const std::string& name, const int& value)
+    {
+        UploadInt(name, value);
+    }
+
     void OpenGLShader::SetVec3(const std::string& name, const glm::vec3& value)
     {
         UploadVec3(name, value);

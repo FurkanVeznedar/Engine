@@ -17,11 +17,11 @@ namespace Engine {
 
     void OrthographicCameraController::OnUpdate(DeltaTime ts)
     {
-        if(Input::IsKeyPressed(EN_KEY_A)) m_CameraPos.x += m_CameraTranslationSpeed * ts;
-        else if(Input::IsKeyPressed(EN_KEY_D)) m_CameraPos.x -= m_CameraTranslationSpeed * ts;
+        if(Input::IsKeyPressed(EN_KEY_A)) m_CameraPos.x -= m_CameraTranslationSpeed * ts;
+        else if(Input::IsKeyPressed(EN_KEY_D)) m_CameraPos.x += m_CameraTranslationSpeed * ts;
 
-        if(Input::IsKeyPressed(EN_KEY_W)) m_CameraPos.y -= m_CameraTranslationSpeed * ts;
-        else if(Input::IsKeyPressed(EN_KEY_S)) m_CameraPos.y += m_CameraTranslationSpeed * ts;
+        if(Input::IsKeyPressed(EN_KEY_W)) m_CameraPos.y += m_CameraTranslationSpeed * ts;
+        else if(Input::IsKeyPressed(EN_KEY_S)) m_CameraPos.y -= m_CameraTranslationSpeed * ts;
 
         if(m_Rotation)
         {
