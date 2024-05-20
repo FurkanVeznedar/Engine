@@ -10,6 +10,8 @@ namespace Engine {
 
     void Renderer::Init()
     {
+        EN_PROFILE_FUNCTION();
+
         RenderCommand::Init();
         Renderer2D::Init();
     }

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/App.exe"
+			"path" : "Release/App.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/App.pdb"
+			"path" : "Release/App.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -69,7 +69,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				}
 			],
 			"defines" : 
@@ -154,11 +154,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "Engine_lib::@8f69bdd092c897d92c1e"
+			"id" : "stb_image::@0b4f675cec7b6fe2d629"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "stb_image::@0b4f675cec7b6fe2d629"
+			"id" : "Engine_lib::@8f69bdd092c897d92c1e"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
@@ -170,36 +170,36 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "Engine\\RelWithDebInfo\\Engine_lib.lib",
+				"fragment" : "Engine\\Release\\Engine_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\glad\\RelWithDebInfo\\glad.lib",
+				"fragment" : "Engine\\ThirdParty\\glad\\Release\\glad.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\glfw\\RelWithDebInfo\\glfw.lib",
+				"fragment" : "Engine\\ThirdParty\\glfw\\Release\\glfw.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\imgui\\RelWithDebInfo\\imgui.lib",
+				"fragment" : "Engine\\ThirdParty\\imgui\\Release\\imgui.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\stb_image\\RelWithDebInfo\\stb_image.lib",
+				"fragment" : "Engine\\ThirdParty\\stb_image\\Release\\stb_image.lib",
 				"role" : "libraries"
 			},
 			{

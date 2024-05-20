@@ -8,6 +8,8 @@ namespace Engine {
     OpenGLShader::OpenGLShader(const std::string& name, const std::string& vertexpath, const std::string& fragmentpath)
         : m_Name(name)
     {
+        EN_PROFILE_FUNCTION();
+        
         // 1. retrieve the vertex/fragment source code from filePath
         std::string vertexCode;
         std::string fragmentCode;
@@ -88,22 +90,35 @@ namespace Engine {
 
     OpenGLShader::~OpenGLShader()
     {
+        EN_PROFILE_FUNCTION();
+
         glDeleteProgram(m_RendererID);
     }
 
     void OpenGLShader::Use() const
     {
+        EN_PROFILE_FUNCTION();
+
         glUseProgram(m_RendererID);
     }
     
     void OpenGLShader::Unuse() const
     {
+        EN_PROFILE_FUNCTION();
+
         glUseProgram(0);
     }
 
     void OpenGLShader::SetInt(const std::string& name, const int& value)
     {
+        EN_PROFILE_FUNCTION();
+        
         UploadInt(name, value);
+    }
+
+    void OpenGLShader::SetFloat(const std::string& name, const float& value)
+    {
+        UploadFloat(name, value);
     }
 
     void OpenGLShader::SetVec3(const std::string& name, const glm::vec3& value)

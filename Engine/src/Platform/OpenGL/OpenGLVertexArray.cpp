@@ -26,26 +26,36 @@ namespace Engine {
 
     OpenGLVertexArray::OpenGLVertexArray()
     {
+        EN_PROFILE_FUNCTION();
+
         glCreateVertexArrays(1, &m_RendererID);
     }
 
     OpenGLVertexArray::~OpenGLVertexArray()
     {
+        EN_PROFILE_FUNCTION();
+
         glDeleteVertexArrays(1, &m_RendererID);
     }
 
     void OpenGLVertexArray::Bind() const
     {
+        EN_PROFILE_FUNCTION();
+
         glBindVertexArray(m_RendererID);
     }
 
     void OpenGLVertexArray::UnBind() const
     {
+        EN_PROFILE_FUNCTION();
+
         glBindVertexArray(0);
     }
 
     void OpenGLVertexArray::AddVertexBuffer(const Ref<VertexBuffer>& VertexBuffer)
     {
+        EN_PROFILE_FUNCTION();
+
         EN_ENGINE_ASSERT(VertexBuffer->GetLayout().GetElements().size(), "Vertex Buffer has no layout!");
 
         glBindVertexArray(m_RendererID);
@@ -64,6 +74,8 @@ namespace Engine {
 
     void OpenGLVertexArray::SetIndexBuffer(const Ref<IndexBuffer>& IndexBuffer)
     {
+        EN_PROFILE_FUNCTION();
+
         glBindVertexArray(m_RendererID);
         IndexBuffer->Bind();
 

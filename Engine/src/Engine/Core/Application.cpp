@@ -13,6 +13,8 @@ namespace Engine {
 
     Application::Application()
     {
+        EN_PROFILE_FUNCTION();
+
         EN_ENGINE_ASSERT(!s_Instance, "Applicatin already excist!");
         s_Instance = this;
 
@@ -31,18 +33,24 @@ namespace Engine {
 
     void Application::PushLayer(Layer* layer)
     {
+        EN_PROFILE_FUNCTION();
+
         m_Layerstack.PushLayer(layer);
         layer->OnAttach();
     }
 
     void Application::PushOverLay(Layer* overlay)
     {
+        EN_PROFILE_FUNCTION();
+
         m_Layerstack.PushOverLay(overlay);
         overlay->OnAttach();
     }
 
     void Application::OnEvent(Event& e)
     {
+        EN_PROFILE_FUNCTION();
+
         EventDispatcher dispatcher(e);
         dispatcher.Dispatch<WindowCloseEvent>(EN_BIND_EVENT_FN(Application::OnWindowClose));
         dispatcher.Dispatch<WindowResizeEvent>(EN_BIND_EVENT_FN(Application::OnWindowResize));
@@ -56,19 +64,28 @@ namespace Engine {
 
     void Application::Run()
     {
+        EN_PROFILE_FUNCTION();
+        
         while(m_Running)
         {
+            EN_PROFILE_SCOPE("Run Loop");
+
             float CurrentFrame = static_cast<float>(glfwGetTime());
             DeltaTime deltatime = CurrentFrame - m_LastFrame;
             m_LastFrame = CurrentFrame;
 
             if(!m_Minimized)
             {
+                EN_PROFILE_SCOPE("Layerstack OnUpdate");
+
                 for(Layer* layer : m_Layerstack) layer->OnUpdate(deltatime);
             }
 
             m_ImGuiLayer->Begin();
-            for(Layer* layer : m_Layerstack) layer->OnImGuiRender();
+            {
+                EN_PROFILE_SCOPE("Layerstack OnImGuiRender");
+                for(Layer* layer : m_Layerstack) layer->OnImGuiRender();
+            }
             m_ImGuiLayer->End();
 
             m_Window->OnUpdate();
@@ -83,6 +100,8 @@ namespace Engine {
 
     bool Application::OnWindowResize(WindowResizeEvent &e)
     {
+        EN_PROFILE_FUNCTION();
+        
         if(e.GetWidth() == 0 || e.GetHeight() == 0)
         {
             m_Minimized = true;
