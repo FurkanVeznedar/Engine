@@ -21,8 +21,7 @@ public:
              0.5f, -0.5f, 0.0f, 0.2f, 0.3f, 0.8f, 1.0f,
              0.0f,  0.5f, 0.0f, 0.8f, 0.8f, 0.2f, 1.0f
         };
-        Engine::Ref<Engine::VertexBuffer> vertexbuffer;
-        vertexbuffer.reset(Engine::VertexBuffer::Create(vertices, sizeof(vertices)));
+        Engine::Ref<Engine::VertexBuffer> vertexbuffer = Engine::VertexBuffer::Create(vertices, sizeof(vertices));
 
         Engine::BufferLayout layout = {
             { Engine::ShaderDataType::Float3, "a_Position"},
@@ -34,8 +33,7 @@ public:
         uint32_t indices[] = {
             0, 1, 2
         };
-        Engine::Ref<Engine::IndexBuffer> indexbuffer;
-        indexbuffer.reset(Engine::IndexBuffer::Create(indices, sizeof(indices) / sizeof(uint32_t)));
+        Engine::Ref<Engine::IndexBuffer> indexbuffer = Engine::IndexBuffer::Create(indices, sizeof(indices) / sizeof(uint32_t));
         m_VertexArray->SetIndexBuffer(indexbuffer);
 
         m_SquareVA = Engine::VertexArray::Create();
@@ -47,8 +45,7 @@ public:
             -0.5f,  0.5f, 0.0f, 0.0f, 1.0f, 0.2f, 0.3f, 0.8f, 1.0f
         };
 
-        Engine::Ref<Engine::VertexBuffer> SquareVB;
-        SquareVB.reset(Engine::VertexBuffer::Create(squarevertices, sizeof(squarevertices)));
+        Engine::Ref<Engine::VertexBuffer> SquareVB = Engine::VertexBuffer::Create(squarevertices, sizeof(squarevertices));
         SquareVB->SetLayout({
             { Engine::ShaderDataType::Float3, "a_Position"},
             { Engine::ShaderDataType::Float2, "a_TextCoord"},
@@ -59,8 +56,7 @@ public:
         uint32_t squareindices[] = {
             0, 1, 2, 2, 3 ,0
         };
-        Engine::Ref<Engine::IndexBuffer> SquareIB;
-        SquareIB.reset(Engine::IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t)));
+        Engine::Ref<Engine::IndexBuffer> SquareIB = Engine::IndexBuffer::Create(squareindices, sizeof(squareindices) / sizeof(uint32_t));
         m_SquareVA->SetIndexBuffer(SquareIB);
 
         m_Shader = Engine::Shader::Create("TriangleShader", Engine::Log::GetShadersDir() + "VertexSrc.txt", Engine::Log::GetShadersDir() + "FragmentSrc.txt");

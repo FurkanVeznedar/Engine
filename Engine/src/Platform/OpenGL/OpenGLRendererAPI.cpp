@@ -30,9 +30,11 @@ namespace Engine {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
     
-    void OpenGLRendererAPI::DrawIndexed(const Ref<VertexArray>& vertexarray) 
+    void OpenGLRendererAPI::DrawIndexed(const Ref<VertexArray>& vertexarray, uint32_t indexcount) 
     {
-        glDrawElements(GL_TRIANGLES, vertexarray->GetIndexBuffers()->GetCount(), GL_UNSIGNED_INT, nullptr);
+        uint32_t count = indexcount ? vertexarray->GetIndexBuffers()->GetCount() : indexcount;
+        glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
+        glBindTexture(GL_TEXTURE_2D, 0);
     }
     
 }

@@ -13,7 +13,7 @@ namespace Engine {
         virtual void SetClearColor(const glm::vec4& color) override;
         virtual void Clear() override;
 
-        virtual void DrawIndexed(const Ref<VertexArray>& vertexarray) override;
+        virtual void DrawIndexed(const Ref<VertexArray>& vertexarray, uint32_t indexcount = 0) override;
     };
 }
 
