@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Debug/App.exe"
+			"path" : "MinSizeRel/App.exe"
 		},
 		{
-			"path" : "Debug/App.pdb"
+			"path" : "MinSizeRel/App.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -69,7 +69,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
 				}
 			],
 			"defines" : 
@@ -142,10 +142,6 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "glad::@ce8acb11203b9aa95410"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "imgui::@22b7c08d0f2ced739b64"
 		},
 		{
@@ -154,11 +150,15 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "stb_image::@0b4f675cec7b6fe2d629"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "Engine_lib::@8f69bdd092c897d92c1e"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "stb_image::@0b4f675cec7b6fe2d629"
+			"id" : "glad::@ce8acb11203b9aa95410"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
@@ -170,36 +170,36 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "Engine\\Debug\\Engine_lib.lib",
+				"fragment" : "Engine\\MinSizeRel\\Engine_lib.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\glad\\Debug\\glad.lib",
+				"fragment" : "Engine\\ThirdParty\\glad\\MinSizeRel\\glad.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\glfw\\Debug\\glfw.lib",
+				"fragment" : "Engine\\ThirdParty\\glfw\\MinSizeRel\\glfw.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\imgui\\Debug\\imgui.lib",
+				"fragment" : "Engine\\ThirdParty\\imgui\\MinSizeRel\\imgui.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Engine\\ThirdParty\\stb_image\\Debug\\stb_image.lib",
+				"fragment" : "Engine\\ThirdParty\\stb_image\\MinSizeRel\\stb_image.lib",
 				"role" : "libraries"
 			},
 			{

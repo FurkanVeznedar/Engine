@@ -17,6 +17,7 @@ namespace Engine {
         virtual void Unuse() const override;
 
         virtual void SetInt(const std::string& name, const int& value) override;
+        virtual void SetIntArray(const std::string& name, const int* values, uint32_t count) override;
         virtual void SetFloat(const std::string& name, const float& value) override;
         virtual void SetVec3(const std::string& name, const glm::vec3& value) override;
         virtual void SetVec4(const std::string& name, const glm::vec4& value) override;
@@ -26,6 +27,7 @@ namespace Engine {
 
         void UploadBool(const std::string &name, bool value) const;
         void UploadInt(const std::string &name, int value) const;
+        void UploadIntArray(const std::string& name, const int* values, uint32_t count) const;
         void UploadFloat(const std::string &name, float value) const;
         void UploadVec2(const std::string &name, const glm::vec2 &value) const;
         void UploadVec2(const std::string &name, float x, float y) const;

@@ -28,6 +28,7 @@ void App2D::OnUpdate(Engine::DeltaTime ts)
     m_CameraController.OnUpdate(ts);
 
     //Renderer
+    Engine::Renderer2D::ResetStats();
     {
         EN_PROFILE_SCOPE("Renderer Prep");
         Engine::RenderCommand::SetClearColor({0.1f, 0.1f, 0.1f, 1.0f});
@@ -35,12 +36,16 @@ void App2D::OnUpdate(Engine::DeltaTime ts)
     }
 
     {
+        static float rotate = 0.0;
+        rotate += ts * 50.0f;
+
         EN_PROFILE_SCOPE("Renderer Draw");
         Engine::Renderer2D::BeginScene(m_CameraController.GetCamera());
-        //Engine::Renderer2D::DrawRotatedQuad({ -1.0f, 0.0f }, { 0.8f, 0.8f }, glm::radians(-45.0f) , { 0.8f, 0.2f, 0.3f, 1.0f });
+        Engine::Renderer2D::DrawRotatedQuad({ -1.0f, 0.0f }, { 0.8f, 0.8f }, glm::radians(-45.0f) , { 0.8f, 0.2f, 0.3f, 1.0f });
         Engine::Renderer2D::DrawQuad({ -1.0f, 0.0f }, { 0.8f, 0.8f }, { 0.8f, 0.2f, 0.3f, 1.0f });
         Engine::Renderer2D::DrawQuad({ 0.5f, -0.5f }, { 0.5f, 0.75f }, { 0.2f, 0.3f, 0.8f, 1.0f });
-        //Engine::Renderer2D::DrawQuad({ 0.0f, 0.0f, -0.1f }, { 10.0f, 10.0f }, m_Texture, 10.0f);
+        Engine::Renderer2D::DrawQuad({ 0.0f, 0.0f, -0.1f }, { 10.0f, 10.0f }, m_Texture, 10.0f);
+        Engine::Renderer2D::DrawRotatedQuad({ -2.0f, 0.0f, 0.0f }, { 1.0f, 1.0f }, rotate, m_Texture, 100.0f);
         Engine::Renderer2D::EndScene();
     }
 }

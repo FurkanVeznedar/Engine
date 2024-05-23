@@ -116,6 +116,11 @@ namespace Engine {
         UploadInt(name, value);
     }
 
+    void OpenGLShader::SetIntArray(const std::string& name, const int* values, uint32_t count)
+    {
+        UploadIntArray(name, values, count);
+    }
+
     void OpenGLShader::SetFloat(const std::string& name, const float& value)
     {
         UploadFloat(name, value);
@@ -149,6 +154,11 @@ namespace Engine {
     void OpenGLShader::UploadInt(const std::string &name, int value) const
     {
         glUniform1i(GetUniformLoc(name), value); 
+    }
+
+    void OpenGLShader::UploadIntArray(const std::string& name, const int* values, uint32_t count) const
+    {
+        glUniform1iv(GetUniformLoc(name), count, values);
     }
     
     void OpenGLShader::UploadFloat(const std::string &name, float value) const

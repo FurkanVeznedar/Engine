@@ -17,13 +17,13 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "glad::@ce8acb11203b9aa95410"
-		},
-		{
 			"id" : "imgui::@22b7c08d0f2ced739b64"
 		},
 		{
 			"id" : "glfw::@9e1fcc0fa4bf278045c7"
+		},
+		{
+			"id" : "stb_image::@0b4f675cec7b6fe2d629"
 		},
 		{
 			"id" : "App::@6890427a1f51a3e7e1df"
@@ -32,7 +32,7 @@
 			"id" : "Engine_lib::@8f69bdd092c897d92c1e"
 		},
 		{
-			"id" : "stb_image::@0b4f675cec7b6fe2d629"
+			"id" : "glad::@ce8acb11203b9aa95410"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
