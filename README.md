@@ -9,8 +9,8 @@ FAE Engine Development
 - CMake
 
 ## Description
-In this project, I am developing a high-performance game engine for finite element analysis (FEA).
-The aim is to create an optimized engine for real-time graphics and game physics.
+In this project, I am developing a high-performance engine for finite element analysis (FEA).
+The aim is to create an optimized engine for solving structural problems.
 
 ## Details
 - **2D Renderer**: Developed a 2D renderer using OpenGL for graphical design. Work on the 3D renderer is ongoing.
@@ -27,4 +27,4 @@ The aim is to create an optimized engine for real-time graphics and game physics
 - Achieved low hardware requirements through performance optimizations.
 - Created a developer-friendly environment with a flexible and modular architecture.
 - Aims to reach a wide user base with cross-platform support.
-- Aims to deeply understand the math underlying the commercial FAE solvers
+- Aims to deeply understand the math underlying the commercial FEA solvers
