@@ -23,7 +23,8 @@ The aim is to create an optimized engine for real-time graphics and game physics
   - Layer Creation
 - **Build and Configuration**: Compiled and configured the project using CMake.
 
-## Results
+## Goals
 - Achieved low hardware requirements through performance optimizations.
 - Created a developer-friendly environment with a flexible and modular architecture.
 - Aims to reach a wide user base with cross-platform support.
+- Aims to deeply understand the math underlying the commercial FAE solvers
