@@ -159,7 +159,7 @@ namespace Engine {
     {
         EN_PROFILE_FUNCTION();
 
-        if(s_Data.QuadIndexCount > s_Data.MaxIndices) FlushandReset();
+        if(s_Data.QuadIndexCount >= s_Data.MaxIndices) FlushandReset();
 
         const float textureindex = 0.0f; // White Texture
         const float tilingfactor = 1.0f;
@@ -208,7 +208,7 @@ namespace Engine {
     {
         EN_PROFILE_FUNCTION();
 
-        if(s_Data.QuadIndexCount > s_Data.MaxIndices) FlushandReset();
+        if(s_Data.QuadIndexCount >= s_Data.MaxIndices) FlushandReset();
 
         constexpr glm::vec4 color = { 1.0f, 1.0f, 1.0f, 1.0f };
 
@@ -273,7 +273,7 @@ namespace Engine {
     {
         EN_PROFILE_FUNCTION();
 
-        if(s_Data.QuadIndexCount > s_Data.MaxIndices) FlushandReset();
+        if(s_Data.QuadIndexCount >= s_Data.MaxIndices) FlushandReset();
 
         const float textureindex = 0.0f; // White Texture
         const float tilingfactor = 1.0f;
@@ -322,7 +322,7 @@ namespace Engine {
     {
         EN_PROFILE_FUNCTION();
 
-        if(s_Data.QuadIndexCount > s_Data.MaxIndices) FlushandReset();
+        if(s_Data.QuadIndexCount >= s_Data.MaxIndices) FlushandReset();
 
         constexpr glm::vec4 color = { 1.0f, 1.0f, 1.0f, 1.0f };
 
