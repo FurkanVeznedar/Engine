@@ -1,7 +1,7 @@
-# 2D/3D Engine Development
+# 2D/3D Renderer Engine Development
 
 ## Project Name
-2D/3D Engine Development
+2D/3D Renderer Engine Development
 
 ## Technologies
 - C++
@@ -9,11 +9,11 @@
 - CMake
 
 ## Description
-In this project, I am developing a high-performance engine for finite element analysis (FEA).
-The aim is to create an optimized engine for solving structural problems.
+In this project, I am developing a high-performance 2D/3D renderer engine aimed at optimizing graphical design and rendering efficiency.
 
 ## Details
-- **2D Renderer**: Developed a 2D renderer using OpenGL for graphical design. Work on the 3D renderer is ongoing.
+- **2D Renderer**: Developed a 2D renderer using OpenGL for efficient graphical design.
+- **3D Renderer**: Ongoing development of a 3D renderer to enhance visual capabilities.
 - **Engine Features**:
   - Event Systems
   - Camera System
@@ -26,5 +26,5 @@ The aim is to create an optimized engine for solving structural problems.
 ## Goals
 - Achieved low hardware requirements through performance optimizations.
 - Created a developer-friendly environment with a flexible and modular architecture.
-- Aims to reach a wide user base with cross-platform support.
-- Aims to deeply understand the math underlying the commercial FEA solvers
+- Aiming for cross-platform support to reach a wide user base.
+- Deeply understanding the underlying mathematics of rendering techniques.
