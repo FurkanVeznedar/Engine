@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/glad
+# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

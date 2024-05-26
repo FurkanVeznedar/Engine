@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1BB77FDC-3B8C-3AEA-8FD0-651D1B6BB489}</ProjectGuid>
+    <ProjectGuid>{845B4199-4108-3B92-B824-9C32438E579E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -130,10 +130,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,7 +146,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -164,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -197,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\..\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,11 +212,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,11 +225,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -238,11 +238,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,11 +251,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/imgui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/imgui/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,26 +264,26 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\imgui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imconfig.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui.cpp" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui_draw.cpp" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui_internal.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui_widgets.cpp" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imstb_rectpack.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imstb_textedit.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imstb_truetype.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui_demo.cpp" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\imgui\imgui_tables.cpp" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imconfig.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui_draw.cpp" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui_internal.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imstb_rectpack.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imstb_textedit.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imstb_truetype.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\imgui\imgui_tables.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\ZERO_CHECK.vcxproj">
-      <Project>{7B01FE8F-2177-3F35-9366-E46D6EB5C7B2}</Project>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\ZERO_CHECK.vcxproj">
+      <Project>{6AB552A6-677A-3275-9E73-7F53982DDE3F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,6 +1,6 @@
-^C:\USERS\FURKA\DESKTOP\FURKAN VEZNEDAR\03-PROGRAMMING\11-FEAENGINE\ENGINE\THIRDPARTY\STB_IMAGE\CMAKELISTS.TXT
+^C:\USERS\FURKA\DESKTOP\FURKAN VEZNEDAR\03-PROGRAMMING\11-ENGINE\ENGINE\THIRDPARTY\STB_IMAGE\CMAKELISTS.TXT
 setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/stb_image/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/stb_image/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

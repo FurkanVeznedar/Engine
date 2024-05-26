@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/imgui
+# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

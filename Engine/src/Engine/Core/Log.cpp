@@ -18,21 +18,21 @@ namespace Engine {
 
     std::string Log::GetAssetsDir()
     {
-        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/Assets/";
+        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/Assets/";
     }
 
     std::string Log::GetShadersDir()
     {
-        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/Assets/Shaders/";
+        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/Assets/Shaders/";
     }
 
     std::string Log::GetImagesDir()
     {
-        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/Assets/Images/";
+        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/Assets/Images/";
     }
 
     std::string Log::GetFilesDir()
     {
-        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/Assets/Files/";
+        return "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/Assets/Files/";
     }
 }

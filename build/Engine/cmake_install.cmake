@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine
+# Install script for directory: C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glad/cmake_install.cmake")
-  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/imgui/cmake_install.cmake")
-  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/cmake_install.cmake")
-  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/stb_image/cmake_install.cmake")
+  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glad/cmake_install.cmake")
+  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/imgui/cmake_install.cmake")
+  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glfw/cmake_install.cmake")
+  include("C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/stb_image/cmake_install.cmake")
 
 endif()
 

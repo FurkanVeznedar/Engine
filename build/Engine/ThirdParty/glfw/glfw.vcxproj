@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53746398-D255-3CBD-9F83-275D9D14FC12}</ProjectGuid>
+    <ProjectGuid>{F1D70347-C416-32E6-A071-E4DA37637DA4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw;C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\..\glfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/Engine/ThirdParty/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-FEAEngine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
+C:\cmake\bin\cmake.exe "-SC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine" "-BC:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build" --check-stamp-file "C:/Users/furka/Desktop/Furkan VEZNEDAR/03-Programming/11-Engine/build/Engine/ThirdParty/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,45 +260,45 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\Engine\ThirdParty\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\internal.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\platform.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\mappings.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\context.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\init.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\input.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\monitor.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\platform.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\vulkan.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\window.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\egl_context.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\osmesa_context.c" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_platform.h" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_joystick.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_init.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_monitor.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_window.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\null_joystick.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_init.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_module.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_joystick.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_monitor.c" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_time.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_time.c" />
-    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_thread.h" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_thread.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\win32_window.c" />
-    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\Engine\ThirdParty\glfw\src\wgl_context.c" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\internal.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\platform.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\mappings.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\context.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\init.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\input.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\monitor.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\platform.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\vulkan.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\window.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\egl_context.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\osmesa_context.c" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_platform.h" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_joystick.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_init.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_monitor.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_window.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\null_joystick.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_init.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_module.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_joystick.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_monitor.c" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_time.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_time.c" />
+    <ClInclude Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_thread.h" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_thread.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\win32_window.c" />
+    <ClCompile Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\Engine\ThirdParty\glfw\src\wgl_context.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-FEAEngine\build\ZERO_CHECK.vcxproj">
-      <Project>{7B01FE8F-2177-3F35-9366-E46D6EB5C7B2}</Project>
+    <ProjectReference Include="C:\Users\furka\Desktop\Furkan VEZNEDAR\03-Programming\11-Engine\build\ZERO_CHECK.vcxproj">
+      <Project>{6AB552A6-677A-3275-9E73-7F53982DDE3F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
