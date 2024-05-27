@@ -36,7 +36,8 @@ set(ENGINE_SOURCES
     src/Engine/Renderer/Texture.cpp
     src/Platform/OpenGL/OpenGLTexture.cpp
     src/Engine/Renderer/OrthographicCameraController.cpp
-    src/Engine/Renderer/Renderer2D.cpp)
+    src/Engine/Renderer/Renderer2D.cpp
+    src/Engine/Renderer/CameraController.cpp)
 
 add_library(Engine_lib
     STATIC

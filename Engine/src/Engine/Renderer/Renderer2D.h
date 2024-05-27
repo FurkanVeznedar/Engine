@@ -2,7 +2,7 @@
 #define _RENDERER2D_H_
 
 #include "Engine/Renderer/RenderCommand.h"
-#include "Engine/Renderer/OrthographicCamera.h"
+#include "Engine/Renderer/Camera.h"
 #include "Engine/Renderer/Texture.h"
 
 namespace Engine {
@@ -16,7 +16,7 @@ namespace Engine {
         static void Init();
         static void ShutDown();
 
-        static void BeginScene(const OrthographicCamera& camera);
+        static void BeginScene(const Camera& camera);
         static void EndScene();
         static void Flush();
 

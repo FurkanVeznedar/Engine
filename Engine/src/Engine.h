@@ -26,6 +26,7 @@
 #include "Engine/Renderer/VertexArray.h"
 
 #include "Engine/Renderer/Camera.h"
+#include "Engine/Renderer/CameraController.h"
 #include "Engine/Renderer/OrthographicCamera.h"
 #include "Engine/Renderer/OrthographicCameraController.h"
 //---Renderer-------------------

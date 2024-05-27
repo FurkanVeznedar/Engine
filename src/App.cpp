@@ -128,7 +128,7 @@ private:
 
     Engine::Ref<Engine::Texture2D> m_Texture, m_LogoTexture;
 
-    Engine::OrthographicCameraController m_CameraController;
+    Engine::CameraController m_CameraController;
 
     glm::vec3 m_SquarePosition;
     glm::vec3 m_SquareColor = { 0.2f, 0.3f, 0.8f };

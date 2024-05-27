@@ -21,7 +21,7 @@ namespace Engine {
         RenderCommand::SetViewport(0, 0, width, height);
     }
 
-    void Renderer::BeginScene(OrthographicCamera& camera)
+    void Renderer::BeginScene(Camera& camera)
     {
         // takes all the scene parameters;
         // make sure shaders get correct uniforms which enviroment maps, camre and etc.

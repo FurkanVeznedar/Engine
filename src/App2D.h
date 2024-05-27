@@ -16,7 +16,7 @@ public:
     virtual void OnImGuiRender() override;
     void OnEvent(Engine::Event& e) override;
 private:
-    Engine::OrthographicCameraController m_CameraController;
+    Engine::CameraController m_CameraController;
 
     Engine::Ref<Engine::VertexArray> m_SquareVA;
     Engine::Ref<Engine::Shader> m_FlarColorShader;

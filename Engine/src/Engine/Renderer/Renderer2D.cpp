@@ -109,7 +109,7 @@ namespace Engine {
         EN_PROFILE_FUNCTION();
     }
     
-    void Renderer2D::BeginScene(const OrthographicCamera& camera)
+    void Renderer2D::BeginScene(const Camera& camera)
     {
         EN_PROFILE_FUNCTION();
 
