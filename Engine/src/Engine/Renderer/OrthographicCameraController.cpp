@@ -5,9 +5,6 @@
 #include "Engine/Core/MouseButtonCodes.h"
 #include "Engine/Core/Input.h"
 
-#include <glad/glad.h>
-#include <glfw/glfw3.h>
-
 namespace Engine {
     
     OrthographicCameraController::OrthographicCameraController(float aspectratio, bool rotation)

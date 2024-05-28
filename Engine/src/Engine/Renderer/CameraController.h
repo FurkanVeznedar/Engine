@@ -21,24 +21,22 @@ namespace Engine {
         void OnUpdate(DeltaTime ts);
         void OnEvent(Event& e);
 
-        float GetZoomLevel() const { return m_ZoomLevel; }
-        void SetZoomLevel(float level) { m_ZoomLevel = level; }
     private:
+        bool OnMouseMoved(MouseMovedEvent& e);
         bool OnMouseScrolled(MouseScrolledEvent& e);
-        bool OnMouseButtonPressed(MouseButtonPressedEvent& e);
         bool OnWindowResized(WindowResizeEvent& e);
     private:
         float m_AspectRatio;
         float m_Fov;
-        float m_ZoomLevel = 1.0f;
         Camera m_Camera;
-
-        bool m_Rotation;
 
         glm::vec3 m_CameraPos = { 0.0f, 0.0f, 3.0f };
         glm::vec3 m_CameraFront = { 0.0f, 0.0f, -1.0f };
         glm::vec3 m_CameraUp = { 0.0f, 1.0f, 0.0f };
-        float m_CameraRotation = 0.0f;
+        bool m_FirstMove = true;
+        float m_LastX = 640.0f, m_LastY = 360.0f;
+        //Euler Angles
+        float m_Yaw = 0.0f, m_Pitch = 0.0f;
     };
 }
 
